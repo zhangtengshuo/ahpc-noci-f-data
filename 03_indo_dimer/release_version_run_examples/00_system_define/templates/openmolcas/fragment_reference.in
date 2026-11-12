@@ -1,0 +1,12 @@
+&GATEWAY
+  coord = {{XYZ}}
+  basis = {{BASIS}}
+  group = nosym
+{{GATEWAY_INTEGRAL_OPTIONS}}End of input
+
+&SEWARD
+  oneonly
+End of input
+
+>>> COPY $Project.RunFile $CurrDir/{{FRAGMENT}}_c1.RunFile
+>>> COPY $Project.OneInt $CurrDir/{{FRAGMENT}}_c1.OneInt

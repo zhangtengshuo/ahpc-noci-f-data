@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-09-15T02:20:53.547",
+  "mode": "all",
+  "noci_source_commit": "fe4ae809257522f6f87b640911c7e0dcb9f0c5fd",
+  "noci_source_status": "gobig_HEAD_clean_for_src_benchmark_scripts_untracked_branch_ahead_3",
+  "experiment_source_sha256": "9d50d5ad8d5ff895be1105ae041275fc9bdc87b21e54379930a4946a816b2c54",
+  "hostname": "GV800",
+  "cpu_model": "AMD EPYC 7542 32-Core Processor",
+  "logical_cpu_count": 64,
+  "julia_version": "1.12.6",
+  "julia_executable": "/opt/julia-1.12.6/bin/julia",
+  "julia_threads": 1,
+  "blas_threads": 1,
+  "blas_configuration": "LBTConfig([ILP64] libopenblas64_.so)",
+  "julia_depot_path": "/scratch/alpha/benchmark/ahpc_pddc_section42_20260915_v1/julia_runtime_depot:/opt/julia-1.12.6_depot",
+  "julia_pkg_offline": "true",
+  "timing_target_seconds": "1.0",
+  "command_arguments": "/scratch/alpha/benchmark/ahpc_pddc_section42_20260915_v1/results all",
+  "accuracy_case_count": 24,
+  "accuracy_pass_count": 24,
+  "timing_round_count": 35,
+  "high_q_timing_slope": 4.458039008312647
+}

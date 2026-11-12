@@ -1,0 +1,8 @@
+MEBFs Bz 5
+ A S0 S1 T1 D+ D-
+ B S0 S0 T1 D- D+
+expert 1
+threshold 1e-4
+test 2
+print 30
+timings

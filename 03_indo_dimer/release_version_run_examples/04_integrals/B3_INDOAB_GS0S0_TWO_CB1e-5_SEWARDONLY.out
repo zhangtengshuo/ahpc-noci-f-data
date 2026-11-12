@@ -1,0 +1,647 @@
+   This run of MOLCAS is using the pymolcas driver
+
+                             OPE
+                             OPE          NMOL  CASOP  ENMOLC A   SO
+                 OPE        NMOLC        AS  OP EN  MO LC     AS  OP
+                OPENM       OL CA        SO  PE NM  OL CA     SOP EN
+                OP EN      MO   LC       AS  OP ENMOL  CASO   PENMOL
+                OP  EN     MO   LC       AS  OP EN     MO     LC ASO
+               OP   E  NMOL  C  AS       OP  EN MO     LC     AS  OP
+               OP  E   NMO   LC AS        OPEN  MO     LCASOP EN   M
+               O  PEN   MO  LCA  SO
+            OPE   NMO   L   CAS    OP
+        OPENMOL  CASOP     ENMOL   CASOPE
+     OPENMOLCA   SOPENMOLCASOPEN   MOLCASOPE
+    OPENMOLCAS   OP           EN   MOL    CAS
+    OPENMOLCAS       OP  ENM        O     LCA
+    OPENMOLCAS    OPEN  MOLCASO     P  E  NMO
+    OPENMOLCAS     OP               E  N  MOL
+    OPENMOLCA   SO           PENM   O  L  CAS    OPEN    MO    LCAS
+    OPENMOLCA   SOP           ENM   O  L  CAS   OP  EN  MOLC  AS   O
+    OPENMOLCA   SOPE           NM      O  LCA   S      OP  EN MO
+    OPENMOLC                AS         O  PEN   M      OL  CA  SOPE
+    OPENMO        LCASOPE  NMOL        C  ASO   P      ENMOLC     AS
+    OPE     NMO      LCA  SO     P     E   NM   OL  CA SO  PE N   MO
+          OPENMOLCA            SOPE   NMO        LCAS  O    P  ENMO
+     OPENMOLCASOPENMOLCASOPENMOLCASOPENMOLCA
+        OPENMOLCASOPENMOLCASOPENMOLCASOPE
+            OPENMOLCASOPENMOLCASOPENM
+               OPENMOLCASOPENMOLCA        version: oed908de232b407 ?
+                   OPENMOLCASO
+                       OPE                tag:
+
+ OpenMolcas is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License version 2.1.
+ OpenMolcas is distributed in the hope that it will be useful, but it
+ is provided "as is" and without any express or implied warranties.
+ For more details see the full text of the license in the file
+ LICENSE or in <http://www.gnu.org/licenses/>.
+
+                 Copyright (C) The OpenMolcas Authors
+           For the author list and the recommended citation,
+                   consult the file CONTRIBUTORS.md
+
+           *************************************************
+           * pymolcas version py2.32                       *
+           *   build 5fe1e42a8a423461f97be6f8128d9c45      *
+           *   (after the EMIL interpreter by V. Veryazov) *
+           *************************************************
+
+configuration info
+------------------
+Host name: GV800 (Linux)
+C Compiler ID: GNU
+C flags: -std=gnu99
+Fortran Compiler ID: GNU
+Fortran flags: -cpp -fdefault-integer-8 -fmax-stack-var-size=1048576 -ffree-line-length-none -Wno-error
+Definitions: _MOLCAS_;_I8_;_LINUX_;_MOLCAS_MPP_;_SCALAPACK_;_GA_
+Parallel: ON (GA=ON)
+
+
+   -------------------------------------------------------------------------------------------------------------------------
+  |
+  |              Project: B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY
+  |       Submitted from: /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY
+  |         Scratch area: /dev/shm/alpha/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.1200
+  |      Save outputs to: /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY
+  |               Molcas: /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842
+  |
+  | Scratch area is NOT empty
+  |
+  |       MOLCAS_DRIVER = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842/pymolcas
+  | MOLCAS_KEEP_WORKDIR = NO
+  | MOLCAS_LIBMOLCAS_SO = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842/lib/libmolcas.so
+  |       MOLCAS_NPROCS = 8
+  | MOLCAS_SCRATCH_ROOT = /dev/shm/alpha
+  |       MOLCAS_SOURCE = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842
+  |    MOLCAS_STRUCTURE = 0
+  |
+   -------------------------------------------------------------------------------------------------------------------------
+
+++ ---------   Input file   ---------
+
+&GATEWAY
+  coord = B1_INDOAB_GS0S0.xyz
+  Basis = ANO-RCC-VDZP
+  RICD
+  group = nosym
+END OF INPUT
+
+&SEWARD
+END OF INPUT
+
+>>> SHELL bash -lc 'set -Eeuo pipefail; P="$Project"; T="$CurrDir/SEWARD_MPI_SHARDS"; R=8; test ! -e "$T"; S="${T}.partial.$$"; trap '\''test ! -e "$S" || find "$S" -depth -delete'\'' EXIT; mkdir "$S"; for x in RunFile OneInt ChRed ChMap ChRst ChVec1; do test -s "$P.$x"; cp -- "$P.$x" "$S/$P.$x"; done; test -s "$CurrDir/COMMONORB"; cp -- "$CurrDir/COMMONORB" "$S/COMMONORB"; for ((r=1; r<R; r++)); do test -d "tmp_$r"; mkdir "$S/tmp_$r"; for x in ChRst ChVec1; do test -s "tmp_$r/$P.$x"; cp -- "tmp_$r/$P.$x" "$S/tmp_$r/$P.$x"; done; done; printf "%s\n" "$P" > "$S/project.txt"; printf "%s\n" "$R" > "$S/ranks.txt"; mv -- "$S" "$T"; trap - EXIT; echo "SEWARD snapshot saved: $T"'
+
+-- ----------------------------------
+
+--- Start Module: gateway at Mon Sep  7 22:53:05 2026 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &GATEWAY
+
+             launched 8 MPI processes, running in PARALLEL mode (work-sharing enabled)
+                       available to each process: 10 GB of memory, 1 thread?
+                                        master pid: 4155033
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+
+++    Symmetry information:
+      ---------------------
+
+                    Character Table for C1 
+
+                             E  
+                    a        1  x, y, xy, Rz, z, xz, Ry, yz, Rx, I
+--
+
+
+++    Basis set information:
+      ----------------------
+
+
+      Basis set label: C.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   6.000000 au
+      Associated Actual Charge      6.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: N.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   7.000000 au
+      Associated Actual Charge      7.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: O.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   8.000000 au
+      Associated Actual Charge      8.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: H.ANO-RCC...2S1P.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   1.000000 au
+      Associated Actual Charge      1.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s       8       2        X                  
+         p       4       1        X                  
+
+
+      Basis set label: C.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   6.000000 au
+      Associated Actual Charge      6.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: N.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   7.000000 au
+      Associated Actual Charge      7.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: O.ANO-RCC...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   8.000000 au
+      Associated Actual Charge      8.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: H.ANO-RCC...2S1P.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   1.000000 au
+      Associated Actual Charge      1.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s       8       2        X                  
+         p       4       1        X                  
+--
+
+
+++    Molecular structure info:
+      -------------------------
+
+                    ************************************************ 
+                    **** Cartesian Coordinates / bohr, angstrom **** 
+                    ************************************************ 
+
+     Center  Label                x              y              z                     x              y              z
+        1      C1               1.249853       0.142626       0.000000              0.661394       0.075474       0.000000
+        2      C2               2.441277       2.531136       0.000000              1.291868       1.339419       0.000000
+        3      C3               5.139070       1.872611       0.000000              2.719479       0.990943       0.000000
+        4      C4               7.333678       3.311952       0.000000              3.880815       1.752609       0.000000
+        5      C5               9.660989       2.088186       0.000000              5.112375       1.105020       0.000000
+        6      C6               9.800013      -0.543375       0.000000              5.185943      -0.287541       0.000000
+        7      C7               7.633836      -2.043478       0.000000              4.039652      -1.081362       0.000000
+        8      C8               5.327518      -0.815069       0.000000              2.819201      -0.431316       0.000000
+        9      C9               1.919341      -4.381156       0.000000              1.015671      -2.318408       0.000000
+       10      C10              0.871881       4.594407       0.000000              0.461380       2.431256       0.000000
+       11      C11             -1.249853      -0.142626       0.000000             -0.661394      -0.075474       0.000000
+       12      C12             -2.441277      -2.531136       0.000000             -1.291868      -1.339419       0.000000
+       13      C13             -5.139070      -1.872611       0.000000             -2.719479      -0.990943       0.000000
+       14      C14             -7.333678      -3.311952       0.000000             -3.880815      -1.752609       0.000000
+       15      C15             -9.660989      -2.088186       0.000000             -5.112375      -1.105020       0.000000
+       16      C16             -9.800013       0.543375       0.000000             -5.185943       0.287541       0.000000
+       17      C17             -7.633836       2.043478       0.000000             -4.039652       1.081362       0.000000
+       18      C18             -5.327518       0.815069       0.000000             -2.819201       0.431316       0.000000
+       19      C19             -1.919341       4.381156       0.000000             -1.015671       2.318408       0.000000
+       20      C20             -0.871881      -4.594407       0.000000             -0.461380      -2.431256       0.000000
+       21      N21              2.858776      -1.865237       0.000000              1.512799      -0.987041       0.000000
+       22      N22             -2.858776       1.865237       0.000000             -1.512799       0.987041       0.000000
+       23      O23              3.351682      -6.186863       0.000000              1.773634      -3.273947       0.000000
+       24      O24             -3.351682       6.186863       0.000000             -1.773634       3.273947       0.000000
+       25      H25              7.233976       5.355269       0.000000              3.828055       2.833887       0.000000
+       26      H26             11.383450       3.190242       0.000000              6.023862       1.688203       0.000000
+       27      H27             11.633117      -1.451417       0.000000              6.155981      -0.768057       0.000000
+       28      H28              7.722384      -4.081806       0.000000              4.086509      -2.159999       0.000000
+       29      H29              1.552784       6.520316       0.000000              0.821698       3.450403       0.000000
+       30      H30             -7.233976      -5.355269       0.000000             -3.828055      -2.833887       0.000000
+       31      H31            -11.383450      -3.190242       0.000000             -6.023862      -1.688203       0.000000
+       32      H32            -11.633117       1.451417       0.000000             -6.155981       0.768057       0.000000
+       33      H33             -7.722384       4.081806       0.000000             -4.086509       2.159999       0.000000
+       34      H34             -1.552784      -6.520316       0.000000             -0.821698      -3.450403       0.000000
+       35      C35              1.249853       0.142626       7.558905              0.661394       0.075474       4.000000
+       36      C36              2.441277       2.531136       7.558905              1.291868       1.339419       4.000000
+       37      C37              5.139070       1.872611       7.558905              2.719479       0.990943       4.000000
+       38      C38              7.333678       3.311952       7.558905              3.880815       1.752609       4.000000
+       39      C39              9.660989       2.088186       7.558905              5.112375       1.105020       4.000000
+       40      C40              9.800013      -0.543375       7.558905              5.185943      -0.287541       4.000000
+       41      C41              7.633836      -2.043478       7.558905              4.039652      -1.081362       4.000000
+       42      C42              5.327518      -0.815069       7.558905              2.819201      -0.431316       4.000000
+       43      C43              1.919341      -4.381156       7.558905              1.015671      -2.318408       4.000000
+       44      C44              0.871881       4.594407       7.558905              0.461380       2.431256       4.000000
+       45      C45             -1.249853      -0.142626       7.558905             -0.661394      -0.075474       4.000000
+       46      C46             -2.441277      -2.531136       7.558905             -1.291868      -1.339419       4.000000
+       47      C47             -5.139070      -1.872611       7.558905             -2.719479      -0.990943       4.000000
+       48      C48             -7.333678      -3.311952       7.558905             -3.880815      -1.752609       4.000000
+       49      C49             -9.660989      -2.088186       7.558905             -5.112375      -1.105020       4.000000
+       50      C50             -9.800013       0.543375       7.558905             -5.185943       0.287541       4.000000
+       51      C51             -7.633836       2.043478       7.558905             -4.039652       1.081362       4.000000
+       52      C52             -5.327518       0.815069       7.558905             -2.819201       0.431316       4.000000
+       53      C53             -1.919341       4.381156       7.558905             -1.015671       2.318408       4.000000
+       54      C54             -0.871881      -4.594407       7.558905             -0.461380      -2.431256       4.000000
+       55      N55              2.858776      -1.865237       7.558905              1.512799      -0.987041       4.000000
+       56      N56             -2.858776       1.865237       7.558905             -1.512799       0.987041       4.000000
+       57      O57              3.351682      -6.186863       7.558905              1.773634      -3.273947       4.000000
+       58      O58             -3.351682       6.186863       7.558905             -1.773634       3.273947       4.000000
+       59      H59              7.233976       5.355269       7.558905              3.828055       2.833887       4.000000
+       60      H60             11.383450       3.190242       7.558905              6.023862       1.688203       4.000000
+       61      H61             11.633117      -1.451417       7.558905              6.155981      -0.768057       4.000000
+       62      H62              7.722384      -4.081806       7.558905              4.086509      -2.159999       4.000000
+       63      H63              1.552784       6.520316       7.558905              0.821698       3.450403       4.000000
+       64      H64             -7.233976      -5.355269       7.558905             -3.828055      -2.833887       4.000000
+       65      H65            -11.383450      -3.190242       7.558905             -6.023862      -1.688203       4.000000
+       66      H66            -11.633117       1.451417       7.558905             -6.155981       0.768057       4.000000
+       67      H67             -7.722384       4.081806       7.558905             -4.086509       2.159999       4.000000
+       68      H68             -1.552784      -6.520316       7.558905             -0.821698      -3.450403       4.000000
+
+                    ************************************************* 
+                    **** InterNuclear Distances / bohr, angstrom **** 
+                    ************************************************* 
+
+     Atom centers         bohr        angstrom
+   28 H28       7 C7      2.040251        1.079654
+   33 H33      17 C17   
+   62 H62      41 C41   
+   67 H67      51 C51   
+   29 H29      10 C10     2.042732        1.080967
+   34 H34      20 C20   
+   63 H63      44 C44   
+   68 H68      54 C54   
+   26 H26       5 C5      2.044847        1.082086
+   31 H31      15 C15   
+   60 H60      39 C39   
+   65 H65      49 C49   
+   27 H27       6 C6      2.045681        1.082528
+   32 H32      16 C16   
+   61 H61      40 C40   
+   66 H66      50 C50   
+   25 H25       4 C4      2.045749        1.082564
+   30 H30      14 C14   
+   59 H59      38 C38   
+   64 H64      48 C48   
+   23 O23       9 C9      2.304817        1.219656
+   24 O24      19 C19   
+   57 O57      43 C43   
+   58 O58      53 C53   
+   11 C11       1 C1      2.515929        1.331372
+   45 C45      35 C35   
+   21 N21       1 C1      2.572965        1.361554
+   22 N22      11 C11   
+   55 N55      35 C35   
+   56 N56      45 C45   
+   10 C10       2 C2      2.592314        1.371794
+   20 C20      12 C12   
+   44 C44      36 C36   
+   54 C54      46 C46   
+    8 C8        7 C7      2.613061        1.382773
+   18 C18      17 C17   
+   42 C42      41 C41   
+   52 C52      51 C51   
+    4 C4        3 C3      2.624501        1.388826
+   14 C14      13 C13   
+   38 C38      37 C37   
+   48 C48      47 C47   
+    5 C5        4 C4      2.629445        1.391442
+   15 C15      14 C14   
+   39 C39      38 C38   
+   49 C49      48 C48   
+    7 C7        6 C6      2.634887        1.394322
+   17 C17      16 C16   
+   41 C41      40 C40   
+   51 C51      50 C50   
+    6 C6        5 C5      2.635230        1.394504
+   16 C16      15 C15   
+   40 C40      39 C39   
+   50 C50      49 C49   
+    2 C2        1 C1      2.669170        1.412464
+   12 C12      11 C11   
+   36 C36      35 C35   
+   46 C46      45 C45   
+   21 N21       8 C8      2.682823        1.419689
+   22 N22      18 C18   
+   55 N55      42 C42   
+   56 N56      52 C52   
+   21 N21       9 C9      2.685588        1.421152
+   22 N22      19 C19   
+   55 N55      43 C43   
+   56 N56      53 C53   
+    8 C8        3 C3      2.694279        1.425751
+   18 C18      13 C13   
+   42 C42      37 C37   
+   52 C52      47 C47   
+    3 C3        2 C2      2.777002        1.469526
+   13 C13      12 C12   
+   37 C37      36 C36   
+   47 C47      46 C46   
+   19 C19      10 C10     2.799356        1.481356
+   20 C20       9 C9    
+   53 C53      44 C44   
+   54 C54      43 C43   
+   27 H27       7 C7      4.042869        2.139394
+   32 H32      17 C17   
+   61 H61      41 C41   
+   66 H66      51 C51   
+   28 H28       8 C8      4.050550        2.143459
+   33 H33      18 C18   
+   62 H62      42 C42   
+   67 H67      52 C52   
+   26 H26       4 C4      4.051600        2.144014
+   31 H31      14 C14   
+   60 H60      38 C38   
+   65 H65      48 C48   
+   27 H27       5 C5      4.051922        2.144185
+   32 H32      15 C15   
+   61 H61      39 C39   
+   66 H66      49 C49   
+   26 H26       6 C6      4.055511        2.146084
+   31 H31      16 C16   
+   60 H60      40 C40   
+   65 H65      50 C50   
+   25 H25       3 C3      4.064177        2.150670
+   30 H30      13 C13   
+   59 H59      37 C37   
+   64 H64      47 C47   
+   25 H25       5 C5      4.069918        2.153708
+   30 H30      15 C15   
+   59 H59      39 C39   
+   64 H64      49 C49   
+   29 H29      19 C19     4.078193        2.158087
+   34 H34       9 C9    
+   63 H63      53 C53   
+   68 H68      43 C43   
+   29 H29       2 C2      4.086928        2.162709
+   34 H34      12 C12   
+   63 H63      36 C36   
+   68 H68      46 C46   
+   28 H28       6 C6      4.103297        2.171371
+   33 H33      16 C16   
+   62 H62      40 C40   
+   67 H67      50 C50   
+    8 C8        1 C1      4.188620        2.216522
+   18 C18      11 C11   
+   42 C42      35 C35   
+   52 C52      45 C45   
+    3 C3        1 C1      4.256625        2.252509
+   13 C13      11 C11   
+   37 C37      35 C35   
+   47 C47      45 C45   
+   23 O23      21 N21     4.349644        2.301733
+   24 O24      22 N22   
+   57 O57      55 N55   
+   58 O58      56 N56   
+   21 N21       3 C3      4.378499        2.317002
+   22 N22      13 C13   
+   55 N55      37 C37   
+   56 N56      47 C47   
+   21 N21       2 C2      4.416152        2.336927
+   22 N22      12 C12   
+   55 N55      36 C36   
+   56 N56      46 C46   
+    8 C8        2 C2      4.418990        2.338429
+   18 C18      12 C12   
+   42 C42      36 C36   
+   52 C52      46 C46   
+   21 N21      11 C11     4.455134        2.357556
+   22 N22       1 C1    
+   55 N55      45 C45   
+   56 N56      35 C35   
+   10 C10       1 C1      4.467798        2.364257
+   20 C20      11 C11   
+   44 C44      35 C35   
+   54 C54      45 C45   
+    8 C8        6 C6      4.480739        2.371105
+   18 C18      16 C16   
+   42 C42      40 C40   
+   52 C52      50 C50   
+   23 O23      20 C20     4.513801        2.388601
+   24 O24      10 C10   
+   57 O57      54 C54   
+   58 O58      44 C44   
+    5 C5        3 C3      4.527055        2.395614
+   15 C15      13 C13   
+   39 C39      37 C37   
+   49 C49      47 C47   
+   11 C11       2 C2      4.557789        2.411878
+   12 C12       1 C1    
+   45 C45      36 C36   
+   46 C46      35 C35   
+    9 C9        1 C1      4.573053        2.419955
+   19 C19      11 C11   
+   43 C43      35 C35   
+   53 C53      45 C45   
+    6 C6        4 C4      4.576718        2.421895
+   16 C16      14 C14   
+   40 C40      38 C38   
+   50 C50      48 C48   
+    8 C8        4 C4      4.588788        2.428282
+   18 C18      14 C14   
+   42 C42      38 C38   
+   52 C52      48 C48   
+    7 C7        5 C5      4.602173        2.435365
+   17 C17      15 C15   
+   41 C41      39 C39   
+   51 C51      49 C49   
+   21 N21      20 C20     4.622356        2.446045
+   22 N22      10 C10   
+   55 N55      54 C54   
+   56 N56      44 C44   
+    7 C7        3 C3      4.643233        2.457093
+   17 C17      13 C13   
+   41 C41      37 C37   
+   51 C51      47 C47   
+   27 H27      26 H26     4.648368        2.459811
+   32 H32      31 H31   
+   61 H61      60 H60   
+   66 H66      65 H65   
+   26 H26      25 H25     4.680329        2.476723
+   31 H31      30 H30   
+   60 H60      59 H59   
+   65 H65      64 H64   
+   28 H28      27 H27     4.713045        2.494036
+   33 H33      32 H32   
+   62 H62      61 H61   
+   67 H67      66 H66   
+   12 C12       9 C9      4.736830        2.506623
+   19 C19       2 C2    
+   46 C46      43 C43   
+   53 C53      36 C36   
+   21 N21       7 C7      4.778385        2.528613
+   22 N22      17 C17   
+   55 N55      41 C41   
+   56 N56      51 C51   
+   28 H28      23 O23     4.851216        2.567153
+   33 H33      24 O24   
+   62 H62      57 O57   
+   67 H67      58 O58   
+   29 H29      24 O24     4.915789        2.601323
+   34 H34      23 O23   
+   63 H63      58 O58   
+   68 H68      57 O57   
+    9 C9        8 C8      4.932813        2.610332
+   19 C19      18 C18   
+   43 C43      42 C42   
+   53 C53      52 C52   
+    4 C4        2 C2      4.954318        2.621712
+   14 C14      12 C12   
+   38 C38      36 C36   
+   48 C48      46 C46   
+   10 C10       3 C3      5.061331        2.678341
+   20 C20      13 C13   
+   44 C44      37 C37   
+   54 C54      47 C47   
+   11 C11      10 C10     5.190495        2.746692
+   20 C20       1 C1    
+   45 C45      44 C44   
+   54 C54      35 C35   
+    8 C8        5 C5      5.216115        2.760249
+   18 C18      15 C15   
+   42 C42      39 C39   
+   52 C52      49 C49   
+    6 C6        3 C3      5.249893        2.778124
+   16 C16      13 C13   
+   40 C40      37 C37   
+   50 C50      47 C47   
+   11 C11       9 C9      5.292346        2.800589
+   19 C19       1 C1    
+   45 C45      43 C43   
+   53 C53      35 C35   
+   21 N21      12 C12     5.341721        2.826717
+   22 N22       2 C2    
+   55 N55      46 C46   
+   56 N56      36 C36   
+   28 H28      21 N21     5.344891        2.828394
+   33 H33      22 N22   
+   62 H62      55 N55   
+   67 H67      56 N56   
+    7 C7        4 C4      5.363835        2.838419
+   17 C17      14 C14   
+   41 C41      38 C38   
+   51 C51      48 C48   
+   25 H25       2 C2      5.562885        2.943752
+   30 H30      12 C12   
+   59 H59      36 C36   
+   64 H64      46 C46   
+--
+
+
+            Nuclear Potential Energy           6093.58796650 au
+
+--- Stop Module: gateway at Mon Sep  7 22:53:07 2026 /rc=_RC_ALL_IS_WELL_ ---
+*** files: B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.RICDLib xmldump
+    saved to directory /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY
+--- Module gateway spent 1 second ---
+
+--- Start Module: seward at Mon Sep  7 22:53:09 2026 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &SEWARD
+
+             launched 8 MPI processes, running in PARALLEL mode (work-sharing enabled)
+                       available to each process: 10 GB of memory, 1 thread?
+                                        master pid: 4155243
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+               SEWARD will generate:
+                  Multipole Moment integrals up to order  2
+                  Kinetic Energy integrals
+                  Nuclear Attraction integrals (point charge)
+                  One-Electron Hamiltonian integrals
+                  Velocity integrals
+                  Relativistic Douglas-Kroll-Hess integrals:
+                    - Parametrization         : EXP
+                    - DKH order of Hamiltonian: 2
+                    - DKH order of Properties : 0
+                         - multipole moment operators
+                         - electric potential operators
+                         - contact operators
+                  Orbital angular momentum around (  0.0000   0.0000   3.7795 )
+                  Velocity quadrupole around (  0.0000   0.0000   3.7795 )
+                  Atomic mean-field integrals
+                  RI decomposed two-electron repulsion integrals stored Cholesky style
+                   - acCD auxiliary basis
+                   - CD Threshold:   1.00E-04
+
+                   Integrals are discarded if absolute value <: 1.00E-14
+                   Integral cutoff threshold is set to       <: 1.00E-16
+
+            Nuclear Potential Energy           6093.58796650 au
+
+
+      Basis set specifications :
+      Symmetry species         a  
+      Basis functions          772
+
+
+      Input file to MOLDEN was generated!
+
+--- Stop Module: seward at Mon Sep  7 23:03:54 2026 /rc=_RC_ALL_IS_WELL_ ---
+*** files: B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.GssOrb B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.guessorb.h5 B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.guessorb.molden xmldump
+    saved to directory /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY
+--- Module seward spent 10 minutes 45 seconds ---
+
+>>> SHELL bash -lc 'set -Eeuo pipefail; P="B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY"; T="/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/SEWARD_MPI_SHARDS"; R=8; test ! -e "$T"; S="${T}.partial.$$"; trap '\''test ! -e "$S" || find "$S" -depth -delete'\'' EXIT; mkdir "$S"; for x in RunFile OneInt ChRed ChMap ChRst ChVec1; do test -s "$P.$x"; cp -- "$P.$x" "$S/$P.$x"; done; test -s "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/COMMONORB"; cp -- "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/COMMONORB" "$S/COMMONORB"; for ((r=1; r<R; r++)); do test -d "tmp_$r"; mkdir "$S/tmp_$r"; for x in ChRst ChVec1; do test -s "tmp_$r/$P.$x"; cp -- "tmp_$r/$P.$x" "$S/tmp_$r/$P.$x"; done; done; printf "%s\n" "$P" > "$S/project.txt"; printf "%s\n" "$R" > "$S/ranks.txt"; mv -- "$S" "$T"; trap - EXIT; echo "SEWARD snapshot saved: $T"'
+SEWARD snapshot saved: /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/SEWARD_MPI_SHARDS
+
+.##################.
+.# Happy landing! #.
+.##################.
+
+    Timing: Wall=647.42 User=5061.02 System=108.50
+************************************************************************************
+*** WorkDir at /dev/shm/alpha/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.1200 cleaned ***
+************************************************************************************

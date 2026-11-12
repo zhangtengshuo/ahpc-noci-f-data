@@ -1,0 +1,27 @@
+&GATEWAY
+  coord = {{XYZ}}
+  basis = {{BASIS}}
+  group = {{POINT_GROUP}}
+{{GATEWAY_INTEGRAL_OPTIONS}}End of input
+
+&SEWARD
+{{SEWARD_INTEGRAL_OPTIONS}}End of input
+
+&RASSCF
+  charge = {{CHARGE}}
+  nactel = {{NACTEL}} 0 0
+  Inactive = {{INACTIVE}}
+  Ras2 = {{RAS2}}
+  symmetry = {{STATE_SYMMETRY}}
+  spin = {{MULTIPLICITY}}
+  fileorb = {{INITIAL_ORBITALS}}
+  ciroot = {{CIROOT}}
+  rlxroot = {{RLXROOT}}
+  prwf = 1.0e-5
+  prsd
+End of input
+
+>>> COPY $Project.RasOrb.{{RLXROOT}} $CurrDir/{{STATE}}.RasOrb
+>>> COPY $Project.VecDet.{{RLXROOT}} $CurrDir/{{STATE}}.VecDet
+
+{{CASPT2_BLOCK}}

@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-10-21T02:26:59.220",
+  "mode": "accuracy",
+  "noci_source_commit": "fe4ae809257522f6f87b640911c7e0dcb9f0c5fd",
+  "noci_source_status": "byte_copy_of_20260915_v1_source",
+  "experiment_source_sha256": "0334d3aa8e24865cff6eb5f5227b811622e710149d456c785f3a7299ee80803e",
+  "hostname": "GV800",
+  "cpu_model": "AMD EPYC 7542 32-Core Processor",
+  "logical_cpu_count": 64,
+  "julia_version": "1.12.6",
+  "julia_executable": "/opt/julia-1.12.6/bin/julia",
+  "julia_threads": 1,
+  "blas_threads": 1,
+  "blas_configuration": "LBTConfig([ILP64] libopenblas64_.so)",
+  "julia_depot_path": "/scratch/alpha/benchmark/ahpc_pddc_section42_20260915_v1/julia_runtime_depot:/opt/julia-1.12.6_depot",
+  "julia_pkg_offline": "true",
+  "timing_target_seconds": "",
+  "command_arguments": "results accuracy",
+  "accuracy_case_count": 28,
+  "accuracy_pass_count": 28,
+  "timing_round_count": 0,
+  "high_q_timing_slope": null
+}

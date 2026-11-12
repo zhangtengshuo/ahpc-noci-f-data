@@ -1,0 +1,19 @@
+&GATEWAY
+  coord = B1_TriPAB_GS1S0.xyz
+  Basis = ANO-L-VDZP
+  RICD
+  group = nosym
+END OF INPUT
+
+&SEWARD
+
+END OF INPUT
+
+>>> COPY $Project.RunFile $CurrDir/$Project.RunFile
+>>> COPY $Project.OneInt  $CurrDir/$Project.OneInt
+>>> COPY $Project.ChVec1 $CurrDir/$Project.ChVec1
+>>> COPY $Project.ChRst   $CurrDir/$Project.ChRst
+>>> COPY $Project.ChRed   $CurrDir/$Project.ChRed
+>>> COPY $Project.ChMap   $CurrDir/$Project.ChMap
+>>> SHELL bash -lc 'set -e; T=/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low; for d in ./tmp_*; do r=${d#./tmp_}; mkdir -p "$T/tmp_$r"; cp "$d"/*.ChVec1 "$d"/*.ChRst "$T/tmp_$r/"; done; echo $(( $(ls -d ./tmp_* | wc -l) + 1 )) > B3_CHMOT1_NODES; echo snapshot_exported'
+>>> COPY B3_CHMOT1_NODES $CurrDir/B3_CHMOT1_NODES

@@ -1,0 +1,8 @@
+q,polynomial_workspace_bytes,measured_numeric_payload_bytes,hessian_pair_response_bytes,hessian_pair_count
+2,280,280,8,1
+4,1576,1576,288,6
+8,10312,10312,6272,28
+12,32360,32360,34848,66
+16,73864,73864,115200,120
+20,140968,140968,288800,190
+24,239816,239816,609408,276

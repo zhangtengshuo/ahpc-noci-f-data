@@ -1,0 +1,40 @@
+&GATEWAY
+    coord   =   02CAS_Bz_S0_opt.Opt.xyz
+    Basis   =   ano-xs-vdz
+    group   =   X Y Z
+    RICD
+END OF INPUT
+
+&SEWARD
+END OF INPUT
+
+&RASSCF
+    nactel  = 6 0 0
+    Inactive= 6 5 4 3 0 0 0 0
+    Ras2    = 0 0 0 0 2 2 1 1
+    symmetry= 3
+    spin    = 3
+    fileorb = 01_MolX_CAS66_D2h.RasOrb
+    ciroot  = 1 1 1
+    rlxroot = 1
+    prwf    = 1e-5
+    prsd
+END OF INPUT
+
+>>> COPY $Project.RasOrb.1 $CurrDir/$Project.sym.RasOrb.1
+>>> COPY $Project.VecDet.1 $CurrDir/$Project.sym.VecDet.1
+>>> COPY $Project.RasOrb.1 INPORB
+
+&EXPBAS
+    NOEXpand
+    DESYmmetrize
+    GUGAORDER
+END OF INPUT
+
+>>> COPY $Project.RasOrb INPORB
+&CASPT2
+    Multistate= 1 1
+    maxiter = 80
+    imag  = 0.2
+    ipea  = 0.0
+END OF INPUT

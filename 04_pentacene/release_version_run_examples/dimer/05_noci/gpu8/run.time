@@ -1,0 +1,23 @@
+	Command being timed: "/home/alpha/bin/NOCI.jl/Julia/julia-1.12.6/bin/julia --startup-file=no --project=/home/alpha/bin/NOCI.jl/v26.10.0/optional/gpu --threads=8 --heap-size-hint=16G /home/alpha/bin/NOCI.jl/v26.10.0/bin/noci run /scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/input.yaml /scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results result /scratch/alpha/AHPC/04_pentacene/dimer/00_system_define/geometry/aggregate.xyz"
+	User time (seconds): 162.91
+	System time (seconds): 13.47
+	Percent of CPU this job got: 153%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:54.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5958052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 44
+	Minor (reclaiming a frame) page faults: 2278536
+	Voluntary context switches: 79450
+	Involuntary context switches: 20459
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 45240
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

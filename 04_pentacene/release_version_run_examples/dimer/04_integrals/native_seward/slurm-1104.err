@@ -1,0 +1,558 @@
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431556] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431556] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431556] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431588] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431588] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431588] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431618] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431618] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431618] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431648] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431648] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431648] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431678] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431678] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431678] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431708] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431708] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431708] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431738] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431738] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431738] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431775] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431775] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431775] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431805] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431805] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431805] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431835] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431835] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431835] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431865] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431865] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431865] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431895] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431895] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431895] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431925] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431925] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431925] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1431956] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1431956] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1431956] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1432894] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1432894] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1432894] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1432925] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1432925] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1432925] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1432955] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1432955] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1432955] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1432985] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1432985] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1432985] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433015] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433015] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433015] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433045] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433045] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433045] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433087] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433087] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433087] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433117] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433117] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433117] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433147] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433147] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433147] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433208] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433208] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433208] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied
+--------------------------------------------------------------------------
+WARNING: There is at least one non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: GV800
+--------------------------------------------------------------------------
+[GV800:1433238] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[GV800:1433238] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[GV800:1433238] 7 more processes have sent help message help-btl-vader.txt / cma-permission-denied

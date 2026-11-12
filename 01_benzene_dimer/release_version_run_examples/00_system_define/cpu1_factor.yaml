@@ -1,0 +1,196 @@
+project: benzene_cpu1_factor
+method: ahpc_noci
+geometry:
+  aggregate: geometry/aggregate.xyz
+cas:
+  backend: openmolcas
+  integral_method: ricd
+  generation_threshold: 0.0001
+  basis: ANO-XS-VDZ
+caspt2:
+  enabled: true
+  ipea_shift: 0.0
+  imaginary_shift: 0.2
+  max_iterations: 80
+molecules:
+  f:
+    symmetry: D2h_then_C1_desymmetrization
+    geometries:
+      GS0:
+        xyz: geometry/f_GS0.xyz
+        initial_orbitals:
+          default: orbitals/01_MolX_CAS66_D2h.RasOrb
+    states:
+      S0:
+        charge: 0
+        multiplicity: 1
+        nactel: 6
+        inactive:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 0
+        - 0
+        - 0
+        - 0
+        ras2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 1
+        - 1
+        symmetry: 1
+        ciroot: 1 1 1
+        rlxroot: 1
+      S1:
+        charge: 0
+        multiplicity: 1
+        nactel: 6
+        inactive:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 0
+        - 0
+        - 0
+        - 0
+        ras2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 1
+        - 1
+        symmetry: 3
+        ciroot: 1 1 1
+        rlxroot: 1
+      T1:
+        charge: 0
+        multiplicity: 3
+        nactel: 6
+        inactive:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 0
+        - 0
+        - 0
+        - 0
+        ras2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 1
+        - 1
+        symmetry: 3
+        ciroot: 1 1 1
+        rlxroot: 1
+      D+:
+        charge: 1
+        multiplicity: 2
+        nactel: 5
+        inactive:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 0
+        - 0
+        - 0
+        - 0
+        ras2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 1
+        - 1
+        symmetry: 6
+        ciroot: 1 1 1
+        rlxroot: 1
+      D-:
+        charge: -1
+        multiplicity: 2
+        nactel: 7
+        inactive:
+        - 6
+        - 5
+        - 4
+        - 3
+        - 0
+        - 0
+        - 0
+        - 0
+        ras2:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 2
+        - 2
+        - 1
+        - 1
+        symmetry: 8
+        ciroot: 1 1 1
+        rlxroot: 1
+fragments:
+  f_A:
+    molecule: f
+    geometry: GS0
+    frozen_orbitals: false
+  f_B:
+    molecule: f
+    geometry: GS0
+    frozen_orbitals: false
+system:
+  charge: 0
+  spin_multiplicity: 1
+mebf_table:
+- - f_A
+  - S0
+  - S1
+  - T1
+  - D+
+  - D-
+- - f_B
+  - S0
+  - S0
+  - T1
+  - D-
+  - D+
+common_orbitals:
+  threshold: 0.0001
+integrals:
+  method: historical_packed_two
+  factorization: packed_MO_Gram_pivoted_Cholesky
+  relative_pivot_tolerance: 1.0e-11
+  representation: factor
+screening:
+  tau_ci: 0.0001
+  tau_ci_offdiagonal: 0.0001
+output:
+  checkpoint: true
+historical_import_version: 1
+orbital_conversion:
+- NOExpand
+- DESYmmetrize
+- GUGAORDER
+runtime:
+  threads: 1
+  blas_threads: 1
+  scratch_mb: 256
+  heap_size_hint_mb: 16000
+  use_gpu: false

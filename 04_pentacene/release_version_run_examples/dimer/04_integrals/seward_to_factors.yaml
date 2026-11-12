@@ -1,0 +1,17 @@
+seward:
+  snapshot: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  project: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  ranks: 8
+  commonorb: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.comorb
+  n_frozen: 0
+  n_deleted: 474
+  batch_size: 4
+  transform_backend: gpu
+  gpu_device: 0
+  scratch_parent: /dev/shm/AHPC_pentacene_dimer
+  molcas_root: /home/alpha/bin/NOCI.jl/OpenMolcas4NOCI/v26.06.2-d02e8222d91bb450/libexec/openmolcas4noci
+  omc_root: /home/alpha/bin/NOCI.jl/OpenMolcas4NOCI/dependencies/ec190613290d5fdf3753780f4c75ff774f91489cc939baa3a923d5f9e536fa6e
+runtime:
+  max_host_bytes: 51539607552
+  max_device_bytes: 10737418240
+  scratch_bytes: 268435456

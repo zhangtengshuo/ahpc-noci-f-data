@@ -1,0 +1,85 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: EtheneAB_GS0S0
+  spin_multiplicity: 1
+  fragment_states:
+    - label: EtheneA_S0@GS0
+      fragment: A
+      state: S0
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_S0@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_S0@GS0.vec
+    - label: EtheneA_S1@GS0
+      fragment: A
+      state: S1
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_S1@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_S1@GS0.vec
+    - label: EtheneA_T1@GS0
+      fragment: A
+      state: T1
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_T1@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_T1@GS0.vec
+    - label: EtheneA_D+@GS0
+      fragment: A
+      state: D+
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_D+@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_D+@GS0.vec
+    - label: EtheneA_D-@GS0
+      fragment: A
+      state: D-
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_D-@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneA_D-@GS0.vec
+    - label: EtheneB_S0@GS0
+      fragment: B
+      state: S0
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_S0@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_S0@GS0.vec
+    - label: EtheneB_S1@GS0
+      fragment: B
+      state: S1
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_S1@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_S1@GS0.vec
+    - label: EtheneB_T1@GS0
+      fragment: B
+      state: T1
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_T1@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_T1@GS0.vec
+    - label: EtheneB_D+@GS0
+      fragment: B
+      state: D+
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_D+@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_D+@GS0.vec
+    - label: EtheneB_D-@GS0
+      fragment: B
+      state: D-
+      determinants: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_D-@GS0.det
+      orbitals: ../../data/ethene_dimer/wavefunctions/B2_EtheneB_D-@GS0.vec
+  mebfs:
+    - label: S0S0
+      states: [EtheneA_S0@GS0, EtheneB_S0@GS0]
+    - label: S1S0
+      states: [EtheneA_S1@GS0, EtheneB_S0@GS0]
+    - label: S0S1
+      states: [EtheneA_S0@GS0, EtheneB_S1@GS0]
+    - label: T1T1
+      states: [EtheneA_T1@GS0, EtheneB_T1@GS0]
+    - label: D+D-
+      states: [EtheneA_D+@GS0, EtheneB_D-@GS0]
+    - label: D-D+
+      states: [EtheneA_D-@GS0, EtheneB_D+@GS0]
+integrals:
+  backend: cholesky
+  one_electron: ../../data/ethene_dimer/one_electron/EtheneAB.one
+  factor_bundle: ../../data/ethene_dimer/cholesky_eri/ethene_cho_factor_bundle.jld2
+screening:
+  tau_ci: 1.0e-5
+  tau_ci_offdiagonal: 1.0e-5
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: false
+  gpu_device: 0
+  scratch_bytes: 268435456
+  max_active_occupied: 12
+  collect_allocations: true

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "benzene_cpu1_packed",
+    "job_id": "2512",
+    "afterok": null,
+    "submitted_utc": "2026-11-12T02:57:20.207930+00:00"
+  },
+  {
+    "name": "benzene_cpu1_factor",
+    "job_id": "2513",
+    "afterok": "2512",
+    "submitted_utc": "2026-11-12T02:57:20.213929+00:00"
+  },
+  {
+    "name": "indo_cpu8",
+    "job_id": "2514",
+    "afterok": "2513",
+    "submitted_utc": "2026-11-12T02:57:20.220879+00:00"
+  },
+  {
+    "name": "indo_gpu8",
+    "job_id": "2515",
+    "afterok": "2514",
+    "submitted_utc": "2026-11-12T02:57:20.226880+00:00"
+  },
+  {
+    "name": "pentacene_dimer_gpu8",
+    "job_id": "2516",
+    "afterok": "2515",
+    "submitted_utc": "2026-11-12T02:57:20.233016+00:00"
+  },
+  {
+    "name": "pentacene_trimer_gpu8",
+    "job_id": "2517",
+    "afterok": "2516",
+    "submitted_utc": "2026-11-12T02:57:20.239111+00:00"
+  }
+]

@@ -1,0 +1,20 @@
+Job ID:        1104
+Host:          GV800
+Project:       B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+Run directory: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+MPI processes: 8
+Slurm ntasks:  1
+Memory:        10240 MiB per MPI rank
+Scratch:       /dev/shm/alpha/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.1104
+OpenMolcas:    /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842 (ExactDenEmb build)
+validated OpenMolcas result: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChMap (142072 bytes)
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRed (4861472 bytes)
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRst (154224 bytes)
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChVec1 (1100847384 bytes)
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.OneInt (67817008 bytes)
+required output: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.RunFile (9984016 bytes)
+DONE: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out
+Scratch retained at: /dev/shm/alpha/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.1104
+OpenMolcas (ExactDenEmb) completed successfully: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out
+Cleaning scratch: /dev/shm/alpha/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.1104

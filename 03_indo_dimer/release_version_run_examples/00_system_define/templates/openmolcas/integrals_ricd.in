@@ -1,0 +1,12 @@
+&GATEWAY
+  coord = {{XYZ}}
+  basis = {{BASIS}}
+  group = nosym
+  RICD
+  CDThreshold
+  {{GENERATION_THRESHOLD}}
+End of input
+
+&SEWARD
+  CHH5
+End of input

@@ -1,0 +1,84 @@
+source_noci_yaml: /scratch/alpha/benchmark/gronor_tests_BD/06_noci/run/ahpc_oldchain.yaml
+source_root: /scratch/alpha/benchmark/gronor_tests_BD
+monomer_root: /scratch/alpha/BD_Ci/03_sym_ss_cas_desym
+bindings:
+  f_A/S0:
+    label: BzA_S0
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.vec
+  f_A/S1:
+    label: BzA_S1
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.vec
+  f_A/T1:
+    label: BzA_T1
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.vec
+  f_A/D+:
+    label: BzA_D+
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.vec
+  f_A/D-:
+    label: BzA_D-
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.vec
+  f_B/S0:
+    label: BzB_S0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.vec
+  f_B/T1:
+    label: BzB_T1
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.vec
+  f_B/D-:
+    label: BzB_D-
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.vec
+  f_B/D+:
+    label: BzB_D+
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.vec
+mebf_labels:
+- S0S0
+- S1S0
+- T1T1
+- D+D-
+- D-D+
+coupling_multiplicities:
+- null
+- null
+- null
+- null
+- null
+integrals_packed:
+  backend: packed_two
+  one_electron: /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB.one
+  two_electron:
+  - /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB_001.two
+integrals_factor:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB.one
+  factor_bundle: /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB_GS0S0_cho_v2.jld2
+imported_integral_threshold: null
+imported_commonorb_threshold: 0.0001
+tau_singularity: 1.0e-12
+conversion: false

@@ -1,0 +1,89 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: benzene_cpu1_factor
+  spin_multiplicity: 1
+  fragment_states:
+  - label: BzA_S0
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.vec
+  - label: BzB_S0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.vec
+  - label: BzA_S1
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.vec
+  - label: BzA_T1
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.vec
+  - label: BzB_T1
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.vec
+  - label: BzA_D+
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.vec
+  - label: BzB_D-
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.vec
+  - label: BzA_D-
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.vec
+  - label: BzB_D+
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.det
+    orbitals: /scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.vec
+  mebfs:
+  - label: S0S0
+    states:
+    - BzA_S0
+    - BzB_S0
+  - label: S1S0
+    states:
+    - BzA_S1
+    - BzB_S0
+  - label: T1T1
+    states:
+    - BzA_T1
+    - BzB_T1
+  - label: D+D-
+    states:
+    - BzA_D+
+    - BzB_D-
+  - label: D-D+
+    states:
+    - BzA_D-
+    - BzB_D+
+integrals:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB.one
+  factor_bundle: /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB_GS0S0_cho_v2.jld2
+screening:
+  tau_ci: 0.0001
+  tau_ci_offdiagonal: 0.0001
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: false
+  scratch_bytes: 268435456
+  max_host_bytes: 12884901888
+  collect_allocations: false
+  max_active_occupied: 12

@@ -1,0 +1,287 @@
+{
+  "collected_utc": "2026-11-12T03:11:25.367037+00:00",
+  "operational_records": [
+    {
+      "name": "benzene_cpu1_packed",
+      "job_id": "2512",
+      "directory": "/scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_packed",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T02:57:20.482705+00:00",
+        "slurm_job_id": "2512",
+        "allocated_cpus": [
+          0
+        ],
+        "julia_threads": "1",
+        "blas_threads": "1",
+        "cuda_visible_devices": null,
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 1:07.87",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 2220516",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 70660
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 38099
+        },
+        {
+          "name": "result.out",
+          "bytes": 35577
+        },
+        {
+          "name": "result.sec",
+          "bytes": 20956
+        }
+      ]
+    },
+    {
+      "name": "benzene_cpu1_factor",
+      "job_id": "2513",
+      "directory": "/scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T02:58:29.190306+00:00",
+        "slurm_job_id": "2513",
+        "allocated_cpus": [
+          0
+        ],
+        "julia_threads": "1",
+        "blas_threads": "1",
+        "cuda_visible_devices": null,
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.93",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 1471128",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 70677
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 39139
+        },
+        {
+          "name": "result.out",
+          "bytes": 35436
+        },
+        {
+          "name": "result.sec",
+          "bytes": 20957
+        }
+      ]
+    },
+    {
+      "name": "indo_cpu8",
+      "job_id": "2514",
+      "directory": "/scratch/alpha/AHPC/03_indo_dimer/05_noci/cpu8",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T02:59:30.478328+00:00",
+        "slurm_job_id": "2514",
+        "allocated_cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "julia_threads": "8",
+        "blas_threads": "1",
+        "cuda_visible_devices": null,
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 2:54.28",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 3735552",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 124967
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 49059
+        },
+        {
+          "name": "result.out",
+          "bytes": 51277
+        },
+        {
+          "name": "result.sec",
+          "bytes": 55880
+        }
+      ]
+    },
+    {
+      "name": "indo_gpu8",
+      "job_id": "2515",
+      "directory": "/scratch/alpha/AHPC/03_indo_dimer/05_noci/gpu8",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T03:02:25.187333+00:00",
+        "slurm_job_id": "2515",
+        "allocated_cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "julia_threads": "8",
+        "blas_threads": "1",
+        "cuda_visible_devices": "0,1,2,3,4,5,6,7",
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0/optional/gpu",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 2:25.74",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 6903256",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 154325
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 49059
+        },
+        {
+          "name": "result.out",
+          "bytes": 51423
+        },
+        {
+          "name": "result.sec",
+          "bytes": 149337
+        }
+      ]
+    },
+    {
+      "name": "pentacene_dimer_gpu8",
+      "job_id": "2516",
+      "directory": "/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T03:04:51.227170+00:00",
+        "slurm_job_id": "2516",
+        "allocated_cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "julia_threads": "8",
+        "blas_threads": "1",
+        "cuda_visible_devices": "0,1,2,3,4,5,6,7",
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0/optional/gpu",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 1:54.81",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 5958052",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 117284
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 47371
+        },
+        {
+          "name": "result.out",
+          "bytes": 45638
+        },
+        {
+          "name": "result.sec",
+          "bytes": 44297
+        }
+      ]
+    },
+    {
+      "name": "pentacene_trimer_gpu8",
+      "job_id": "2517",
+      "directory": "/scratch/alpha/AHPC/04_pentacene/trimer/05_noci/gpu8",
+      "exit_status": 0,
+      "execution": {
+        "started_utc": "2026-11-12T03:07:54.137716+00:00",
+        "slurm_job_id": "2517",
+        "allocated_cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "julia_threads": "8",
+        "blas_threads": "1",
+        "cuda_visible_devices": "0,1,2,3,4,5,6,7",
+        "project": "/home/alpha/bin/NOCI.jl/v26.10.0/optional/gpu",
+        "installation": "/home/alpha/bin/NOCI.jl/v26.10.0",
+        "installed_source_commit": "d3c44af10db6d3ef483544f803c5c6a24774eb4e"
+      },
+      "timing": {
+        "Elapsed (wall clock) time": "Elapsed (wall clock) time (h:mm:ss or m:ss): 3:03.34",
+        "Maximum resident set size": "Maximum resident set size (kbytes): 9599908",
+        "Exit status": "Exit status: 0"
+      },
+      "output_files": [
+        {
+          "name": "result.json",
+          "bytes": 118354
+        },
+        {
+          "name": "result.matrix_snapshot.jld2",
+          "bytes": 49683
+        },
+        {
+          "name": "result.out",
+          "bytes": 49126
+        },
+        {
+          "name": "result.sec",
+          "bytes": 469595
+        }
+      ]
+    }
+  ],
+  "scheduler_accounting": "2512                 AHPC_benzene_cpu1_packed  COMPLETED   00:01:08      0:0 \n2513                 AHPC_benzene_cpu1_factor  COMPLETED   00:01:02      0:0 \n2514                           AHPC_indo_cpu8  COMPLETED   00:02:54      0:0 \n2515                           AHPC_indo_gpu8  COMPLETED   00:02:26      0:0 \n2516                AHPC_pentacene_dimer_gpu8  COMPLETED   00:03:03      0:0 \n2517               AHPC_pentacene_trimer_gpu8  COMPLETED   00:03:04      0:0 \n",
+  "scientific_comparison_performed": false
+}

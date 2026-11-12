@@ -1,0 +1,236 @@
+2026-11-12T11:06:29.481 elapsed_seconds=0.812989 event=production_run_started rss_bytes=1096630272 hwm_bytes=1102356480 execution_signature="746f7981876900cb7bd6bfaafd3228b10eabe9790116089e0649353ecd48796a" scientific_signature="c2d882c56fdb053fbf42a869a073d398ea13bbf9f3a279bb006e2152a834871b" sec_path="/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results/result.sec" test_mode=false
+2026-11-12T11:06:42.964 elapsed_seconds=14.295590 event=load_problem_started rss_bytes=1798656000 hwm_bytes=1803079680 algorithm="ahpc-noci" backend="factorized-eri"
+2026-11-12T11:06:44.085 elapsed_seconds=15.416858 event=load_problem_complete rss_bytes=1802620928 hwm_bytes=1832734720 n_basis=282 n_fragment_states=10
+2026-11-12T11:06:47.170 elapsed_seconds=18.501530 event=build_mebfs_complete rss_bytes=1804193792 hwm_bytes=1832734720 n_mebfs=6
+2026-11-12T11:06:47.907 elapsed_seconds=19.238475 event=load_one_electron_complete rss_bytes=1831981056 hwm_bytes=1832734720 n_basis=282
+2026-11-12T11:06:50.530 elapsed_seconds=21.861316 event=load_eri_complete rss_bytes=3058057216 hwm_bytes=3058057216 backend="factorized-eri"
+2026-11-12T11:06:50.636 elapsed_seconds=21.967792 event=ahpc_state_pair_started rss_bytes=3058057216 hwm_bytes=3058057216 left_mebf=1 right_mebf=1
+2026-11-12T11:06:53.552 elapsed_seconds=24.883977 event=ahpc_pair_block_ready rss_bytes=4949307392 hwm_bytes=4949307392 left_mebf=1 pair_count=245286 right_mebf=1
+2026-11-12T11:07:16.038 elapsed_seconds=47.369348 event=ahpc_precontraction_complete rss_bytes=4511862784 hwm_bytes=5139714048 left_mebf=1 right_mebf=1
+2026-11-12T11:07:17.488 elapsed_seconds=48.819790 event=ahpc_incidence_complete rss_bytes=4523364352 hwm_bytes=5139714048 left_mebf=1 n_edges=245286 n_kappa=28260 n_lambda=28269 n_union=28271 right_mebf=1
+2026-11-12T11:07:29.945 elapsed_seconds=61.277190 event=ahpc_intermediates_complete rss_bytes=4859465728 hwm_bytes=5139714048 left_mebf=1 n_union=28271 right_mebf=1
+2026-11-12T11:07:33.233 elapsed_seconds=64.564596 event=ahpc_contraction_block_complete rss_bytes=5008822272 hwm_bytes=5139714048 completed_blocks=1 left_mebf=1 n_kappa=28260 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:33.770 elapsed_seconds=65.101748 event=ahpc_contraction_prefix_committed rss_bytes=5009346560 hwm_bytes=5139714048 completed_blocks=2 left_mebf=1 n_edges=245286 n_kappa=28260 next_kappa=28261 processed_edges=245286 right_mebf=1
+2026-11-12T11:07:33.945 elapsed_seconds=65.276741 event=ahpc_state_pair_complete rss_bytes=5009346560 hwm_bytes=5139714048 left_mebf=1 pair_count=245286 right_mebf=1
+2026-11-12T11:07:33.945 elapsed_seconds=65.276831 event=ahpc_state_pair_started rss_bytes=5009346560 hwm_bytes=5139714048 left_mebf=2 right_mebf=1
+2026-11-12T11:07:33.945 elapsed_seconds=65.277130 event=ahpc_pair_block_ready rss_bytes=5009346560 hwm_bytes=5139714048 left_mebf=2 pair_count=591984 right_mebf=1
+2026-11-12T11:07:34.302 elapsed_seconds=65.633565 event=ahpc_precontraction_complete rss_bytes=5010395136 hwm_bytes=5139714048 left_mebf=2 right_mebf=1
+2026-11-12T11:07:34.344 elapsed_seconds=65.676298 event=ahpc_incidence_complete rss_bytes=5021929472 hwm_bytes=5139714048 left_mebf=2 n_edges=591984 n_kappa=44246 n_lambda=44246 n_union=44246 right_mebf=1
+2026-11-12T11:07:34.355 elapsed_seconds=65.686709 event=ahpc_intermediates_complete rss_bytes=5055483904 hwm_bytes=5139714048 left_mebf=2 n_union=44246 right_mebf=1
+2026-11-12T11:07:34.851 elapsed_seconds=66.182888 event=ahpc_contraction_block_complete rss_bytes=5128916992 hwm_bytes=5139714048 completed_blocks=1 left_mebf=2 n_kappa=44246 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:34.856 elapsed_seconds=66.187441 event=ahpc_contraction_block_complete rss_bytes=5128916992 hwm_bytes=5139714048 completed_blocks=2 left_mebf=2 n_kappa=44246 next_kappa=28729 right_mebf=1
+2026-11-12T11:07:34.860 elapsed_seconds=66.191960 event=ahpc_contraction_block_complete rss_bytes=5128916992 hwm_bytes=5139714048 completed_blocks=3 left_mebf=2 n_kappa=44246 next_kappa=43093 right_mebf=1
+2026-11-12T11:07:34.886 elapsed_seconds=66.218171 event=ahpc_contraction_prefix_committed rss_bytes=5128916992 hwm_bytes=5139714048 completed_blocks=4 left_mebf=2 n_edges=591984 n_kappa=44246 next_kappa=44247 processed_edges=591984 right_mebf=1
+2026-11-12T11:07:34.896 elapsed_seconds=66.228184 event=ahpc_state_pair_complete rss_bytes=5128916992 hwm_bytes=5139714048 left_mebf=2 pair_count=591984 right_mebf=1
+2026-11-12T11:07:34.896 elapsed_seconds=66.228311 event=ahpc_state_pair_started rss_bytes=5128916992 hwm_bytes=5139714048 left_mebf=2 right_mebf=2
+2026-11-12T11:07:34.897 elapsed_seconds=66.228585 event=ahpc_pair_block_ready rss_bytes=5128916992 hwm_bytes=5139714048 left_mebf=2 pair_count=354317 right_mebf=2
+2026-11-12T11:07:35.293 elapsed_seconds=66.624637 event=ahpc_precontraction_complete rss_bytes=5128916992 hwm_bytes=5139714048 left_mebf=2 right_mebf=2
+2026-11-12T11:07:35.320 elapsed_seconds=66.652199 event=ahpc_incidence_complete rss_bytes=5133111296 hwm_bytes=5139714048 left_mebf=2 n_edges=354317 n_kappa=27720 n_lambda=27735 n_union=27746 right_mebf=2
+2026-11-12T11:07:35.328 elapsed_seconds=66.660286 event=ahpc_intermediates_complete rss_bytes=5144645632 hwm_bytes=5144645632 left_mebf=2 n_union=27746 right_mebf=2
+2026-11-12T11:07:35.447 elapsed_seconds=66.778996 event=ahpc_contraction_block_complete rss_bytes=5210181632 hwm_bytes=5210181632 completed_blocks=1 left_mebf=2 n_kappa=27720 next_kappa=14365 right_mebf=2
+2026-11-12T11:07:35.480 elapsed_seconds=66.811418 event=ahpc_contraction_prefix_committed rss_bytes=5210181632 hwm_bytes=5210181632 completed_blocks=2 left_mebf=2 n_edges=354317 n_kappa=27720 next_kappa=27721 processed_edges=354317 right_mebf=2
+2026-11-12T11:07:35.490 elapsed_seconds=66.821422 event=ahpc_state_pair_complete rss_bytes=5210181632 hwm_bytes=5210181632 left_mebf=2 pair_count=354317 right_mebf=2
+2026-11-12T11:07:35.490 elapsed_seconds=66.821566 event=ahpc_state_pair_started rss_bytes=5210181632 hwm_bytes=5210181632 left_mebf=3 right_mebf=1
+2026-11-12T11:07:35.490 elapsed_seconds=66.821982 event=ahpc_pair_block_ready rss_bytes=5210181632 hwm_bytes=5210181632 left_mebf=3 pair_count=617962 right_mebf=1
+2026-11-12T11:07:35.852 elapsed_seconds=67.183684 event=ahpc_precontraction_complete rss_bytes=5210705920 hwm_bytes=5210705920 left_mebf=3 right_mebf=1
+2026-11-12T11:07:35.901 elapsed_seconds=67.232534 event=ahpc_incidence_complete rss_bytes=5224337408 hwm_bytes=5224337408 left_mebf=3 n_edges=617962 n_kappa=45386 n_lambda=45386 n_union=45386 right_mebf=1
+2026-11-12T11:07:36.021 elapsed_seconds=67.352894 event=ahpc_intermediates_complete rss_bytes=5050130432 hwm_bytes=5224337408 left_mebf=3 n_union=45386 right_mebf=1
+2026-11-12T11:07:36.149 elapsed_seconds=67.481128 event=ahpc_contraction_block_complete rss_bytes=5084536832 hwm_bytes=5224337408 completed_blocks=1 left_mebf=3 n_kappa=45386 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:36.152 elapsed_seconds=67.483479 event=ahpc_contraction_block_complete rss_bytes=5084536832 hwm_bytes=5224337408 completed_blocks=2 left_mebf=3 n_kappa=45386 next_kappa=28729 right_mebf=1
+2026-11-12T11:07:36.154 elapsed_seconds=67.485734 event=ahpc_contraction_block_complete rss_bytes=5084536832 hwm_bytes=5224337408 completed_blocks=3 left_mebf=3 n_kappa=45386 next_kappa=43093 right_mebf=1
+2026-11-12T11:07:36.182 elapsed_seconds=67.513597 event=ahpc_contraction_prefix_committed rss_bytes=5084536832 hwm_bytes=5224337408 completed_blocks=4 left_mebf=3 n_edges=617962 n_kappa=45386 next_kappa=45387 processed_edges=617962 right_mebf=1
+2026-11-12T11:07:36.192 elapsed_seconds=67.523586 event=ahpc_state_pair_complete rss_bytes=5084536832 hwm_bytes=5224337408 left_mebf=3 pair_count=617962 right_mebf=1
+2026-11-12T11:07:36.192 elapsed_seconds=67.523644 event=ahpc_state_pair_started rss_bytes=5084536832 hwm_bytes=5224337408 left_mebf=3 right_mebf=2
+2026-11-12T11:07:36.192 elapsed_seconds=67.523822 event=ahpc_pair_block_ready rss_bytes=5084536832 hwm_bytes=5224337408 left_mebf=3 pair_count=740210 right_mebf=2
+2026-11-12T11:07:36.510 elapsed_seconds=67.841376 event=ahpc_precontraction_complete rss_bytes=5084536832 hwm_bytes=5224337408 left_mebf=3 right_mebf=2
+2026-11-12T11:07:36.561 elapsed_seconds=67.892375 event=ahpc_incidence_complete rss_bytes=5084536832 hwm_bytes=5224337408 left_mebf=3 n_edges=740210 n_kappa=45813 n_lambda=45813 n_union=45813 right_mebf=2
+2026-11-12T11:07:36.569 elapsed_seconds=67.900656 event=ahpc_intermediates_complete rss_bytes=5095546880 hwm_bytes=5224337408 left_mebf=3 n_union=45813 right_mebf=2
+2026-11-12T11:07:36.723 elapsed_seconds=68.054794 event=ahpc_contraction_block_complete rss_bytes=5203550208 hwm_bytes=5224337408 completed_blocks=1 left_mebf=3 n_kappa=45813 next_kappa=14365 right_mebf=2
+2026-11-12T11:07:36.728 elapsed_seconds=68.059352 event=ahpc_contraction_block_complete rss_bytes=5203550208 hwm_bytes=5224337408 completed_blocks=2 left_mebf=3 n_kappa=45813 next_kappa=28729 right_mebf=2
+2026-11-12T11:07:36.732 elapsed_seconds=68.063869 event=ahpc_contraction_block_complete rss_bytes=5203550208 hwm_bytes=5224337408 completed_blocks=3 left_mebf=3 n_kappa=45813 next_kappa=43093 right_mebf=2
+2026-11-12T11:07:36.760 elapsed_seconds=68.091974 event=ahpc_contraction_prefix_committed rss_bytes=5203550208 hwm_bytes=5224337408 completed_blocks=4 left_mebf=3 n_edges=740210 n_kappa=45813 next_kappa=45814 processed_edges=740210 right_mebf=2
+2026-11-12T11:07:36.769 elapsed_seconds=68.100859 event=ahpc_state_pair_complete rss_bytes=5203550208 hwm_bytes=5224337408 left_mebf=3 pair_count=740210 right_mebf=2
+2026-11-12T11:07:36.769 elapsed_seconds=68.100995 event=ahpc_state_pair_started rss_bytes=5203550208 hwm_bytes=5224337408 left_mebf=3 right_mebf=3
+2026-11-12T11:07:36.769 elapsed_seconds=68.101261 event=ahpc_pair_block_ready rss_bytes=5203550208 hwm_bytes=5224337408 left_mebf=3 pair_count=388752 right_mebf=3
+2026-11-12T11:07:37.094 elapsed_seconds=68.425821 event=ahpc_precontraction_complete rss_bytes=5203550208 hwm_bytes=5224337408 left_mebf=3 right_mebf=3
+2026-11-12T11:07:37.121 elapsed_seconds=68.453131 event=ahpc_incidence_complete rss_bytes=5203550208 hwm_bytes=5224337408 left_mebf=3 n_edges=388752 n_kappa=30430 n_lambda=30450 n_union=30469 right_mebf=3
+2026-11-12T11:07:37.132 elapsed_seconds=68.464219 event=ahpc_intermediates_complete rss_bytes=5216133120 hwm_bytes=5224337408 left_mebf=3 n_union=30469 right_mebf=3
+2026-11-12T11:07:37.240 elapsed_seconds=68.571617 event=ahpc_contraction_block_complete rss_bytes=5286387712 hwm_bytes=5286387712 completed_blocks=1 left_mebf=3 n_kappa=30430 next_kappa=14365 right_mebf=3
+2026-11-12T11:07:37.242 elapsed_seconds=68.573766 event=ahpc_contraction_block_complete rss_bytes=5286387712 hwm_bytes=5286387712 completed_blocks=2 left_mebf=3 n_kappa=30430 next_kappa=28729 right_mebf=3
+2026-11-12T11:07:37.269 elapsed_seconds=68.601196 event=ahpc_contraction_prefix_committed rss_bytes=5286387712 hwm_bytes=5286387712 completed_blocks=3 left_mebf=3 n_edges=388752 n_kappa=30430 next_kappa=30431 processed_edges=388752 right_mebf=3
+2026-11-12T11:07:37.278 elapsed_seconds=68.610205 event=ahpc_state_pair_complete rss_bytes=5286387712 hwm_bytes=5286387712 left_mebf=3 pair_count=388752 right_mebf=3
+2026-11-12T11:07:37.278 elapsed_seconds=68.610264 event=ahpc_state_pair_started rss_bytes=5286387712 hwm_bytes=5286387712 left_mebf=4 right_mebf=1
+2026-11-12T11:07:37.279 elapsed_seconds=68.610437 event=ahpc_pair_block_ready rss_bytes=5286387712 hwm_bytes=5286387712 left_mebf=4 pair_count=561372 right_mebf=1
+2026-11-12T11:07:37.629 elapsed_seconds=68.960725 event=ahpc_precontraction_complete rss_bytes=5286387712 hwm_bytes=5286387712 left_mebf=4 right_mebf=1
+2026-11-12T11:07:37.761 elapsed_seconds=69.092382 event=ahpc_incidence_complete rss_bytes=5269995520 hwm_bytes=5291106304 left_mebf=4 n_edges=561372 n_kappa=51544 n_lambda=51544 n_union=51544 right_mebf=1
+2026-11-12T11:07:37.769 elapsed_seconds=69.101218 event=ahpc_intermediates_complete rss_bytes=5278908416 hwm_bytes=5291106304 left_mebf=4 n_union=51544 right_mebf=1
+2026-11-12T11:07:37.940 elapsed_seconds=69.271724 event=ahpc_contraction_block_complete rss_bytes=5225459712 hwm_bytes=5291106304 completed_blocks=1 left_mebf=4 n_kappa=51544 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:37.944 elapsed_seconds=69.276291 event=ahpc_contraction_block_complete rss_bytes=5225459712 hwm_bytes=5291106304 completed_blocks=2 left_mebf=4 n_kappa=51544 next_kappa=28729 right_mebf=1
+2026-11-12T11:07:37.949 elapsed_seconds=69.280910 event=ahpc_contraction_block_complete rss_bytes=5225459712 hwm_bytes=5291106304 completed_blocks=3 left_mebf=4 n_kappa=51544 next_kappa=43093 right_mebf=1
+2026-11-12T11:07:37.979 elapsed_seconds=69.310647 event=ahpc_contraction_prefix_committed rss_bytes=5225459712 hwm_bytes=5291106304 completed_blocks=4 left_mebf=4 n_edges=561372 n_kappa=51544 next_kappa=51545 processed_edges=561372 right_mebf=1
+2026-11-12T11:07:37.989 elapsed_seconds=69.320655 event=ahpc_state_pair_complete rss_bytes=5225459712 hwm_bytes=5291106304 left_mebf=4 pair_count=561372 right_mebf=1
+2026-11-12T11:07:37.989 elapsed_seconds=69.320784 event=ahpc_state_pair_started rss_bytes=5225459712 hwm_bytes=5291106304 left_mebf=4 right_mebf=2
+2026-11-12T11:07:37.989 elapsed_seconds=69.321214 event=ahpc_pair_block_ready rss_bytes=5225459712 hwm_bytes=5291106304 left_mebf=4 pair_count=657350 right_mebf=2
+2026-11-12T11:07:38.338 elapsed_seconds=69.670016 event=ahpc_precontraction_complete rss_bytes=5225459712 hwm_bytes=5291106304 left_mebf=4 right_mebf=2
+2026-11-12T11:07:38.380 elapsed_seconds=69.711684 event=ahpc_incidence_complete rss_bytes=5225459712 hwm_bytes=5291106304 left_mebf=4 n_edges=657350 n_kappa=52007 n_lambda=52007 n_union=52007 right_mebf=2
+2026-11-12T11:07:38.472 elapsed_seconds=69.803692 event=ahpc_intermediates_complete rss_bytes=5250625536 hwm_bytes=5291106304 left_mebf=4 n_union=52007 right_mebf=2
+2026-11-12T11:07:38.556 elapsed_seconds=69.887738 event=ahpc_contraction_block_complete rss_bytes=5298700288 hwm_bytes=5298700288 completed_blocks=1 left_mebf=4 n_kappa=52007 next_kappa=14365 right_mebf=2
+2026-11-12T11:07:38.561 elapsed_seconds=69.892644 event=ahpc_contraction_block_complete rss_bytes=5298700288 hwm_bytes=5298700288 completed_blocks=2 left_mebf=4 n_kappa=52007 next_kappa=28729 right_mebf=2
+2026-11-12T11:07:38.566 elapsed_seconds=69.897531 event=ahpc_contraction_block_complete rss_bytes=5298700288 hwm_bytes=5298700288 completed_blocks=3 left_mebf=4 n_kappa=52007 next_kappa=43093 right_mebf=2
+2026-11-12T11:07:38.595 elapsed_seconds=69.926583 event=ahpc_contraction_prefix_committed rss_bytes=5298700288 hwm_bytes=5298700288 completed_blocks=4 left_mebf=4 n_edges=657350 n_kappa=52007 next_kappa=52008 processed_edges=657350 right_mebf=2
+2026-11-12T11:07:38.605 elapsed_seconds=69.936600 event=ahpc_state_pair_complete rss_bytes=5298700288 hwm_bytes=5298700288 left_mebf=4 pair_count=657350 right_mebf=2
+2026-11-12T11:07:38.605 elapsed_seconds=69.936738 event=ahpc_state_pair_started rss_bytes=5298700288 hwm_bytes=5298700288 left_mebf=4 right_mebf=3
+2026-11-12T11:07:38.605 elapsed_seconds=69.937090 event=ahpc_pair_block_ready rss_bytes=5298700288 hwm_bytes=5298700288 left_mebf=4 pair_count=689164 right_mebf=3
+2026-11-12T11:07:38.925 elapsed_seconds=70.256536 event=ahpc_precontraction_complete rss_bytes=5298700288 hwm_bytes=5298700288 left_mebf=4 right_mebf=3
+2026-11-12T11:07:38.972 elapsed_seconds=70.303534 event=ahpc_incidence_complete rss_bytes=5298700288 hwm_bytes=5298700288 left_mebf=4 n_edges=689164 n_kappa=53533 n_lambda=53533 n_union=53533 right_mebf=3
+2026-11-12T11:07:38.980 elapsed_seconds=70.311663 event=ahpc_intermediates_complete rss_bytes=5301321728 hwm_bytes=5301321728 left_mebf=4 n_union=53533 right_mebf=3
+2026-11-12T11:07:39.175 elapsed_seconds=70.506575 event=ahpc_contraction_block_complete rss_bytes=5344837632 hwm_bytes=5344837632 completed_blocks=1 left_mebf=4 n_kappa=53533 next_kappa=14365 right_mebf=3
+2026-11-12T11:07:39.179 elapsed_seconds=70.511221 event=ahpc_contraction_block_complete rss_bytes=5344837632 hwm_bytes=5344837632 completed_blocks=2 left_mebf=4 n_kappa=53533 next_kappa=28729 right_mebf=3
+2026-11-12T11:07:39.184 elapsed_seconds=70.515786 event=ahpc_contraction_block_complete rss_bytes=5344837632 hwm_bytes=5344837632 completed_blocks=3 left_mebf=4 n_kappa=53533 next_kappa=43093 right_mebf=3
+2026-11-12T11:07:39.216 elapsed_seconds=70.548306 event=ahpc_contraction_prefix_committed rss_bytes=5344837632 hwm_bytes=5344837632 completed_blocks=4 left_mebf=4 n_edges=689164 n_kappa=53533 next_kappa=53534 processed_edges=689164 right_mebf=3
+2026-11-12T11:07:39.227 elapsed_seconds=70.559168 event=ahpc_state_pair_complete rss_bytes=5344837632 hwm_bytes=5344837632 left_mebf=4 pair_count=689164 right_mebf=3
+2026-11-12T11:07:39.227 elapsed_seconds=70.559298 event=ahpc_state_pair_started rss_bytes=5344837632 hwm_bytes=5344837632 left_mebf=4 right_mebf=4
+2026-11-12T11:07:39.228 elapsed_seconds=70.559761 event=ahpc_pair_block_ready rss_bytes=5344837632 hwm_bytes=5344837632 left_mebf=4 pair_count=297924 right_mebf=4
+2026-11-12T11:07:39.539 elapsed_seconds=70.871062 event=ahpc_precontraction_complete rss_bytes=5345361920 hwm_bytes=5345361920 left_mebf=4 right_mebf=4
+2026-11-12T11:07:39.560 elapsed_seconds=70.891992 event=ahpc_incidence_complete rss_bytes=5345361920 hwm_bytes=5345361920 left_mebf=4 n_edges=297924 n_kappa=35604 n_lambda=35595 n_union=35614 right_mebf=4
+2026-11-12T11:07:39.567 elapsed_seconds=70.898799 event=ahpc_intermediates_complete rss_bytes=5356896256 hwm_bytes=5356896256 left_mebf=4 n_union=35614 right_mebf=4
+2026-11-12T11:07:39.648 elapsed_seconds=70.979740 event=ahpc_contraction_block_complete rss_bytes=5440782336 hwm_bytes=5440782336 completed_blocks=1 left_mebf=4 n_kappa=35604 next_kappa=14365 right_mebf=4
+2026-11-12T11:07:39.650 elapsed_seconds=70.981977 event=ahpc_contraction_block_complete rss_bytes=5440782336 hwm_bytes=5440782336 completed_blocks=2 left_mebf=4 n_kappa=35604 next_kappa=28729 right_mebf=4
+2026-11-12T11:07:39.678 elapsed_seconds=71.009550 event=ahpc_contraction_prefix_committed rss_bytes=5440782336 hwm_bytes=5440782336 completed_blocks=3 left_mebf=4 n_edges=297924 n_kappa=35604 next_kappa=35605 processed_edges=297924 right_mebf=4
+2026-11-12T11:07:39.687 elapsed_seconds=71.018565 event=ahpc_state_pair_complete rss_bytes=5440782336 hwm_bytes=5440782336 left_mebf=4 pair_count=297924 right_mebf=4
+2026-11-12T11:07:39.687 elapsed_seconds=71.018667 event=ahpc_state_pair_started rss_bytes=5440782336 hwm_bytes=5440782336 left_mebf=5 right_mebf=1
+2026-11-12T11:07:39.687 elapsed_seconds=71.018982 event=ahpc_pair_block_ready rss_bytes=5440782336 hwm_bytes=5440782336 left_mebf=5 pair_count=561204 right_mebf=1
+2026-11-12T11:07:40.018 elapsed_seconds=71.350077 event=ahpc_precontraction_complete rss_bytes=5441306624 hwm_bytes=5441306624 left_mebf=5 right_mebf=1
+2026-11-12T11:07:40.061 elapsed_seconds=71.393166 event=ahpc_incidence_complete rss_bytes=5454413824 hwm_bytes=5454413824 left_mebf=5 n_edges=561204 n_kappa=51500 n_lambda=51500 n_union=51500 right_mebf=1
+2026-11-12T11:07:40.071 elapsed_seconds=71.403174 event=ahpc_intermediates_complete rss_bytes=5473812480 hwm_bytes=5473812480 left_mebf=5 n_union=51500 right_mebf=1
+2026-11-12T11:07:40.139 elapsed_seconds=71.470936 event=ahpc_contraction_block_complete rss_bytes=5577097216 hwm_bytes=5577097216 completed_blocks=1 left_mebf=5 n_kappa=51500 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:40.141 elapsed_seconds=71.473194 event=ahpc_contraction_block_complete rss_bytes=5577097216 hwm_bytes=5577097216 completed_blocks=2 left_mebf=5 n_kappa=51500 next_kappa=28729 right_mebf=1
+2026-11-12T11:07:40.144 elapsed_seconds=71.475443 event=ahpc_contraction_block_complete rss_bytes=5577097216 hwm_bytes=5577097216 completed_blocks=3 left_mebf=5 n_kappa=51500 next_kappa=43093 right_mebf=1
+2026-11-12T11:07:40.171 elapsed_seconds=71.503300 event=ahpc_contraction_prefix_committed rss_bytes=5577097216 hwm_bytes=5577097216 completed_blocks=4 left_mebf=5 n_edges=561204 n_kappa=51500 next_kappa=51501 processed_edges=561204 right_mebf=1
+2026-11-12T11:07:40.182 elapsed_seconds=71.513474 event=ahpc_state_pair_complete rss_bytes=5577097216 hwm_bytes=5577097216 left_mebf=5 pair_count=561204 right_mebf=1
+2026-11-12T11:07:40.182 elapsed_seconds=71.513532 event=ahpc_state_pair_started rss_bytes=5577097216 hwm_bytes=5577097216 left_mebf=5 right_mebf=2
+2026-11-12T11:07:40.182 elapsed_seconds=71.513744 event=ahpc_pair_block_ready rss_bytes=5577097216 hwm_bytes=5577097216 left_mebf=5 pair_count=656950 right_mebf=2
+2026-11-12T11:07:40.504 elapsed_seconds=71.835370 event=ahpc_precontraction_complete rss_bytes=5577621504 hwm_bytes=5577621504 left_mebf=5 right_mebf=2
+2026-11-12T11:07:40.554 elapsed_seconds=71.886224 event=ahpc_incidence_complete rss_bytes=5588631552 hwm_bytes=5588631552 left_mebf=5 n_edges=656950 n_kappa=51951 n_lambda=51951 n_union=51951 right_mebf=2
+2026-11-12T11:07:40.564 elapsed_seconds=71.895983 event=ahpc_intermediates_complete rss_bytes=5606457344 hwm_bytes=5606457344 left_mebf=5 n_union=51951 right_mebf=2
+2026-11-12T11:07:40.699 elapsed_seconds=72.030706 event=ahpc_contraction_block_complete rss_bytes=5729665024 hwm_bytes=5729665024 completed_blocks=1 left_mebf=5 n_kappa=51951 next_kappa=14365 right_mebf=2
+2026-11-12T11:07:40.701 elapsed_seconds=72.032948 event=ahpc_contraction_block_complete rss_bytes=5729665024 hwm_bytes=5729665024 completed_blocks=2 left_mebf=5 n_kappa=51951 next_kappa=28729 right_mebf=2
+2026-11-12T11:07:40.703 elapsed_seconds=72.035189 event=ahpc_contraction_block_complete rss_bytes=5729665024 hwm_bytes=5729665024 completed_blocks=3 left_mebf=5 n_kappa=51951 next_kappa=43093 right_mebf=2
+2026-11-12T11:07:40.734 elapsed_seconds=72.066015 event=ahpc_contraction_prefix_committed rss_bytes=5729665024 hwm_bytes=5729665024 completed_blocks=4 left_mebf=5 n_edges=656950 n_kappa=51951 next_kappa=51952 processed_edges=656950 right_mebf=2
+2026-11-12T11:07:40.745 elapsed_seconds=72.076440 event=ahpc_state_pair_complete rss_bytes=5729665024 hwm_bytes=5729665024 left_mebf=5 pair_count=656950 right_mebf=2
+2026-11-12T11:07:40.745 elapsed_seconds=72.076520 event=ahpc_state_pair_started rss_bytes=5729665024 hwm_bytes=5729665024 left_mebf=5 right_mebf=3
+2026-11-12T11:07:40.745 elapsed_seconds=72.076933 event=ahpc_pair_block_ready rss_bytes=5729665024 hwm_bytes=5729665024 left_mebf=5 pair_count=688400 right_mebf=3
+2026-11-12T11:07:41.069 elapsed_seconds=72.400861 event=ahpc_precontraction_complete rss_bytes=5730189312 hwm_bytes=5730189312 left_mebf=5 right_mebf=3
+2026-11-12T11:07:41.117 elapsed_seconds=72.448822 event=ahpc_incidence_complete rss_bytes=5730189312 hwm_bytes=5730189312 left_mebf=5 n_edges=688400 n_kappa=53445 n_lambda=53445 n_union=53445 right_mebf=3
+2026-11-12T11:07:41.127 elapsed_seconds=72.458630 event=ahpc_intermediates_complete rss_bytes=5752733696 hwm_bytes=5752733696 left_mebf=5 n_union=53445 right_mebf=3
+2026-11-12T11:07:41.262 elapsed_seconds=72.594182 event=ahpc_contraction_block_complete rss_bytes=5813551104 hwm_bytes=5813551104 completed_blocks=1 left_mebf=5 n_kappa=53445 next_kappa=14365 right_mebf=3
+2026-11-12T11:07:41.265 elapsed_seconds=72.596476 event=ahpc_contraction_block_complete rss_bytes=5813551104 hwm_bytes=5813551104 completed_blocks=2 left_mebf=5 n_kappa=53445 next_kappa=28729 right_mebf=3
+2026-11-12T11:07:41.267 elapsed_seconds=72.598728 event=ahpc_contraction_block_complete rss_bytes=5813551104 hwm_bytes=5813551104 completed_blocks=3 left_mebf=5 n_kappa=53445 next_kappa=43093 right_mebf=3
+2026-11-12T11:07:41.295 elapsed_seconds=72.626575 event=ahpc_contraction_prefix_committed rss_bytes=5813551104 hwm_bytes=5813551104 completed_blocks=4 left_mebf=5 n_edges=688400 n_kappa=53445 next_kappa=53446 processed_edges=688400 right_mebf=3
+2026-11-12T11:07:41.305 elapsed_seconds=72.636601 event=ahpc_state_pair_complete rss_bytes=5813551104 hwm_bytes=5813551104 left_mebf=5 pair_count=688400 right_mebf=3
+2026-11-12T11:07:41.305 elapsed_seconds=72.636744 event=ahpc_state_pair_started rss_bytes=5813551104 hwm_bytes=5813551104 left_mebf=5 right_mebf=4
+2026-11-12T11:07:41.305 elapsed_seconds=72.637138 event=ahpc_pair_block_ready rss_bytes=5813551104 hwm_bytes=5813551104 left_mebf=5 pair_count=594960 right_mebf=4
+2026-11-12T11:07:41.630 elapsed_seconds=72.961648 event=ahpc_precontraction_complete rss_bytes=5813551104 hwm_bytes=5813551104 left_mebf=5 right_mebf=4
+2026-11-12T11:07:41.725 elapsed_seconds=73.056429 event=ahpc_incidence_complete rss_bytes=5813551104 hwm_bytes=5813551104 left_mebf=5 n_edges=594960 n_kappa=60012 n_lambda=60012 n_union=60012 right_mebf=4
+2026-11-12T11:07:41.736 elapsed_seconds=73.067939 event=ahpc_intermediates_complete rss_bytes=5826134016 hwm_bytes=5826134016 left_mebf=5 n_union=60012 right_mebf=4
+2026-11-12T11:07:42.021 elapsed_seconds=73.352436 event=ahpc_contraction_block_complete rss_bytes=5341126656 hwm_bytes=5826134016 completed_blocks=1 left_mebf=5 n_kappa=60012 next_kappa=14365 right_mebf=4
+2026-11-12T11:07:42.025 elapsed_seconds=73.357091 event=ahpc_contraction_block_complete rss_bytes=5341126656 hwm_bytes=5826134016 completed_blocks=2 left_mebf=5 n_kappa=60012 next_kappa=28729 right_mebf=4
+2026-11-12T11:07:42.030 elapsed_seconds=73.361661 event=ahpc_contraction_block_complete rss_bytes=5341126656 hwm_bytes=5826134016 completed_blocks=3 left_mebf=5 n_kappa=60012 next_kappa=43093 right_mebf=4
+2026-11-12T11:07:42.034 elapsed_seconds=73.366255 event=ahpc_contraction_block_complete rss_bytes=5341126656 hwm_bytes=5826134016 completed_blocks=4 left_mebf=5 n_kappa=60012 next_kappa=57457 right_mebf=4
+2026-11-12T11:07:42.061 elapsed_seconds=73.392896 event=ahpc_contraction_prefix_committed rss_bytes=5341126656 hwm_bytes=5826134016 completed_blocks=5 left_mebf=5 n_edges=594960 n_kappa=60012 next_kappa=60013 processed_edges=594960 right_mebf=4
+2026-11-12T11:07:42.071 elapsed_seconds=73.402916 event=ahpc_state_pair_complete rss_bytes=5341126656 hwm_bytes=5826134016 left_mebf=5 pair_count=594960 right_mebf=4
+2026-11-12T11:07:42.071 elapsed_seconds=73.403044 event=ahpc_state_pair_started rss_bytes=5341126656 hwm_bytes=5826134016 left_mebf=5 right_mebf=5
+2026-11-12T11:07:42.071 elapsed_seconds=73.403304 event=ahpc_pair_block_ready rss_bytes=5341126656 hwm_bytes=5826134016 left_mebf=5 pair_count=297295 right_mebf=5
+2026-11-12T11:07:42.388 elapsed_seconds=73.719682 event=ahpc_precontraction_complete rss_bytes=5341126656 hwm_bytes=5826134016 left_mebf=5 right_mebf=5
+2026-11-12T11:07:42.410 elapsed_seconds=73.741650 event=ahpc_incidence_complete rss_bytes=5341126656 hwm_bytes=5826134016 left_mebf=5 n_edges=297295 n_kappa=35480 n_lambda=35481 n_union=35493 right_mebf=5
+2026-11-12T11:07:42.417 elapsed_seconds=73.748846 event=ahpc_intermediates_complete rss_bytes=5353185280 hwm_bytes=5826134016 left_mebf=5 n_union=35493 right_mebf=5
+2026-11-12T11:07:42.532 elapsed_seconds=73.863786 event=ahpc_contraction_block_complete rss_bytes=5404041216 hwm_bytes=5826134016 completed_blocks=1 left_mebf=5 n_kappa=35480 next_kappa=14365 right_mebf=5
+2026-11-12T11:07:42.534 elapsed_seconds=73.866170 event=ahpc_contraction_block_complete rss_bytes=5404041216 hwm_bytes=5826134016 completed_blocks=2 left_mebf=5 n_kappa=35480 next_kappa=28729 right_mebf=5
+2026-11-12T11:07:42.563 elapsed_seconds=73.894670 event=ahpc_contraction_prefix_committed rss_bytes=5404041216 hwm_bytes=5826134016 completed_blocks=3 left_mebf=5 n_edges=297295 n_kappa=35480 next_kappa=35481 processed_edges=297295 right_mebf=5
+2026-11-12T11:07:42.572 elapsed_seconds=73.903697 event=ahpc_state_pair_complete rss_bytes=5404041216 hwm_bytes=5826134016 left_mebf=5 pair_count=297295 right_mebf=5
+2026-11-12T11:07:42.572 elapsed_seconds=73.903778 event=ahpc_state_pair_started rss_bytes=5404041216 hwm_bytes=5826134016 left_mebf=6 right_mebf=1
+2026-11-12T11:07:42.572 elapsed_seconds=73.904120 event=ahpc_pair_block_ready rss_bytes=5404041216 hwm_bytes=5826134016 left_mebf=6 pair_count=1092082 right_mebf=1
+2026-11-12T11:07:42.898 elapsed_seconds=74.229995 event=ahpc_precontraction_complete rss_bytes=5404565504 hwm_bytes=5826134016 left_mebf=6 right_mebf=1
+2026-11-12T11:07:42.979 elapsed_seconds=74.311236 event=ahpc_incidence_complete rss_bytes=5416099840 hwm_bytes=5826134016 left_mebf=6 n_edges=1092082 n_kappa=87601 n_lambda=87601 n_union=87601 right_mebf=1
+2026-11-12T11:07:42.997 elapsed_seconds=74.328740 event=ahpc_intermediates_complete rss_bytes=5453324288 hwm_bytes=5826134016 left_mebf=6 n_union=87601 right_mebf=1
+2026-11-12T11:07:43.295 elapsed_seconds=74.626711 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=1 left_mebf=6 n_kappa=87601 next_kappa=14365 right_mebf=1
+2026-11-12T11:07:43.297 elapsed_seconds=74.629032 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=2 left_mebf=6 n_kappa=87601 next_kappa=28729 right_mebf=1
+2026-11-12T11:07:43.299 elapsed_seconds=74.631267 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=3 left_mebf=6 n_kappa=87601 next_kappa=43093 right_mebf=1
+2026-11-12T11:07:43.302 elapsed_seconds=74.633544 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=4 left_mebf=6 n_kappa=87601 next_kappa=57457 right_mebf=1
+2026-11-12T11:07:43.304 elapsed_seconds=74.635922 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=5 left_mebf=6 n_kappa=87601 next_kappa=71821 right_mebf=1
+2026-11-12T11:07:43.306 elapsed_seconds=74.638216 event=ahpc_contraction_block_complete rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=6 left_mebf=6 n_kappa=87601 next_kappa=86185 right_mebf=1
+2026-11-12T11:07:43.335 elapsed_seconds=74.666970 event=ahpc_contraction_prefix_committed rss_bytes=5471477760 hwm_bytes=5826134016 completed_blocks=7 left_mebf=6 n_edges=1092082 n_kappa=87601 next_kappa=87602 processed_edges=1092082 right_mebf=1
+2026-11-12T11:07:43.345 elapsed_seconds=74.677012 event=ahpc_state_pair_complete rss_bytes=5471477760 hwm_bytes=5826134016 left_mebf=6 pair_count=1092082 right_mebf=1
+2026-11-12T11:07:43.345 elapsed_seconds=74.677171 event=ahpc_state_pair_started rss_bytes=5471477760 hwm_bytes=5826134016 left_mebf=6 right_mebf=2
+2026-11-12T11:07:43.346 elapsed_seconds=74.677642 event=ahpc_pair_block_ready rss_bytes=5471477760 hwm_bytes=5826134016 left_mebf=6 pair_count=1299340 right_mebf=2
+2026-11-12T11:07:43.663 elapsed_seconds=74.994738 event=ahpc_precontraction_complete rss_bytes=5472002048 hwm_bytes=5826134016 left_mebf=6 right_mebf=2
+2026-11-12T11:07:43.753 elapsed_seconds=75.084878 event=ahpc_incidence_complete rss_bytes=5472002048 hwm_bytes=5826134016 left_mebf=6 n_edges=1299340 n_kappa=88189 n_lambda=88189 n_union=88189 right_mebf=2
+2026-11-12T11:07:43.772 elapsed_seconds=75.103492 event=ahpc_intermediates_complete rss_bytes=5519187968 hwm_bytes=5826134016 left_mebf=6 n_union=88189 right_mebf=2
+2026-11-12T11:07:43.955 elapsed_seconds=75.286600 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=1 left_mebf=6 n_kappa=88189 next_kappa=14365 right_mebf=2
+2026-11-12T11:07:43.958 elapsed_seconds=75.289706 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=2 left_mebf=6 n_kappa=88189 next_kappa=28729 right_mebf=2
+2026-11-12T11:07:43.961 elapsed_seconds=75.292776 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=3 left_mebf=6 n_kappa=88189 next_kappa=43093 right_mebf=2
+2026-11-12T11:07:43.963 elapsed_seconds=75.294987 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=4 left_mebf=6 n_kappa=88189 next_kappa=57457 right_mebf=2
+2026-11-12T11:07:43.965 elapsed_seconds=75.297210 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=5 left_mebf=6 n_kappa=88189 next_kappa=71821 right_mebf=2
+2026-11-12T11:07:43.968 elapsed_seconds=75.299427 event=ahpc_contraction_block_complete rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=6 left_mebf=6 n_kappa=88189 next_kappa=86185 right_mebf=2
+2026-11-12T11:07:43.995 elapsed_seconds=75.326373 event=ahpc_contraction_prefix_committed rss_bytes=5699440640 hwm_bytes=5826134016 completed_blocks=7 left_mebf=6 n_edges=1299340 n_kappa=88189 next_kappa=88190 processed_edges=1299340 right_mebf=2
+2026-11-12T11:07:44.004 elapsed_seconds=75.335353 event=ahpc_state_pair_complete rss_bytes=5699440640 hwm_bytes=5826134016 left_mebf=6 pair_count=1299340 right_mebf=2
+2026-11-12T11:07:44.004 elapsed_seconds=75.335433 event=ahpc_state_pair_started rss_bytes=5699440640 hwm_bytes=5826134016 left_mebf=6 right_mebf=3
+2026-11-12T11:07:44.004 elapsed_seconds=75.335825 event=ahpc_pair_block_ready rss_bytes=5699440640 hwm_bytes=5826134016 left_mebf=6 pair_count=1366964 right_mebf=3
+2026-11-12T11:07:44.317 elapsed_seconds=75.648675 event=ahpc_precontraction_complete rss_bytes=5699440640 hwm_bytes=5826134016 left_mebf=6 right_mebf=3
+2026-11-12T11:07:44.404 elapsed_seconds=75.736097 event=ahpc_incidence_complete rss_bytes=5699440640 hwm_bytes=5826134016 left_mebf=6 n_edges=1366964 n_kappa=91034 n_lambda=91034 n_union=91034 right_mebf=3
+2026-11-12T11:07:44.423 elapsed_seconds=75.755037 event=ahpc_intermediates_complete rss_bytes=5720412160 hwm_bytes=5826134016 left_mebf=6 n_union=91034 right_mebf=3
+2026-11-12T11:07:44.504 elapsed_seconds=75.835598 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=1 left_mebf=6 n_kappa=91034 next_kappa=14365 right_mebf=3
+2026-11-12T11:07:44.506 elapsed_seconds=75.837894 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=2 left_mebf=6 n_kappa=91034 next_kappa=28729 right_mebf=3
+2026-11-12T11:07:44.508 elapsed_seconds=75.840138 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=3 left_mebf=6 n_kappa=91034 next_kappa=43093 right_mebf=3
+2026-11-12T11:07:44.511 elapsed_seconds=75.842374 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=4 left_mebf=6 n_kappa=91034 next_kappa=57457 right_mebf=3
+2026-11-12T11:07:44.513 elapsed_seconds=75.844726 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=5 left_mebf=6 n_kappa=91034 next_kappa=71821 right_mebf=3
+2026-11-12T11:07:44.515 elapsed_seconds=75.847075 event=ahpc_contraction_block_complete rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=6 left_mebf=6 n_kappa=91034 next_kappa=86185 right_mebf=3
+2026-11-12T11:07:44.526 elapsed_seconds=75.857809 event=ahpc_contraction_prefix_committed rss_bytes=5898145792 hwm_bytes=5898145792 completed_blocks=7 left_mebf=6 n_edges=1366964 n_kappa=91034 next_kappa=91035 processed_edges=1366964 right_mebf=3
+2026-11-12T11:07:44.535 elapsed_seconds=75.866824 event=ahpc_state_pair_complete rss_bytes=5898145792 hwm_bytes=5898145792 left_mebf=6 pair_count=1366964 right_mebf=3
+2026-11-12T11:07:44.535 elapsed_seconds=75.866884 event=ahpc_state_pair_started rss_bytes=5898145792 hwm_bytes=5898145792 left_mebf=6 right_mebf=4
+2026-11-12T11:07:44.535 elapsed_seconds=75.867144 event=ahpc_pair_block_ready rss_bytes=5898145792 hwm_bytes=5898145792 left_mebf=6 pair_count=1201208 right_mebf=4
+2026-11-12T11:07:44.848 elapsed_seconds=76.179686 event=ahpc_precontraction_complete rss_bytes=5898145792 hwm_bytes=5898145792 left_mebf=6 right_mebf=4
+2026-11-12T11:07:44.930 elapsed_seconds=76.261891 event=ahpc_incidence_complete rss_bytes=5898145792 hwm_bytes=5898145792 left_mebf=6 n_edges=1201208 n_kappa=100628 n_lambda=100628 n_union=100628 right_mebf=4
+2026-11-12T11:07:44.961 elapsed_seconds=76.292473 event=ahpc_intermediates_complete rss_bytes=5947953152 hwm_bytes=5947953152 left_mebf=6 n_union=100628 right_mebf=4
+2026-11-12T11:07:45.136 elapsed_seconds=76.467702 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=1 left_mebf=6 n_kappa=100628 next_kappa=14365 right_mebf=4
+2026-11-12T11:07:45.139 elapsed_seconds=76.470775 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=2 left_mebf=6 n_kappa=100628 next_kappa=28729 right_mebf=4
+2026-11-12T11:07:45.142 elapsed_seconds=76.474001 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=3 left_mebf=6 n_kappa=100628 next_kappa=43093 right_mebf=4
+2026-11-12T11:07:45.145 elapsed_seconds=76.477134 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=4 left_mebf=6 n_kappa=100628 next_kappa=57457 right_mebf=4
+2026-11-12T11:07:45.148 elapsed_seconds=76.480080 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=5 left_mebf=6 n_kappa=100628 next_kappa=71821 right_mebf=4
+2026-11-12T11:07:45.151 elapsed_seconds=76.483072 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=6 left_mebf=6 n_kappa=100628 next_kappa=86185 right_mebf=4
+2026-11-12T11:07:45.154 elapsed_seconds=76.486039 event=ahpc_contraction_block_complete rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=7 left_mebf=6 n_kappa=100628 next_kappa=100549 right_mebf=4
+2026-11-12T11:07:45.181 elapsed_seconds=76.512535 event=ahpc_contraction_prefix_committed rss_bytes=6100520960 hwm_bytes=6100520960 completed_blocks=8 left_mebf=6 n_edges=1201208 n_kappa=100628 next_kappa=100629 processed_edges=1201208 right_mebf=4
+2026-11-12T11:07:45.190 elapsed_seconds=76.521491 event=ahpc_state_pair_complete rss_bytes=6100520960 hwm_bytes=6100520960 left_mebf=6 pair_count=1201208 right_mebf=4
+2026-11-12T11:07:45.190 elapsed_seconds=76.521554 event=ahpc_state_pair_started rss_bytes=6100520960 hwm_bytes=6100520960 left_mebf=6 right_mebf=5
+2026-11-12T11:07:45.190 elapsed_seconds=76.521800 event=ahpc_pair_block_ready rss_bytes=6100520960 hwm_bytes=6100520960 left_mebf=6 pair_count=1199256 right_mebf=5
+2026-11-12T11:07:45.506 elapsed_seconds=76.837989 event=ahpc_precontraction_complete rss_bytes=6100520960 hwm_bytes=6100520960 left_mebf=6 right_mebf=5
+2026-11-12T11:07:45.594 elapsed_seconds=76.926236 event=ahpc_incidence_complete rss_bytes=6101045248 hwm_bytes=6101045248 left_mebf=6 n_edges=1199256 n_kappa=100520 n_lambda=100520 n_union=100520 right_mebf=5
+2026-11-12T11:07:45.698 elapsed_seconds=77.030207 event=ahpc_intermediates_complete rss_bytes=6082547712 hwm_bytes=6101045248 left_mebf=6 n_union=100520 right_mebf=5
+2026-11-12T11:07:45.933 elapsed_seconds=77.264775 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=1 left_mebf=6 n_kappa=100520 next_kappa=14365 right_mebf=5
+2026-11-12T11:07:45.936 elapsed_seconds=77.267884 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=2 left_mebf=6 n_kappa=100520 next_kappa=28729 right_mebf=5
+2026-11-12T11:07:45.939 elapsed_seconds=77.270959 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=3 left_mebf=6 n_kappa=100520 next_kappa=43093 right_mebf=5
+2026-11-12T11:07:45.942 elapsed_seconds=77.274047 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=4 left_mebf=6 n_kappa=100520 next_kappa=57457 right_mebf=5
+2026-11-12T11:07:45.945 elapsed_seconds=77.277135 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=5 left_mebf=6 n_kappa=100520 next_kappa=71821 right_mebf=5
+2026-11-12T11:07:45.948 elapsed_seconds=77.280244 event=ahpc_contraction_block_complete rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=6 left_mebf=6 n_kappa=100520 next_kappa=86185 right_mebf=5
+2026-11-12T11:07:45.977 elapsed_seconds=77.308808 event=ahpc_contraction_prefix_committed rss_bytes=5243699200 hwm_bytes=6101045248 completed_blocks=7 left_mebf=6 n_edges=1199256 n_kappa=100520 next_kappa=100521 processed_edges=1199256 right_mebf=5
+2026-11-12T11:07:45.986 elapsed_seconds=77.317670 event=ahpc_state_pair_complete rss_bytes=5243699200 hwm_bytes=6101045248 left_mebf=6 pair_count=1199256 right_mebf=5
+2026-11-12T11:07:45.986 elapsed_seconds=77.317875 event=ahpc_state_pair_started rss_bytes=5243699200 hwm_bytes=6101045248 left_mebf=6 right_mebf=6
+2026-11-12T11:07:45.986 elapsed_seconds=77.318193 event=ahpc_pair_block_ready rss_bytes=5243699200 hwm_bytes=6101045248 left_mebf=6 pair_count=1197163 right_mebf=6
+2026-11-12T11:07:46.315 elapsed_seconds=77.646542 event=ahpc_precontraction_complete rss_bytes=5254184960 hwm_bytes=6101045248 left_mebf=6 right_mebf=6
+2026-11-12T11:07:46.424 elapsed_seconds=77.755505 event=ahpc_incidence_complete rss_bytes=5284593664 hwm_bytes=6101045248 left_mebf=6 n_edges=1197163 n_kappa=111881 n_lambda=111870 n_union=111923 right_mebf=6
+2026-11-12T11:07:46.529 elapsed_seconds=77.860499 event=ahpc_intermediates_complete rss_bytes=5377392640 hwm_bytes=6101045248 left_mebf=6 n_union=111923 right_mebf=6
+2026-11-12T11:07:46.643 elapsed_seconds=77.974903 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=1 left_mebf=6 n_kappa=111881 next_kappa=14365 right_mebf=6
+2026-11-12T11:07:46.646 elapsed_seconds=77.977345 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=2 left_mebf=6 n_kappa=111881 next_kappa=28729 right_mebf=6
+2026-11-12T11:07:46.648 elapsed_seconds=77.979692 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=3 left_mebf=6 n_kappa=111881 next_kappa=43093 right_mebf=6
+2026-11-12T11:07:46.650 elapsed_seconds=77.981923 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=4 left_mebf=6 n_kappa=111881 next_kappa=57457 right_mebf=6
+2026-11-12T11:07:46.652 elapsed_seconds=77.984186 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=5 left_mebf=6 n_kappa=111881 next_kappa=71821 right_mebf=6
+2026-11-12T11:07:46.655 elapsed_seconds=77.986430 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=6 left_mebf=6 n_kappa=111881 next_kappa=86185 right_mebf=6
+2026-11-12T11:07:46.657 elapsed_seconds=77.988678 event=ahpc_contraction_block_complete rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=7 left_mebf=6 n_kappa=111881 next_kappa=100549 right_mebf=6
+2026-11-12T11:07:46.686 elapsed_seconds=78.017791 event=ahpc_contraction_prefix_committed rss_bytes=5588942848 hwm_bytes=6101045248 completed_blocks=8 left_mebf=6 n_edges=1197163 n_kappa=111881 next_kappa=111882 processed_edges=1197163 right_mebf=6
+2026-11-12T11:07:46.694 elapsed_seconds=78.025783 event=ahpc_state_pair_complete rss_bytes=5588942848 hwm_bytes=6101045248 left_mebf=6 pair_count=1197163 right_mebf=6
+2026-11-12T11:07:47.563 elapsed_seconds=78.895138 event=raw_matrix_complete rss_bytes=5592088576 hwm_bytes=6101045248 n_mebfs=6
+2026-11-12T11:07:47.563 elapsed_seconds=78.895243 event=normalization_complete rss_bytes=5592088576 hwm_bytes=6101045248 n_mebfs=6
+2026-11-12T11:07:47.564 elapsed_seconds=78.895420 event=unshifted_solve_complete rss_bytes=5592088576 hwm_bytes=6101045248 ground_energy=-1682.9802386957258 n_states=6
+2026-11-12T11:07:48.851 elapsed_seconds=80.183169 event=baseline_caspt2_solve_complete rss_bytes=5605756928 hwm_bytes=6101045248 ground_energy=-1688.6628710104726
+2026-11-12T11:07:52.022 elapsed_seconds=83.354077 event=matrix_snapshot_committed rss_bytes=5617291264 hwm_bytes=6101045248 path="/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results/result.matrix_snapshot.jld2"
+2026-11-12T11:07:52.569 elapsed_seconds=83.900449 event=production_run_complete rss_bytes=5618339840 hwm_bytes=6101045248 ground_energy=-1688.6628710104726 json="/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results/result.json" sec="/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results/result.sec" snapshot="/scratch/alpha/AHPC/04_pentacene/dimer/05_noci/gpu8/results/result.matrix_snapshot.jld2"

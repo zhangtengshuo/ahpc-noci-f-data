@@ -1,0 +1,79 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: BzAB_GS0S0_oldchain
+  spin_multiplicity: 1
+  fragment_states:
+    - label: BzA_S0
+      fragment: A
+      state: S0
+      determinants: ../../05_oldchain_gronor/BzA_S0.det
+      orbitals: ../../05_oldchain_gronor/BzA_S0.vec
+    - label: BzA_S1
+      fragment: A
+      state: S1
+      determinants: ../../05_oldchain_gronor/BzA_S1.det
+      orbitals: ../../05_oldchain_gronor/BzA_S1.vec
+    - label: BzA_T1
+      fragment: A
+      state: T1
+      determinants: ../../05_oldchain_gronor/BzA_T1.det
+      orbitals: ../../05_oldchain_gronor/BzA_T1.vec
+    - label: BzA_D+
+      fragment: A
+      state: D+
+      determinants: ../../05_oldchain_gronor/BzA_D+.det
+      orbitals: ../../05_oldchain_gronor/BzA_D+.vec
+    - label: BzA_D-
+      fragment: A
+      state: D-
+      determinants: ../../05_oldchain_gronor/BzA_D-.det
+      orbitals: ../../05_oldchain_gronor/BzA_D-.vec
+    - label: BzB_S0
+      fragment: B
+      state: S0
+      determinants: ../../05_oldchain_gronor/BzB_S0.det
+      orbitals: ../../05_oldchain_gronor/BzB_S0.vec
+    - label: BzB_T1
+      fragment: B
+      state: T1
+      determinants: ../../05_oldchain_gronor/BzB_T1.det
+      orbitals: ../../05_oldchain_gronor/BzB_T1.vec
+    - label: BzB_D-
+      fragment: B
+      state: D-
+      determinants: ../../05_oldchain_gronor/BzB_D-.det
+      orbitals: ../../05_oldchain_gronor/BzB_D-.vec
+    - label: BzB_D+
+      fragment: B
+      state: D+
+      determinants: ../../05_oldchain_gronor/BzB_D+.det
+      orbitals: ../../05_oldchain_gronor/BzB_D+.vec
+  mebfs:
+    - label: S0S0
+      states: [BzA_S0, BzB_S0]
+    - label: S1S0
+      states: [BzA_S1, BzB_S0]
+    - label: T1T1
+      states: [BzA_T1, BzB_T1]
+    - label: D+D-
+      states: [BzA_D+, BzB_D-]
+    - label: D-D+
+      states: [BzA_D-, BzB_D+]
+integrals:
+  backend: packed_two
+  one_electron: ../../05_oldchain_gronor/BzAB.one
+  two_electron:
+    - ../../05_oldchain_gronor/BzAB_001.two
+screening:
+  tau_ci: 1.0e-4
+  tau_ci_offdiagonal: 1.0e-4
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: false
+  gpu_device: 0
+  scratch_bytes: 268435456
+  max_active_occupied: 12
+  collect_allocations: true

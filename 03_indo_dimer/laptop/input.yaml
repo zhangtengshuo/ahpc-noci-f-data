@@ -1,0 +1,88 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: INDOAB_GS0S0_CB1e-5_AHPC_CHO_12CPU
+  spin_multiplicity: 1
+  fragment_states:
+    - label: INDOA_S0@GS0
+      fragment: A
+      state: S0
+      determinants: ../data/wavefunctions/B2_INDOA_S0@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOA_S0@GS0.vec
+    - label: INDOA_S1@GS0
+      fragment: A
+      state: S1
+      determinants: ../data/wavefunctions/B2_INDOA_S1@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOA_S1@GS0.vec
+    - label: INDOA_T1@GS0
+      fragment: A
+      state: T1
+      determinants: ../data/wavefunctions/B2_INDOA_T1@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOA_T1@GS0.vec
+    - label: INDOA_D-@GS0
+      fragment: A
+      state: D-
+      determinants: ../data/wavefunctions/B2_INDOA_D-@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOA_D-@GS0.vec
+    - label: INDOA_D+@GS0
+      fragment: A
+      state: D+
+      determinants: ../data/wavefunctions/B2_INDOA_D+@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOA_D+@GS0.vec
+    - label: INDOB_S0@GS0
+      fragment: B
+      state: S0
+      determinants: ../data/wavefunctions/B2_INDOB_S0@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOB_S0@GS0.vec
+    - label: INDOB_S1@GS0
+      fragment: B
+      state: S1
+      determinants: ../data/wavefunctions/B2_INDOB_S1@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOB_S1@GS0.vec
+    - label: INDOB_T1@GS0
+      fragment: B
+      state: T1
+      determinants: ../data/wavefunctions/B2_INDOB_T1@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOB_T1@GS0.vec
+    - label: INDOB_D+@GS0
+      fragment: B
+      state: D+
+      determinants: ../data/wavefunctions/B2_INDOB_D+@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOB_D+@GS0.vec
+    - label: INDOB_D-@GS0
+      fragment: B
+      state: D-
+      determinants: ../data/wavefunctions/B2_INDOB_D-@GS0.det
+      orbitals: ../data/wavefunctions/B2_INDOB_D-@GS0.vec
+  mebfs:
+    - label: S0S0
+      states: [INDOA_S0@GS0, INDOB_S0@GS0]
+    - label: S1S0
+      states: [INDOA_S1@GS0, INDOB_S0@GS0]
+    - label: S0S1
+      states: [INDOA_S0@GS0, INDOB_S1@GS0]
+    - label: S1S1
+      states: [INDOA_S1@GS0, INDOB_S1@GS0]
+    - label: T1T1
+      states: [INDOA_T1@GS0, INDOB_T1@GS0]
+    - label: D-D+
+      states: [INDOA_D-@GS0, INDOB_D+@GS0]
+    - label: D+D-
+      states: [INDOA_D+@GS0, INDOB_D-@GS0]
+integrals:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: ../data/INDOAB.one
+  factor_bundle: ../data/INDOAB_cho_factor_bundle.jld2
+screening:
+  tau_ci: 1.0e-5
+  tau_ci_offdiagonal: 1.0e-5
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: false
+  max_host_bytes: 21474836480
+  contraction_host_scratch_bytes: 268435456
+  max_active_occupied: 12
+  collect_allocations: true

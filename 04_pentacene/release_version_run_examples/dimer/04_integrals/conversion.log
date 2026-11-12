@@ -1,0 +1,7 @@
+factor_bundle = /scratch/alpha/AHPC/04_pentacene/dimer/04_integrals/TriPAB_cho_factor_bundle.jld2
+n_orbitals = 282
+n_orbital_pairs = 39903
+n_auxiliary = 3852
+source_ranks = 8
+transform_backend = gpu
+transform_seconds = 19.694655097000002

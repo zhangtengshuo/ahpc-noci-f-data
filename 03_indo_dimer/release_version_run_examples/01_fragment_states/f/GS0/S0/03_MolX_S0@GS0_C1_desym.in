@@ -1,0 +1,33 @@
+&GATEWAY
+    coord   =   02_INDO_S0.xyz
+    Basis   =   ANO-RCC-VDZP
+    group   =   nosym
+    RICD
+END OF INPUT
+
+&SEWARD
+END OF INPUT
+
+&RASSCF
+    nactel  = 8 0 0
+    charge  = 0
+    Ras2    = 8
+    symmetry= 1
+    spin    = 1
+    fileorb = 01_INDO_CAS88_S0_seed.RasOrb
+    ciroot  = 1 1 1
+    rlxroot = 1
+    prwf    = 1e-6
+    prsd
+END OF INPUT
+
+>>> COPY $Project.RasOrb.1 $CurrDir/$Project.sym.RasOrb.1
+>>> COPY $Project.VecDet.1 $CurrDir/$Project.sym.VecDet.1
+>>> COPY $Project.RasOrb.1 $CurrDir/$Project.DeSymOrb
+
+&CASPT2
+    Multistate= 1 1
+    maxiter = 80
+    imag  = 0.2
+    ipea  = 0.0
+END OF INPUT

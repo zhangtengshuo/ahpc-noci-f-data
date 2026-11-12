@@ -1,0 +1,668 @@
+   This run of MOLCAS is using the pymolcas driver
+
+                             OPE
+                             OPE          NMOL  CASOP  ENMOLC A   SO
+                 OPE        NMOLC        AS  OP EN  MO LC     AS  OP
+                OPENM       OL CA        SO  PE NM  OL CA     SOP EN
+                OP EN      MO   LC       AS  OP ENMOL  CASO   PENMOL
+                OP  EN     MO   LC       AS  OP EN     MO     LC ASO
+               OP   E  NMOL  C  AS       OP  EN MO     LC     AS  OP
+               OP  E   NMO   LC AS        OPEN  MO     LCASOP EN   M
+               O  PEN   MO  LCA  SO
+            OPE   NMO   L   CAS    OP
+        OPENMOL  CASOP     ENMOL   CASOPE
+     OPENMOLCA   SOPENMOLCASOPEN   MOLCASOPE
+    OPENMOLCAS   OP           EN   MOL    CAS
+    OPENMOLCAS       OP  ENM        O     LCA
+    OPENMOLCAS    OPEN  MOLCASO     P  E  NMO
+    OPENMOLCAS     OP               E  N  MOL
+    OPENMOLCA   SO           PENM   O  L  CAS    OPEN    MO    LCAS
+    OPENMOLCA   SOP           ENM   O  L  CAS   OP  EN  MOLC  AS   O
+    OPENMOLCA   SOPE           NM      O  LCA   S      OP  EN MO
+    OPENMOLC                AS         O  PEN   M      OL  CA  SOPE
+    OPENMO        LCASOPE  NMOL        C  ASO   P      ENMOLC     AS
+    OPE     NMO      LCA  SO     P     E   NM   OL  CA SO  PE N   MO
+          OPENMOLCA            SOPE   NMO        LCAS  O    P  ENMO
+     OPENMOLCASOPENMOLCASOPENMOLCASOPENMOLCA
+        OPENMOLCASOPENMOLCASOPENMOLCASOPE
+            OPENMOLCASOPENMOLCASOPENM
+               OPENMOLCASOPENMOLCA        version: oed908de232b407 ?
+                   OPENMOLCASO
+                       OPE                tag:
+
+ OpenMolcas is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License version 2.1.
+ OpenMolcas is distributed in the hope that it will be useful, but it
+ is provided "as is" and without any express or implied warranties.
+ For more details see the full text of the license in the file
+ LICENSE or in <http://www.gnu.org/licenses/>.
+
+                 Copyright (C) The OpenMolcas Authors
+           For the author list and the recommended citation,
+                   consult the file CONTRIBUTORS.md
+
+           *************************************************
+           * pymolcas version py2.32                       *
+           *   build 5fe1e42a8a423461f97be6f8128d9c45      *
+           *   (after the EMIL interpreter by V. Veryazov) *
+           *************************************************
+
+configuration info
+------------------
+Host name: GV800 (Linux)
+C Compiler ID: GNU
+C flags: -std=gnu99
+Fortran Compiler ID: GNU
+Fortran flags: -cpp -fdefault-integer-8 -fmax-stack-var-size=1048576 -ffree-line-length-none -Wno-error
+Definitions: _MOLCAS_;_I8_;_LINUX_;_MOLCAS_MPP_;_SCALAPACK_;_GA_
+Parallel: ON (GA=ON)
+
+
+   ------------------------------------------------------------------------------------------------------------------------
+  |
+  |              Project: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  |       Submitted from: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  |         Scratch area: /dev/shm/alpha/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.1104
+  |      Save outputs to: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  |               Molcas: /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842
+  |
+  | Scratch area is NOT empty
+  |
+  |       MOLCAS_DRIVER = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842/pymolcas
+  | MOLCAS_KEEP_WORKDIR = NO
+  | MOLCAS_LIBMOLCAS_SO = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842/lib/libmolcas.so
+  |       MOLCAS_NPROCS = 8
+  | MOLCAS_SCRATCH_ROOT = /dev/shm/alpha
+  |       MOLCAS_SOURCE = /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842
+  |    MOLCAS_STRUCTURE = 0
+  |
+   ------------------------------------------------------------------------------------------------------------------------
+
+++ ---------   Input file   ---------
+
+&GATEWAY
+  coord = B1_TriPAB_GS1S0.xyz
+  Basis = ANO-L-VDZP
+  RICD
+  group = nosym
+END OF INPUT
+
+&SEWARD
+
+END OF INPUT
+
+>>> COPY $Project.RunFile $CurrDir/$Project.RunFile
+
+>>> COPY $Project.OneInt $CurrDir/$Project.OneInt
+
+>>> COPY $Project.ChVec1 $CurrDir/$Project.ChVec1
+
+>>> COPY $Project.ChRst $CurrDir/$Project.ChRst
+
+>>> COPY $Project.ChRed $CurrDir/$Project.ChRed
+
+>>> COPY $Project.ChMap $CurrDir/$Project.ChMap
+
+>>> SHELL bash -lc 'set -e; T=/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low; for d in ./tmp_*; do r=${d#./tmp_}; mkdir -p "$T/tmp_$r"; cp "$d"/*.ChVec1 "$d"/*.ChRst "$T/tmp_$r/"; done; echo $(( $(ls -d ./tmp_* | wc -l) + 1 )) > B3_CHMOT1_NODES; echo snapshot_exported'
+
+>>> COPY B3_CHMOT1_NODES $CurrDir/B3_CHMOT1_NODES
+
+-- ----------------------------------
+
+--- Start Module: gateway at Wed Sep  2 02:21:57 2026 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &GATEWAY
+
+             launched 8 MPI processes, running in PARALLEL mode (work-sharing enabled)
+                       available to each process: 10 GB of memory, 1 thread?
+                                        master pid: 1431744
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+
+++    Symmetry information:
+      ---------------------
+
+                    Character Table for C1 
+
+                             E  
+                    a        1  x, y, xy, Rz, z, xz, Ry, yz, Rx, I
+--
+
+
+++    Basis set information:
+      ----------------------
+
+
+      Basis set label: C.ANO-L...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   6.000000 au
+      Associated Actual Charge      6.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: H.ANO-L...2S1P.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   1.000000 au
+      Associated Actual Charge      1.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s       8       2        X                  
+         p       4       1        X                  
+
+
+      Basis set label: C.ANO-L...3S2P1D.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   6.000000 au
+      Associated Actual Charge      6.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      14       3        X                  
+         p       9       2        X                  
+         d       4       1                 X         
+
+
+      Basis set label: H.ANO-L...2S1P.
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   1.000000 au
+      Associated Actual Charge      1.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s       8       2        X                  
+         p       4       1        X                  
+--
+
+
+++    Molecular structure info:
+      -------------------------
+
+                    ************************************************ 
+                    **** Cartesian Coordinates / bohr, angstrom **** 
+                    ************************************************ 
+
+     Center  Label                x              y              z                     x              y              z
+        1      C1              14.387685       6.494123      -9.576482              7.613635       3.436542      -5.067656
+        2      C2              16.544360       7.309665      -8.218263              8.754898       3.868108      -4.348918
+        3      C3               7.031423      -5.283364       9.176092              3.720869      -2.795836       4.855779
+        4      C4               9.188098      -4.467822      10.534311              4.862132      -2.364270       5.574517
+        5      C5              16.892904       6.555801      -5.696376              8.939340       3.469180      -3.014393
+        6      C6              12.590633       4.928906      -8.405837              6.662676       2.608265      -4.448177
+        7      C7              10.985149      -2.902605       9.363666              5.813091      -1.535992       4.955039
+        8      C8               6.682878      -4.529500       6.654205              3.536427      -2.396908       3.521254
+        9      C9              15.106833       4.977174      -4.473164              7.994192       2.633807      -2.367096
+       10      C10             12.899476       4.142467      -5.863301              6.826109       2.192099      -3.102725
+       11      C11             10.676306      -2.116166       6.821130              5.649658      -1.119827       3.609586
+       12      C12              8.468949      -2.950874       5.430993              4.481575      -1.561535       2.873958
+       13      C13             15.413749       4.186668      -1.923163              8.156605       2.215490      -1.017694
+       14      C14             11.109872       2.559167      -4.633635              5.879091       1.354253      -2.452014
+       15      C15             12.465910      -0.532866       5.591464              6.596676      -0.281980       2.958875
+       16      C16              8.162033      -2.160368       2.880991              4.319162      -1.143217       1.524555
+       17      C17             13.636887       2.615817      -0.705307              7.216330       1.384231      -0.373233
+       18      C18             11.416524       1.776191      -2.103635              6.041365       0.939920      -1.113196
+       19      C19             12.159258       0.250109       3.061464              6.434402       0.132352       1.620057
+       20      C20              9.938895      -0.589516       1.663136              5.259437      -0.311958       0.880094
+       21      C21             13.938161       1.826270       1.833100              7.375757       0.966421       0.970035
+       22      C22              9.637621       0.200030      -0.875271              5.100009       0.105852      -0.463173
+       23      H23             14.116000       7.081570     -11.541789              7.469866       3.747406      -6.107652
+       24      H24             17.944840       8.529438      -9.130483              9.496001       4.513584      -4.831644
+       25      H25              5.630942      -6.503137      10.088312              2.979766      -3.441312       5.338505
+       26      H26              9.459782      -5.055269      12.499618              5.005901      -2.675133       6.614513
+       27      H27             18.561913       7.186394      -4.643878              9.822541       3.802876      -2.457434
+       28      H28             10.920744       4.296902      -9.456091              5.779009       2.273823      -5.003948
+       29      H29             12.655038      -2.270602      10.413920              6.696758      -1.201551       5.510809
+       30      H30              5.013870      -5.160093       5.601706              2.653225      -2.730604       2.964295
+       31      H31             17.085934       4.819309      -0.870863              9.041487       2.550269      -0.460841
+       32      H32              9.438190       1.927331      -5.687217              4.994475       1.019900      -3.009546
+       33      H33             14.137593       0.098970       6.645046              7.481292       0.052373       3.516407
+       34      H34              6.489848      -2.793008       1.828691              3.434280      -1.477996       0.967702
+       35      H35             15.610938       2.458827       2.886572              8.260952       1.301155       1.527508
+       36      H36              7.964845      -0.432526      -1.928743              4.214814      -0.228883      -1.020647
+       37      C37             10.708562      12.787175      -7.389862              5.666727       6.766681      -3.910546
+       38      C38              8.295411      14.000673      -7.573719              4.389742       7.408837      -4.007840
+       39      C39              3.492470       1.297626      11.488780              1.848136       0.686674       6.079601
+       40      C40              1.079319       2.511124      11.304923              0.571151       1.328830       5.982307
+       41      C41              6.412121      13.476430      -5.826461              3.393148       7.131420      -3.083230
+       42      C42             11.187333      11.075126      -5.462638              5.920082       5.860704      -2.890704
+       43      C43              0.600548       4.223173       9.377699              0.317796       2.234807       4.962465
+       44      C44              5.375759       1.821869       9.741522              2.844729       0.964091       5.154991
+       45      C45              6.840726      11.719611      -3.813106              3.619956       6.201751      -2.017809
+       46      C46              9.287389      10.489261      -3.626695              4.914675       5.550678      -1.919165
+       47      C47              2.500491       4.809038       7.541757              1.323203       2.544833       3.990926
+       48      C48              4.947155       3.578687       7.728167              2.617922       1.893760       4.089570
+       49      C49              4.954041      11.161921      -2.020929              2.621566       5.906634      -1.069429
+       50      C50              9.735996       8.757226      -1.656593              5.152067       4.634125      -0.876631
+       51      C51              2.051885       6.541072       5.571654              1.085811       3.461386       2.948392
+       52      C52              6.833839       4.136378       5.935990              3.616312       2.188877       3.141191
+       53      C53              5.387885       9.417988      -0.027120              2.851146       4.983785      -0.014351
+       54      C54              7.845629       8.182065       0.160135              4.151728       4.329763       0.084740
+       55      C55              3.942251       7.116233       3.754926              2.086150       3.765749       1.987021
+       56      C56              6.399996       5.880311       3.942181              3.386732       3.111727       2.086112
+       57      C57              3.504756       8.850595       1.775499              1.854637       4.683533       0.939554
+       58      C58              8.283124       6.447704       2.139562              4.383241       3.411978       1.132207
+       59      H59             12.181229      13.214644      -8.778685              6.446029       6.992889      -4.645480
+       60      H60              7.937763      15.348550      -9.101994              4.200483       8.122103      -4.816568
+       61      H61              3.850118      -0.050251      13.017055              2.037395      -0.026592       6.888329
+       62      H62             -0.393348       2.083655      12.693746             -0.208151       1.102623       6.717241
+       63      H63              4.566045      14.403586      -5.965600              2.416247       7.622050      -3.156859
+       64      H64             13.032285      10.146181      -5.320559              6.896388       5.369128      -2.815519
+       65      H65             -1.244404       5.152118       9.235620             -0.658510       2.726384       4.887280
+       66      H66              7.221835       0.894712       9.880661              3.821631       0.473461       5.228620
+       67      H67              3.109722      12.092050      -2.164890              1.645594       6.398837      -1.145610
+       68      H68             11.582872       7.831169      -1.519323              6.129392       4.144076      -0.803991
+       69      H69              0.205008       7.467130       5.434384              0.108486       3.951435       2.875752
+       70      H70              8.678158       3.206249       6.079951              4.592284       1.696674       3.217371
+       71      H71              1.658100       9.779220       1.634803              0.877429       5.174941       0.865100
+       72      H72             10.129780       5.519079       2.280258              5.360449       2.920571       1.206661
+
+                    ************************************************* 
+                    **** InterNuclear Distances / bohr, angstrom **** 
+                    ************************************************* 
+
+     Atom centers         bohr        angstrom
+   59 H59      37 C37     2.068891        1.094810
+   60 H60      38 C38   
+   61 H61      39 C39   
+   62 H62      40 C40   
+   23 H23       1 C1      2.069139        1.094941
+   24 H24       2 C2    
+   25 H25       3 C3    
+   26 H26       4 C4    
+   63 H63      41 C41     2.070501        1.095662
+   64 H64      42 C42   
+   65 H65      43 C43   
+   66 H66      44 C44   
+   67 H67      49 C49     2.070598        1.095713
+   68 H68      50 C50   
+   69 H69      51 C51   
+   70 H70      52 C52   
+   27 H27       5 C5      2.071471        1.096175
+   28 H28       6 C6    
+   29 H29       7 C7    
+   30 H30       8 C8    
+   71 H71      57 C57     2.071781        1.096339
+   72 H72      58 C58   
+   31 H31      13 C13     2.074554        1.097807
+   32 H32      14 C14   
+   33 H33      15 C15   
+   34 H34      16 C16   
+   35 H35      21 C21     2.075599        1.098360
+   36 H36      22 C22   
+   41 C41      38 C38     2.621931        1.387466
+   42 C42      37 C37   
+   43 C43      40 C40   
+   44 C44      39 C39   
+    5 C5        2 C2      2.655129        1.405034
+    6 C6        1 C1    
+    7 C7        4 C4    
+    8 C8        3 C3    
+   49 C49      45 C45     2.661296        1.408297
+   50 C50      46 C46   
+   51 C51      47 C47   
+   52 C52      48 C48   
+   17 C17      13 C13     2.666080        1.410829
+   18 C18      14 C14   
+   19 C19      15 C15   
+   20 C20      16 C16   
+   57 C57      53 C53     2.667872        1.411777
+   57 C57      55 C55   
+   58 C58      54 C54   
+   58 C58      56 C56   
+   21 C21      17 C17     2.675380        1.415750
+   21 C21      19 C19   
+   22 C22      18 C18   
+   22 C22      20 C20   
+    2 C2        1 C1      2.676026        1.416092
+    4 C4        3 C3    
+    9 C9        5 C5      2.679246        1.417796
+   10 C10       6 C6    
+   11 C11       7 C7    
+   12 C12       8 C8    
+   53 C53      49 C49     2.684176        1.420405
+   54 C54      50 C50   
+   55 C55      51 C51   
+   56 C56      52 C52   
+   13 C13       9 C9      2.687304        1.422060
+   14 C14      10 C10   
+   15 C15      11 C11   
+   16 C16      12 C12   
+   45 C45      41 C41     2.706235        1.432078
+   46 C46      42 C42   
+   47 C47      43 C43   
+   48 C48      44 C44   
+   38 C38      37 C37     2.707338        1.432662
+   40 C40      39 C39   
+   10 C10       9 C9      2.738913        1.449370
+   12 C12      11 C11   
+   46 C46      45 C45     2.744936        1.452558
+   48 C48      47 C47   
+   18 C18      17 C17     2.755050        1.457910
+   20 C20      19 C19   
+   54 C54      53 C53     2.757368        1.459136
+   56 C56      55 C55   
+   59 H59      42 C42     4.069586        2.153532
+   60 H60      41 C41   
+   61 H61      44 C44   
+   62 H62      43 C43   
+   63 H63      38 C38     4.081244        2.159701
+   64 H64      37 C37   
+   65 H65      40 C40   
+   66 H66      39 C39   
+   67 H67      45 C45     4.095817        2.167413
+   68 H68      46 C46   
+   69 H69      47 C47   
+   70 H70      48 C48   
+   31 H31      17 C17     4.096183        2.167606
+   32 H32      18 C18   
+   33 H33      19 C19   
+   34 H34      20 C20   
+   23 H23       6 C6      4.098159        2.168652
+   24 H24       5 C5    
+   25 H25       8 C8    
+   26 H26       7 C7    
+   71 H71      53 C53     4.099240        2.169224
+   71 H71      55 C55   
+   72 H72      54 C54   
+   72 H72      56 C56   
+   35 H35      17 C17     4.101599        2.170473
+   35 H35      19 C19   
+   36 H36      18 C18   
+   36 H36      20 C20   
+   27 H27       9 C9      4.104555        2.172037
+   28 H28      10 C10   
+   29 H29      11 C11   
+   30 H30      12 C12   
+   27 H27       2 C2      4.106331        2.172977
+   28 H28       1 C1    
+   29 H29       4 C4    
+   30 H30       3 C3    
+   67 H67      53 C53     4.112261        2.176115
+   68 H68      54 C54   
+   69 H69      55 C55   
+   70 H70      56 C56   
+   31 H31       9 C9      4.113191        2.176607
+   32 H32      10 C10   
+   33 H33      11 C11   
+   34 H34      12 C12   
+   23 H23       2 C2      4.122472        2.181518
+   24 H24       1 C1    
+   25 H25       4 C4    
+   26 H26       3 C3    
+   63 H63      45 C45     4.124454        2.182567
+   64 H64      46 C46   
+   65 H65      47 C47   
+   66 H66      48 C48   
+   59 H59      38 C38     4.143594        2.192695
+   60 H60      37 C37   
+   61 H61      40 C40   
+   62 H62      39 C39   
+    5 C5        1 C1      4.618999        2.444269
+    6 C6        2 C2    
+    7 C7        3 C3    
+    8 C8        4 C4    
+   41 C41      37 C37     4.623711        2.446762
+   42 C42      38 C38   
+   43 C43      39 C39   
+   44 C44      40 C40   
+   45 C45      38 C38     4.632662        2.451499
+   46 C46      37 C37   
+   47 C47      40 C40   
+   48 C48      39 C39   
+    9 C9        2 C2      4.640341        2.455563
+   10 C10       1 C1    
+   11 C11       4 C4    
+   12 C12       3 C3    
+   55 C55      53 C53     4.657445        2.464614
+   56 C56      54 C54   
+   53 C53      45 C45     4.662822        2.467459
+   54 C54      46 C46   
+   55 C55      47 C47   
+   56 C56      48 C48   
+    9 C9        6 C6      4.668995        2.470726
+   10 C10       5 C5    
+   11 C11       8 C8    
+   12 C12       7 C7    
+   49 C49      46 C46     4.669996        2.471256
+   50 C50      45 C45   
+   51 C51      48 C48   
+   52 C52      47 C47   
+   17 C17      14 C14     4.671271        2.471930
+   18 C18      13 C13   
+   19 C19      16 C16   
+   20 C20      15 C15   
+   13 C13      10 C10     4.674207        2.473484
+   14 C14       9 C9    
+   15 C15      12 C12   
+   16 C16      11 C11   
+   57 C57      49 C49     4.674989        2.473898
+   57 C57      51 C51   
+   58 C58      50 C50   
+   58 C58      52 C52   
+   21 C21      13 C13     4.675291        2.474057
+   21 C21      15 C15   
+   22 C22      14 C14   
+   22 C22      16 C16   
+   21 C21      18 C18     4.675365        2.474097
+   21 C21      20 C20   
+   22 C22      17 C17   
+   22 C22      19 C19   
+   35 H35      31 H31     4.676088        2.474479
+   35 H35      33 H33   
+   36 H36      32 H32   
+   36 H36      34 H34   
+   71 H71      67 H67     4.679108        2.476077
+   71 H71      69 H69   
+   72 H72      68 H68   
+   72 H72      70 H70   
+   57 C57      54 C54     4.679691        2.476386
+   57 C57      56 C56   
+   58 C58      53 C53   
+   58 C58      55 C55   
+   67 H67      63 H63     4.680756        2.476949
+   68 H68      64 H64   
+   69 H69      65 H65   
+   70 H70      66 H66   
+   17 C17       9 C9      4.683321        2.478307
+   18 C18      10 C10   
+   19 C19      11 C11   
+   20 C20      12 C12   
+   49 C49      41 C41     4.686685        2.480087
+   50 C50      42 C42   
+   51 C51      43 C43   
+   52 C52      44 C44   
+   19 C19      17 C17     4.687059        2.480285
+   20 C20      18 C18   
+   53 C53      50 C50     4.690188        2.481941
+   54 C54      49 C49   
+   55 C55      52 C52   
+   56 C56      51 C51   
+   31 H31      27 H27     4.692254        2.483034
+   32 H32      28 H28   
+   33 H33      29 H29   
+   34 H34      30 H30   
+   45 C45      42 C42     4.693540        2.483714
+   46 C46      41 C41   
+   47 C47      44 C44   
+   48 C48      43 C43   
+   13 C13       5 C5      4.694446        2.484194
+   14 C14       6 C6    
+   15 C15       7 C7    
+   16 C16       8 C8    
+   63 H63      60 H60     4.700894        2.487606
+   64 H64      59 H59   
+   65 H65      62 H62   
+   66 H66      61 H61   
+   27 H27      24 H24     4.723788        2.499721
+   28 H28      23 H23   
+   29 H29      26 H26   
+   30 H30      25 H25   
+   24 H24      23 H23     4.750866        2.514050
+   26 H26      25 H25   
+   60 H60      59 H59     4.760787        2.519300
+   62 H62      61 H61   
+   71 H71      49 C49     5.112677        2.705512
+   71 H71      51 C51   
+   72 H72      50 C50   
+   72 H72      52 C52   
+   35 H35      13 C13     5.114476        2.706464
+   35 H35      15 C15   
+   36 H36      14 C14   
+   36 H36      16 C16   
+   31 H31      21 C21     5.116460        2.707514
+   32 H32      22 C22   
+   33 H33      21 C21   
+   34 H34      22 C22   
+   67 H67      57 C57     5.117592        2.708113
+   68 H68      58 C58   
+   69 H69      57 C57   
+   70 H70      58 C58   
+   63 H63      49 C49     5.120485        2.709644
+   64 H64      50 C50   
+   65 H65      51 C51   
+   66 H66      52 C52   
+   67 H67      41 C41     5.121469        2.710165
+   68 H68      42 C42   
+   69 H69      43 C43   
+   70 H70      44 C44   
+   27 H27      13 C13     5.129481        2.714405
+   28 H28      14 C14   
+   29 H29      15 C15   
+   30 H30      16 C16   
+   31 H31       5 C5      5.132080        2.715780
+   32 H32       6 C6    
+   33 H33       7 C7    
+   34 H34       8 C8    
+   64 H64       5 C5      5.285494        2.796963
+   68 H68      13 C13     5.302932        2.806191
+   72 H72      21 C21     5.323584        2.817119
+   22 C22      21 C21     5.336157        2.823773
+    6 C6        5 C5      5.338305        2.824909
+    8 C8        7 C7    
+   14 C14      13 C13     5.340298        2.825964
+   16 C16      15 C15   
+   70 H70      15 C15     5.344779        2.828335
+   42 C42      41 C41     5.357357        2.834991
+   44 C44      43 C43   
+   58 C58      57 C57     5.360899        2.836865
+   64 H64       2 C2      5.364436        2.838738
+   50 C50      49 C49     5.364922        2.838995
+   52 C52      51 C51   
+   66 H66       7 C7      5.371167        2.842299
+    9 C9        1 C1      5.372352        2.842926
+   10 C10       2 C2    
+   11 C11       3 C3    
+   12 C12       4 C4    
+   45 C45      37 C37     5.375224        2.844446
+   46 C46      38 C38   
+   47 C47      39 C39   
+   48 C48      40 C40   
+   68 H68       9 C9      5.411909        2.863859
+   55 C55      54 C54     5.412474        2.864158
+   56 C56      53 C53   
+   53 C53      46 C46     5.413937        2.864932
+   54 C54      45 C45   
+   55 C55      48 C48   
+   56 C56      47 C47   
+   17 C17      10 C10     5.429488        2.873161
+   18 C18       9 C9    
+   19 C19      12 C12   
+   20 C20      11 C11   
+   19 C19      18 C18     5.436803        2.877032
+   20 C20      17 C17   
+   72 H72      17 C17     5.444477        2.881093
+   70 H70      19 C19     5.474310        2.896880
+   66 H66      11 C11     5.509945        2.915737
+   64 H64       9 C9      5.633867        2.981314
+   68 H68      17 C17     5.664053        2.997288
+--
+
+
+            Nuclear Potential Energy           4713.12406564 au
+
+--- Stop Module: gateway at Wed Sep  2 02:21:58 2026 /rc=_RC_ALL_IS_WELL_ ---
+*** files: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.RICDLib xmldump
+    saved to directory /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+--- Module gateway spent 1 second ---
+
+--- Start Module: seward at Wed Sep  2 02:22:00 2026 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &SEWARD
+
+             launched 8 MPI processes, running in PARALLEL mode (work-sharing enabled)
+                       available to each process: 10 GB of memory, 1 thread?
+                                        master pid: 1431962
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+               SEWARD will generate:
+                  Multipole Moment integrals up to order  2
+                  Kinetic Energy integrals
+                  Nuclear Attraction integrals (point charge)
+                  One-Electron Hamiltonian integrals
+                  Velocity integrals
+                  Orbital angular momentum around (  8.8409   4.3311   1.2182 )
+                  Velocity quadrupole around (  8.8409   4.3311   1.2182 )
+                  RI decomposed two-electron repulsion integrals stored Cholesky style
+                   - acCD auxiliary basis
+                   - CD Threshold:   1.00E-04
+
+                   Integrals are discarded if absolute value <: 1.00E-14
+                   Integral cutoff threshold is set to       <: 1.00E-16
+
+            Nuclear Potential Energy           4713.12406564 au
+
+
+      Basis set specifications :
+      Symmetry species         a  
+      Basis functions          756
+
+
+      Input file to MOLDEN was generated!
+
+--- Stop Module: seward at Wed Sep  2 02:30:05 2026 /rc=_RC_ALL_IS_WELL_ ---
+*** files: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.GssOrb B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.guessorb.h5 B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.guessorb.molden xmldump
+    saved to directory /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+--- Module seward spent 8 minutes 5 seconds ---
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.RunFile /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.RunFile
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.OneInt /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.OneInt
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChVec1 /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChVec1
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRst /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRst
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRed /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChRed
+
+>>> COPY B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChMap /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.ChMap
+
+>>> SHELL bash -lc 'set -e; T=/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low; for d in ./tmp_*; do r=${d#./tmp_}; mkdir -p "$T/tmp_$r"; cp "$d"/*.ChVec1 "$d"/*.ChRst "$T/tmp_$r/"; done; echo $(( $(ls -d ./tmp_* | wc -l) + 1 )) > B3_CHMOT1_NODES; echo snapshot_exported'
+snapshot_exported
+
+>>> COPY B3_CHMOT1_NODES /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_CHMOT1_NODES
+
+.##################.
+.# Happy landing! #.
+.##################.
+
+    Timing: Wall=486.58 User=3844.56 System=42.51
+*********************************************************************************
+*** WorkDir at /dev/shm/alpha/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.1104 cleaned ***
+*********************************************************************************

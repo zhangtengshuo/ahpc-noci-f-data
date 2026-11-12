@@ -1,0 +1,112 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: indo_gpu8
+  spin_multiplicity: 1
+  fragment_states:
+  - label: INDOA_S0@GS0
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.vec
+  - label: INDOB_S0@GS0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.vec
+  - label: INDOA_S1@GS0
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.vec
+  - label: INDOB_S1@GS0
+    fragment: B
+    state: S1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.vec
+  - label: INDOA_T1@GS0
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.vec
+  - label: INDOB_T1@GS0
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.vec
+  - label: INDOA_D-@GS0
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.vec
+  - label: INDOB_D+@GS0
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.vec
+  - label: INDOA_D+@GS0
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.vec
+  - label: INDOB_D-@GS0
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.vec
+  mebfs:
+  - label: S0S0
+    states:
+    - INDOA_S0@GS0
+    - INDOB_S0@GS0
+  - label: S1S0
+    states:
+    - INDOA_S1@GS0
+    - INDOB_S0@GS0
+  - label: S0S1
+    states:
+    - INDOA_S0@GS0
+    - INDOB_S1@GS0
+  - label: S1S1
+    states:
+    - INDOA_S1@GS0
+    - INDOB_S1@GS0
+  - label: T1T1
+    states:
+    - INDOA_T1@GS0
+    - INDOB_T1@GS0
+  - label: D-D+
+    states:
+    - INDOA_D-@GS0
+    - INDOB_D+@GS0
+  - label: D+D-
+    states:
+    - INDOA_D+@GS0
+    - INDOB_D-@GS0
+integrals:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/03_indo_dimer/04_integrals/INDOAB.one
+  factor_bundle: /scratch/alpha/AHPC/03_indo_dimer/04_integrals/INDOAB_cho_factor_bundle.jld2
+screening:
+  tau_ci: 1.0e-05
+  tau_ci_offdiagonal: 1.0e-05
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: true
+  scratch_bytes: 268435456
+  max_host_bytes: 51539607552
+  collect_allocations: false
+  gpu_devices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  max_device_bytes: 10737418240
+  max_active_occupied: 12

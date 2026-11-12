@@ -1,0 +1,11 @@
+&GATEWAY
+  coord = B1_INDOAB_GS0S0.xyz
+  Basis = ANO-RCC-VDZP
+  RICD
+  group = nosym
+END OF INPUT
+
+&SEWARD
+END OF INPUT
+
+>>> SHELL bash -lc 'set -Eeuo pipefail; P="$Project"; T="$CurrDir/SEWARD_MPI_SHARDS"; R=8; test ! -e "$T"; S="${T}.partial.$$"; trap '\''test ! -e "$S" || find "$S" -depth -delete'\'' EXIT; mkdir "$S"; for x in RunFile OneInt ChRed ChMap ChRst ChVec1; do test -s "$P.$x"; cp -- "$P.$x" "$S/$P.$x"; done; test -s "$CurrDir/COMMONORB"; cp -- "$CurrDir/COMMONORB" "$S/COMMONORB"; for ((r=1; r<R; r++)); do test -d "tmp_$r"; mkdir "$S/tmp_$r"; for x in ChRst ChVec1; do test -s "tmp_$r/$P.$x"; cp -- "tmp_$r/$P.$x" "$S/tmp_$r/$P.$x"; done; done; printf "%s\n" "$P" > "$S/project.txt"; printf "%s\n" "$R" > "$S/ranks.txt"; mv -- "$S" "$T"; trap - EXIT; echo "SEWARD snapshot saved: $T"'

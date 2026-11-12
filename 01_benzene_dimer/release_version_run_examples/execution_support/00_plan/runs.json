@@ -1,0 +1,56 @@
+[
+  {
+    "name": "benzene_cpu1_packed",
+    "case": "01_benzene_dimer",
+    "variant": "cpu1_packed",
+    "threads": 1,
+    "gpu": false,
+    "storage": "packed",
+    "conversion": false
+  },
+  {
+    "name": "benzene_cpu1_factor",
+    "case": "01_benzene_dimer",
+    "variant": "cpu1_factor",
+    "threads": 1,
+    "gpu": false,
+    "storage": "factor",
+    "conversion": false
+  },
+  {
+    "name": "indo_cpu8",
+    "case": "03_indo_dimer",
+    "variant": "cpu8",
+    "threads": 8,
+    "gpu": false,
+    "storage": "factor",
+    "conversion": false
+  },
+  {
+    "name": "indo_gpu8",
+    "case": "03_indo_dimer",
+    "variant": "gpu8",
+    "threads": 8,
+    "gpu": true,
+    "storage": "factor",
+    "conversion": false
+  },
+  {
+    "name": "pentacene_dimer_gpu8",
+    "case": "04_pentacene/dimer",
+    "variant": "gpu8",
+    "threads": 8,
+    "gpu": true,
+    "storage": "factor",
+    "conversion": true
+  },
+  {
+    "name": "pentacene_trimer_gpu8",
+    "case": "04_pentacene/trimer",
+    "variant": "gpu8",
+    "threads": 8,
+    "gpu": true,
+    "storage": "factor",
+    "conversion": false
+  }
+]

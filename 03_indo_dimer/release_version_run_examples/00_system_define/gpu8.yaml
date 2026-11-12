@@ -1,0 +1,130 @@
+schema_version: 4
+project: indo_gpu8
+method: ahpc_noci
+geometry:
+  aggregate: geometry/aggregate.xyz
+cas:
+  backend: openmolcas
+  integral_method: ricd
+  generation_threshold: 0.0001
+  basis: ANO-RCC-VDZP
+caspt2:
+  enabled: true
+  ipea_shift: 0.0
+  imaginary_shift: 0.2
+  max_iterations: 80
+molecules:
+  f:
+    symmetry: C1
+    geometries:
+      GS0:
+        xyz: geometry/f_GS0.xyz
+        initial_orbitals:
+          default: orbitals/01_INDO_CAS88_S0_seed.RasOrb
+    states:
+      S0:
+        charge: 0
+        multiplicity: 1
+        nactel: 8
+        inactive: 76
+        ras2: 8
+        symmetry: 1
+        ciroot: 1 1 1
+        rlxroot: 1
+      S1:
+        charge: 0
+        multiplicity: 1
+        nactel: 8
+        inactive: 76
+        ras2: 8
+        symmetry: 1
+        ciroot: 1 2; 2
+        rlxroot: 2
+      T1:
+        charge: 0
+        multiplicity: 3
+        nactel: 8
+        inactive: 76
+        ras2: 8
+        symmetry: 1
+        ciroot: 1 1 1
+        rlxroot: 1
+      D+:
+        charge: 1
+        multiplicity: 2
+        nactel: 7
+        inactive: 76
+        ras2: 8
+        symmetry: 1
+        ciroot: 1 1 1
+        rlxroot: 1
+      D-:
+        charge: -1
+        multiplicity: 2
+        nactel: 9
+        inactive: 76
+        ras2: 8
+        symmetry: 1
+        ciroot: 1 1 1
+        rlxroot: 1
+fragments:
+  f_A:
+    molecule: f
+    geometry: GS0
+    frozen_orbitals: false
+  f_B:
+    molecule: f
+    geometry: GS0
+    frozen_orbitals: false
+system:
+  charge: 0
+  spin_multiplicity: 1
+mebf_table:
+- - f_A
+  - S0
+  - S1
+  - S0
+  - S1
+  - T1
+  - D-
+  - D+
+- - f_B
+  - S0
+  - S0
+  - S1
+  - S1
+  - T1
+  - D+
+  - D-
+common_orbitals:
+  threshold: 1.0e-05
+integrals:
+  backend: openmolcas
+  method: ricd
+  generation_threshold: 0.0001
+screening:
+  tau_ci: 1.0e-05
+  tau_ci_offdiagonal: 1.0e-05
+output:
+  checkpoint: true
+templates:
+  cas: templates/openmolcas/cas.in
+  caspt2: templates/openmolcas/caspt2.in
+  fragment_reference: templates/openmolcas/fragment_reference.in
+  aggregate_reference: templates/openmolcas/aggregate_reference.in
+  integrals: templates/openmolcas/integrals_ricd.in
+runtime:
+  threads: 8
+  blas_threads: 1
+  scratch_mb: 256
+  heap_size_hint_mb: 16000
+  use_gpu: true
+  gpu_devices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7

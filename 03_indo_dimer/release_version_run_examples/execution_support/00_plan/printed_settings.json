@@ -1,0 +1,1754 @@
+[
+  {
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.out",
+    "excerpts": [
+      {
+        "line": 344,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 345,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 346,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 347,
+        "text": ""
+      },
+      {
+        "line": 348,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 349,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 350,
+        "text": ""
+      },
+      {
+        "line": 457,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 458,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 459,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 460,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 461,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.out",
+    "excerpts": [
+      {
+        "line": 344,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 345,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 346,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 347,
+        "text": ""
+      },
+      {
+        "line": 348,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 349,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 350,
+        "text": ""
+      },
+      {
+        "line": 457,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 458,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 459,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 460,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 461,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.out",
+    "excerpts": [
+      {
+        "line": 344,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 345,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 346,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 347,
+        "text": ""
+      },
+      {
+        "line": 348,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 349,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 350,
+        "text": ""
+      },
+      {
+        "line": 458,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 459,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 460,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 461,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 462,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.out",
+    "excerpts": [
+      {
+        "line": 344,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 345,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 346,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 347,
+        "text": ""
+      },
+      {
+        "line": 348,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 349,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 350,
+        "text": ""
+      },
+      {
+        "line": 458,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 459,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 460,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 461,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 462,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.out",
+    "excerpts": [
+      {
+        "line": 344,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 345,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 346,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 347,
+        "text": ""
+      },
+      {
+        "line": 348,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 349,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 350,
+        "text": ""
+      },
+      {
+        "line": 457,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 458,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 459,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 460,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 461,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/Bz.out",
+    "excerpts": [
+      {
+        "line": 898,
+        "text": ""
+      },
+      {
+        "line": 899,
+        "text": " Threshold common molecular orbital transformation     1.000E-04"
+      },
+      {
+        "line": 900,
+        "text": " Threshold product MEBF expansion coefficients         1.000E-04"
+      },
+      {
+        "line": 901,
+        "text": " Threshold product MEBF expansion coefficients for off 1.000E-04"
+      },
+      {
+        "line": 902,
+        "text": " Threshold determining singularities                   1.000E-12"
+      },
+      {
+        "line": 903,
+        "text": ""
+      },
+      {
+        "line": 988,
+        "text": "  ------- Element -------                         -------------- Determinants --------------          -------------- Singularities -------------  ------------- Unnormalized -------------           Normalized   Wall Clock  Wall Clock"
+      },
+      {
+        "line": 989,
+        "text": "                                                  left     right         pairs     threshold          none           1           2            3+      Hamiltonian              Overlap              Hamiltonian         Cost        Time"
+      },
+      {
+        "line": 990,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 418,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 419,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 420,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 421,
+        "text": ""
+      },
+      {
+        "line": 422,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 423,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 424,
+        "text": ""
+      },
+      {
+        "line": 551,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 552,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 553,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 554,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 555,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 418,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 419,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 420,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 421,
+        "text": ""
+      },
+      {
+        "line": 422,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 423,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 424,
+        "text": ""
+      },
+      {
+        "line": 551,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 552,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 553,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 554,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 555,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 418,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 419,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 420,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 421,
+        "text": ""
+      },
+      {
+        "line": 422,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 423,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 424,
+        "text": ""
+      },
+      {
+        "line": 552,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 553,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 554,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 555,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 556,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 419,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 420,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 421,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 422,
+        "text": ""
+      },
+      {
+        "line": 423,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 424,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 425,
+        "text": ""
+      },
+      {
+        "line": 553,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 554,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 555,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 556,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 557,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 418,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 419,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 420,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 421,
+        "text": ""
+      },
+      {
+        "line": 422,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 423,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 424,
+        "text": ""
+      },
+      {
+        "line": 551,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 552,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 553,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 554,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 555,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_MolAB_CB.input",
+    "excerpts": [
+      {
+        "line": 7,
+        "text": ""
+      },
+      {
+        "line": 8,
+        "text": "Threshold"
+      },
+      {
+        "line": 9,
+        "text": "1.0E-5"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.out",
+    "excerpts": [
+      {
+        "line": 92,
+        "text": ""
+      },
+      {
+        "line": 93,
+        "text": ">>> SHELL bash -lc 'set -Eeuo pipefail; P=\"$Project\"; T=\"$CurrDir/SEWARD_MPI_SHARDS\"; R=8; test ! -e \"$T\"; S=\"${T}.partial.$$\"; trap '\\''test ! -e \"$S\" || find \"$S\" -depth -delete'\\'' EXIT; mkdir \"$S\"; for x in RunFile OneInt ChRed ChMap ChRst ChVec1; do test -s \"$P.$x\"; cp -- \"$P.$x\" \"$S/$P.$x\"; done; test -s \"$CurrDir/COMMONORB\"; cp -- \"$CurrDir/COMMONORB\" \"$S/COMMONORB\"; for ((r=1; r<R; r++)); do test -d \"tmp_$r\"; mkdir \"$S/tmp_$r\"; for x in ChRst ChVec1; do test -s \"tmp_$r/$P.$x\"; cp -- \"tmp_$r/$P.$x\" \"$S/tmp_$r/$P.$x\"; done; done; printf \"%s\\n\" \"$P\" > \"$S/project.txt\"; printf \"%s\\n\" \"$R\" > \"$S/ranks.txt\"; mv -- \"$S\" \"$T\"; trap - EXIT; echo \"SEWARD snapshot saved: $T\"'"
+      },
+      {
+        "line": 94,
+        "text": ""
+      },
+      {
+        "line": 615,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 616,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 617,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 618,
+        "text": ""
+      },
+      {
+        "line": 619,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 620,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 621,
+        "text": ""
+      },
+      {
+        "line": 636,
+        "text": ""
+      },
+      {
+        "line": 637,
+        "text": ">>> SHELL bash -lc 'set -Eeuo pipefail; P=\"B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY\"; T=\"/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/SEWARD_MPI_SHARDS\"; R=8; test ! -e \"$T\"; S=\"${T}.partial.$$\"; trap '\\''test ! -e \"$S\" || find \"$S\" -depth -delete'\\'' EXIT; mkdir \"$S\"; for x in RunFile OneInt ChRed ChMap ChRst ChVec1; do test -s \"$P.$x\"; cp -- \"$P.$x\" \"$S/$P.$x\"; done; test -s \"/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/COMMONORB\"; cp -- \"/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/COMMONORB\" \"$S/COMMONORB\"; for ((r=1; r<R; r++)); do test -d \"tmp_$r\"; mkdir \"$S/tmp_$r\"; for x in ChRst ChVec1; do test -s \"tmp_$r/$P.$x\"; cp -- \"tmp_$r/$P.$x\" \"$S/tmp_$r/$P.$x\"; done; done; printf \"%s\\n\" \"$P\" > \"$S/project.txt\"; printf \"%s\\n\" \"$R\" > \"$S/ranks.txt\"; mv -- \"$S\" \"$T\"; trap - EXIT; echo \"SEWARD snapshot saved: $T\"'"
+      },
+      {
+        "line": 638,
+        "text": "SEWARD snapshot saved: /scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/SEWARD_MPI_SHARDS"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 540,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 544,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 540,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 544,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 405,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 406,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 407,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 408,
+        "text": ""
+      },
+      {
+        "line": 409,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 410,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 411,
+        "text": ""
+      },
+      {
+        "line": 541,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 544,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 545,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 405,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 406,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 407,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 408,
+        "text": ""
+      },
+      {
+        "line": 409,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 410,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 411,
+        "text": ""
+      },
+      {
+        "line": 541,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 544,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 545,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_MolAB_CB.input",
+    "excerpts": [
+      {
+        "line": 7,
+        "text": ""
+      },
+      {
+        "line": 8,
+        "text": "Threshold"
+      },
+      {
+        "line": 9,
+        "text": "1.0E-5"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out",
+    "excerpts": [
+      {
+        "line": 622,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 623,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 624,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 625,
+        "text": ""
+      },
+      {
+        "line": 626,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 627,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 628,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 540,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 544,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 540,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 544,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 405,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 406,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 407,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 408,
+        "text": ""
+      },
+      {
+        "line": 409,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 410,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 411,
+        "text": ""
+      },
+      {
+        "line": 541,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 543,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 544,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 545,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.out",
+    "excerpts": [
+      {
+        "line": 404,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 405,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 406,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 407,
+        "text": ""
+      },
+      {
+        "line": 408,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 409,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 410,
+        "text": ""
+      },
+      {
+        "line": 539,
+        "text": "      Maximum number of SX iterations          100"
+      },
+      {
+        "line": 540,
+        "text": "      Threshold for RASSCF energy            1.000E-08"
+      },
+      {
+        "line": 541,
+        "text": "      Threshold for max MO rotation          1.000E-01"
+      },
+      {
+        "line": 542,
+        "text": "      Threshold for max BLB element          1.000E-04"
+      },
+      {
+        "line": 543,
+        "text": "      Level shift parameter                  5.000E-01"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_MolAB_CB.input",
+    "excerpts": [
+      {
+        "line": 7,
+        "text": ""
+      },
+      {
+        "line": 8,
+        "text": "Threshold"
+      },
+      {
+        "line": 9,
+        "text": "1.0E-5"
+      }
+    ]
+  },
+  {
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B3_motra_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low.out",
+    "excerpts": [
+      {
+        "line": 858,
+        "text": "                  RI decomposed two-electron repulsion integrals stored Cholesky style"
+      },
+      {
+        "line": 859,
+        "text": "                   - acCD auxiliary basis"
+      },
+      {
+        "line": 860,
+        "text": "                   - CD Threshold:   1.00E-04"
+      },
+      {
+        "line": 861,
+        "text": ""
+      },
+      {
+        "line": 862,
+        "text": "                   Integrals are discarded if absolute value <: 1.00E-14"
+      },
+      {
+        "line": 863,
+        "text": "                   Integral cutoff threshold is set to       <: 1.00E-16"
+      },
+      {
+        "line": 864,
+        "text": ""
+      }
+    ]
+  }
+]

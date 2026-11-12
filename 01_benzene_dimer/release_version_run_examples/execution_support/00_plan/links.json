@@ -1,0 +1,1186 @@
+[
+  {
+    "destination": "01_benzene_dimer/02_fragment_placement/aggregate.xyz",
+    "source": "/scratch/alpha/AHPC/01_benzene_dimer/00_system_define/geometry/aggregate.xyz"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.in",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.in"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.out",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.out"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_Ci_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D+@GS0_Ci_desym/03_MolX_D+@GS0_Ci_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.in",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.in"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.out",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.out"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_Ci_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_D-@GS0_Ci_desym/03_MolX_D-@GS0_Ci_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.in",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.in"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.out",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.out"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_Ci_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S0@GS0_Ci_desym/03_MolX_S0@GS0_Ci_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.in",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.in"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.out",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.out"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_Ci_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_S1@GS0_Ci_desym/03_MolX_S1@GS0_Ci_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.in",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.in"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.out",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.out"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "01_benzene_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_Ci_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/BD_Ci/03_sym_ss_cas_desym/03_MolX_T1@GS0_Ci_desym/03_MolX_T1@GS0_Ci_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "01_benzene_dimer/00_system_define/orbitals/01_MolX_CAS66_D2h.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/01_excit_info/01_MolX_CAS66_D2h.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/00_system_define/orbitals/01_Bz_CAS66.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/01_excit_info/01_orb_trial/ben_D2h_cas66_vdz/01_Bz_CAS66.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/00_system_define/orbitals/scf_orb.RasOrb",
+    "source": "/scratch/alpha/BD_Ci/01_excit_info/01_orb_trial/ben_D2h_cas66_vdz/scf_orb.RasOrb"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_S0.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_S0.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_S0.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_S0.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_S1.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_S1.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_S1.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_S1.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_T1.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_T1.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_T1.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_T1.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_D+.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_D+.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_D+.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_D+.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_D-.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_D-.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzA_D-.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzA_D-.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_S0.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_S0.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_S0.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_S0.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_T1.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_T1.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_T1.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_T1.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_D-.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_D-.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_D-.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_D-.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_D+.det",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_D+.det"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/BzB_D+.vec",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzB_D+.vec"
+  },
+  {
+    "destination": "01_benzene_dimer/04_integrals/BzAB.one",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzAB.one"
+  },
+  {
+    "destination": "01_benzene_dimer/04_integrals/BzAB_001.two",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/BzAB_001.two"
+  },
+  {
+    "destination": "01_benzene_dimer/04_integrals/BzAB_GS0S0_cho_v2.jld2",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/06_noci/run/BzAB_GS0S0_cho_v2.jld2"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/COMMONORB",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/COMMONORB"
+  },
+  {
+    "destination": "01_benzene_dimer/03_common_orbitals/historical_Bz.out",
+    "source": "/scratch/alpha/benchmark/gronor_tests_BD/05_oldchain_gronor/Bz.out"
+  },
+  {
+    "destination": "03_indo_dimer/02_fragment_placement/aggregate.xyz",
+    "source": "/scratch/alpha/AHPC/03_indo_dimer/00_system_define/geometry/aggregate.xyz"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.in"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.in"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.in"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.VecDet.2"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.in"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.out"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.sym.RasOrb.2",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.sym.RasOrb.2"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.sym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.sym.VecDet.2"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.in"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "03_indo_dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "03_indo_dimer/00_system_define/orbitals/01_INDO_CAS88_S0_seed.RasOrb",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/01_seed_orbitals/01_INDO_CAS88_S0_seed.RasOrb"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_S0@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_S0@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_S1@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_S1@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_T1@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_T1@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_D-@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_D-@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_D+@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOA_D+@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_S0@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_S0@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_S1@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_S1@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_T1@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_T1@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_D+@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_D+@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.det",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_D-@GS0.det"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.vec",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_INDOB_D-@GS0.vec"
+  },
+  {
+    "destination": "03_indo_dimer/04_integrals/INDOAB.one",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/INDOAB.one"
+  },
+  {
+    "destination": "03_indo_dimer/04_integrals/INDOAB_cho_factor_bundle.jld2",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/INDOAB_cho_factor_bundle.jld2"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/COMMONORB",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/COMMONORB"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_MolAB_CB.input",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_MolAB_CB.input"
+  },
+  {
+    "destination": "03_indo_dimer/03_common_orbitals/B2_commonorb_file_map.tsv",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B2_commonorb/B2_INDOAB_GS0S0_COMMONORB_CB1e-5/B2_commonorb_file_map.tsv"
+  },
+  {
+    "destination": "03_indo_dimer/04_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.in",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.in"
+  },
+  {
+    "destination": "03_indo_dimer/04_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.out",
+    "source": "/scratch/alpha/benchmark/INDO_GS0S0_CAS88/B3_motra_integrals/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY/B3_INDOAB_GS0S0_TWO_CB1e-5_SEWARDONLY.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/02_fragment_placement/aggregate.xyz",
+    "source": "/scratch/alpha/AHPC/04_pentacene/dimer/00_system_define/geometry/aggregate.xyz"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.sym.RasOrb.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.sym.RasOrb.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/S1/03_MolX_S1@GS0_C1_desym.sym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS0_C1_desym/03_MolX_S1@GS0_C1_desym.sym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.sym.RasOrb.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.sym.RasOrb.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.sym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.sym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/dimer/00_system_define/orbitals/01_TriP_CAS66_S0_seed.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/01_seed_orbitals/01_TriP_CAS66_S0_seed.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/00_system_define/orbitals/01_TriP_CAS66_S1_seed.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/01_seed_orbitals/01_TriP_CAS66_S1_seed.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_S0@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_S0@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_S1@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_S1@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_D+@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_D+@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_D-@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_D-@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_T1@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPA_T1@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_S0@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_S0@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_S1@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S1@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_S1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S1@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_D-@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_D-@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_D+@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_D+@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_T1@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_TriPB_T1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/dimer/04_integrals/TriPAB.one",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/TriPAB.one"
+  },
+  {
+    "destination": "04_pentacene/dimer/04_integrals/native_seward",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/COMMONORB",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/COMMONORB"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_MolAB_CB.input",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_MolAB_CB.input"
+  },
+  {
+    "destination": "04_pentacene/dimer/03_common_orbitals/B2_commonorb_file_map.tsv",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_commonorb_file_map.tsv"
+  },
+  {
+    "destination": "04_pentacene/dimer/04_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.in",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.in"
+  },
+  {
+    "destination": "04_pentacene/dimer/04_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out",
+    "source": "/scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/02_fragment_placement/aggregate.xyz",
+    "source": "/scratch/alpha/AHPC/04_pentacene/trimer/00_system_define/geometry/aggregate.xyz"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D+/03_MolX_D+@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS0_C1_desym/03_MolX_D+@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D+/03_MolX_D+@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D+@GS1_C1_desym/03_MolX_D+@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/D-/03_MolX_D-@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS0_C1_desym/03_MolX_D-@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/D-/03_MolX_D-@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_D-@GS1_C1_desym/03_MolX_D-@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/S0/03_MolX_S0@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS0_C1_desym/03_MolX_S0@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S0/03_MolX_S0@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S0@GS1_C1_desym/03_MolX_S0@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.sym.RasOrb.2",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.sym.RasOrb.2"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/S1/03_MolX_S1@GS1_C1_desym.sym.VecDet.2",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_S1@GS1_C1_desym/03_MolX_S1@GS1_C1_desym.sym.VecDet.2"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS0/T1/03_MolX_T1@GS0_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS0_C1_desym/03_MolX_T1@GS0_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.out"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.sym.RasOrb.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.sym.RasOrb.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/01_fragment_states/f/GS1/T1/03_MolX_T1@GS1_C1_desym.sym.VecDet.1",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/03_sym_ss_cas_desym/03_MolX_T1@GS1_C1_desym/03_MolX_T1@GS1_C1_desym.sym.VecDet.1"
+  },
+  {
+    "destination": "04_pentacene/trimer/00_system_define/orbitals/01_TriP_CAS66_S0_seed.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/01_seed_orbitals/01_TriP_CAS66_S0_seed.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/00_system_define/orbitals/01_TriP_CAS66_S1_seed.RasOrb",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/01_seed_orbitals/01_TriP_CAS66_S1_seed.RasOrb"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_S0@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_S0@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_S1@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_S1@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_T1@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_T1@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_D+@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_D+@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_D-@GS1.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPA_D-@GS1.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_S0@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_S0@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_T1@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_T1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_D+@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_D+@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_D-@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPB_D-@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPC_S0@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPC_S0@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPC_S0@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPC_S0@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPC_T1@GS0.det",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPC_T1@GS0.det"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_TriPC_T1@GS0.vec",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_TriPC_T1@GS0.vec"
+  },
+  {
+    "destination": "04_pentacene/trimer/04_integrals/TriPABC.one",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B3_motra_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low/TriPABC.one"
+  },
+  {
+    "destination": "04_pentacene/trimer/04_integrals/TriPABC_cho_factor_bundle.jld2",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/cholesky_eri_factor_cache/CB1e-5/TriPABC_cho_factor_bundle.jld2"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/COMMONORB",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B3_motra_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low/COMMONORB"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_MolAB_CB.input",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_MolAB_CB.input"
+  },
+  {
+    "destination": "04_pentacene/trimer/03_common_orbitals/B2_commonorb_file_map.tsv",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B2_commonorb/B2_TriPABC_GS1S0S0_COMMONORB_CB1e-5/B2_commonorb_file_map.tsv"
+  },
+  {
+    "destination": "04_pentacene/trimer/04_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low.in",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B3_motra_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low.in"
+  },
+  {
+    "destination": "04_pentacene/trimer/04_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low.out",
+    "source": "/scratch/alpha/benchmark/TriP123_GS1S0S0_CAS66/B3_motra_integrals/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low/B3_TriPABC_GS1S0S0_TWO_CB1e-5_CHO_Low.out"
+  }
+]

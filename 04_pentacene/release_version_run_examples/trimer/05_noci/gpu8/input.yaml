@@ -1,0 +1,130 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: pentacene_trimer_gpu8
+  spin_multiplicity: 1
+  fragment_states:
+  - label: TriPA_S0@GS1
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_S0@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_S0@GS1.vec
+  - label: TriPB_S0@GS0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_S0@GS0.vec
+  - label: TriPC_S0@GS0
+    fragment: C
+    state: S0
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPC_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPC_S0@GS0.vec
+  - label: TriPA_S1@GS1
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_S1@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_S1@GS1.vec
+  - label: TriPA_D+@GS1
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_D+@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_D+@GS1.vec
+  - label: TriPB_D-@GS0
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_D-@GS0.vec
+  - label: TriPA_D-@GS1
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_D-@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_D-@GS1.vec
+  - label: TriPB_D+@GS0
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_D+@GS0.vec
+  - label: TriPA_T1@GS1
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_T1@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPA_T1@GS1.vec
+  - label: TriPB_T1@GS0
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPB_T1@GS0.vec
+  - label: TriPC_T1@GS0
+    fragment: C
+    state: T1
+    determinants: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPC_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/trimer/03_common_orbitals/B2_TriPC_T1@GS0.vec
+  mebfs:
+  - label: S0S0S0
+    states:
+    - TriPA_S0@GS1
+    - TriPB_S0@GS0
+    - TriPC_S0@GS0
+    coupling_multiplicities:
+    - 1
+  - label: S1S0S0
+    states:
+    - TriPA_S1@GS1
+    - TriPB_S0@GS0
+    - TriPC_S0@GS0
+    coupling_multiplicities:
+    - 1
+  - label: D+D-S0
+    states:
+    - TriPA_D+@GS1
+    - TriPB_D-@GS0
+    - TriPC_S0@GS0
+    coupling_multiplicities:
+    - 1
+  - label: D-D+S0
+    states:
+    - TriPA_D-@GS1
+    - TriPB_D+@GS0
+    - TriPC_S0@GS0
+    coupling_multiplicities:
+    - 1
+  - label: T1T1S0
+    states:
+    - TriPA_T1@GS1
+    - TriPB_T1@GS0
+    - TriPC_S0@GS0
+    coupling_multiplicities:
+    - 1
+  - label: T1S0T1
+    states:
+    - TriPA_T1@GS1
+    - TriPB_S0@GS0
+    - TriPC_T1@GS0
+    coupling_multiplicities:
+    - 3
+integrals:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/04_pentacene/trimer/04_integrals/TriPABC.one
+  factor_bundle: /scratch/alpha/AHPC/04_pentacene/trimer/04_integrals/TriPABC_cho_factor_bundle.jld2
+screening:
+  tau_ci: 1.0e-05
+  tau_ci_offdiagonal: 1.0e-05
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: true
+  scratch_bytes: 268435456
+  max_host_bytes: 51539607552
+  collect_allocations: false
+  gpu_devices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  max_device_bytes: 10737418240

@@ -1,0 +1,90 @@
+source_noci_yaml: /scratch/alpha/benchmark/ahpc_final_sections43_45_20260915_v2/inputs/INDO_0g8t.yaml
+source_root: /scratch/alpha/benchmark/INDO_GS0S0_CAS88
+monomer_root: /scratch/alpha/benchmark/INDO_GS0S0_CAS88/03_sym_ss_cas_desym
+bindings:
+  f_A/S0:
+    label: INDOA_S0@GS0
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S0@GS0.vec
+  f_A/S1:
+    label: INDOA_S1@GS0
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_S1@GS0.vec
+  f_A/T1:
+    label: INDOA_T1@GS0
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_T1@GS0.vec
+  f_A/D-:
+    label: INDOA_D-@GS0
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D-@GS0.vec
+  f_A/D+:
+    label: INDOA_D+@GS0
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOA_D+@GS0.vec
+  f_B/S0:
+    label: INDOB_S0@GS0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S0@GS0.vec
+  f_B/S1:
+    label: INDOB_S1@GS0
+    fragment: B
+    state: S1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_S1@GS0.vec
+  f_B/T1:
+    label: INDOB_T1@GS0
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_T1@GS0.vec
+  f_B/D+:
+    label: INDOB_D+@GS0
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D+@GS0.vec
+  f_B/D-:
+    label: INDOB_D-@GS0
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/03_indo_dimer/03_common_orbitals/B2_INDOB_D-@GS0.vec
+mebf_labels:
+- S0S0
+- S1S0
+- S0S1
+- S1S1
+- T1T1
+- D-D+
+- D+D-
+coupling_multiplicities:
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+integrals_packed: null
+integrals_factor:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/03_indo_dimer/04_integrals/INDOAB.one
+  factor_bundle: /scratch/alpha/AHPC/03_indo_dimer/04_integrals/INDOAB_cho_factor_bundle.jld2
+imported_integral_threshold: 0.0001
+imported_commonorb_threshold: 1.0e-05
+tau_singularity: 1.0e-12
+conversion: false

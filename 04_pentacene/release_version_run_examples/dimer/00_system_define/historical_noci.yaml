@@ -1,0 +1,116 @@
+algorithm:
+  name: ahpc-noci
+  branch: spin_string
+  support_lookup: adaptive
+system:
+  label: TriPAB_GS1S0_CB1e-5_CHO_Low_tau1e-5
+  spin_multiplicity: 1
+  fragment_states:
+  - label: TriPA_S0@GS1
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S0@GS1.vec
+  - label: TriPA_S1@GS1
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_S1@GS1.vec
+  - label: TriPA_D+@GS1
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D+@GS1.vec
+  - label: TriPA_D-@GS1
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_D-@GS1.vec
+  - label: TriPA_T1@GS1
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPA_T1@GS1.vec
+  - label: TriPB_S0@GS0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S0@GS0.vec
+  - label: TriPB_S1@GS0
+    fragment: B
+    state: S1
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S1@GS0.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_S1@GS0.vec
+  - label: TriPB_D-@GS0
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D-@GS0.vec
+  - label: TriPB_D+@GS0
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_D+@GS0.vec
+  - label: TriPB_T1@GS0
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.det
+    orbitals: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B2_commonorb/B2_TriPAB_GS1S0_COMMONORB_CB1e-5/B2_TriPB_T1@GS0.vec
+  mebfs:
+  - label: S0S0
+    states:
+    - TriPA_S0@GS1
+    - TriPB_S0@GS0
+  - label: S1S0
+    states:
+    - TriPA_S1@GS1
+    - TriPB_S0@GS0
+  - label: S0S1
+    states:
+    - TriPA_S0@GS1
+    - TriPB_S1@GS0
+  - label: D+D-
+    states:
+    - TriPA_D+@GS1
+    - TriPB_D-@GS0
+  - label: D-D+
+    states:
+    - TriPA_D-@GS1
+    - TriPB_D+@GS0
+  - label: T1T1
+    states:
+    - TriPA_T1@GS1
+    - TriPB_T1@GS0
+integrals:
+  backend: cholesky
+  source: seward_mpi_shards
+  one_electron: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/TriPAB.one
+  snapshot: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  project: B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low
+  ranks: 8
+  commonorb: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/B3_motra_integrals/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low/B3_TriPAB_GS1S0_TWO_CB1e-5_CHO_Low.comorb
+  n_frozen: 0
+  n_deleted: 474
+  batch_size: 4
+  transform_backend: gpu
+  gpu_device: 0
+  scratch_parent: /scratch/alpha/benchmark/NOCI_neodev_runs/20260917_gobig46f61d4_trip_cholow_tau1e-5/TriPAB/scratch
+  molcas_root: /scratch/alpha/OpenMolcasUP_ExactDenEmb-GUGA-20260822_150842
+  omc_root: /opt/mamba/envs/omc
+screening:
+  tau_ci: 1.0e-05
+  tau_ci_offdiagonal: 1.0e-05
+  tau_singularity: 1.0e-12
+runtime:
+  use_gpu: true
+  gpu_devices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  scratch_bytes: 268435456
+  collect_allocations: true

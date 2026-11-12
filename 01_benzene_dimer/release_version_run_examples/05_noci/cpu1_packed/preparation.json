@@ -1,0 +1,9 @@
+{
+  "definition": "/scratch/alpha/AHPC/01_benzene_dimer/00_system_define/cpu1_packed.yaml",
+  "reuse_map": "/scratch/alpha/AHPC/01_benzene_dimer/00_system_define/reuse.yaml",
+  "julia_threads": 1,
+  "blas_threads": 1,
+  "commonorb_threshold": 0.0001,
+  "imported_integral_threshold": null,
+  "preparation": "historical products imported; no fabricated stage completion records"
+}

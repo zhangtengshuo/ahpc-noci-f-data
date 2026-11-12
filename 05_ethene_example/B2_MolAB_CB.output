@@ -1,0 +1,13 @@
+common MO basis with threshold:  1.00E-04
+ R. K. Kathir, C. de Graaf, R. Broer, R. W. A. Havenith
+ J. Chem. Theory Comput. 16, 2941-2951 (2020)
+
+  program written by Coen de Graaf, URV (2019)
+  frozen orbitals by Aitor Sanchez-Mansilla, URV (2020)
+
+Dimension of the common MO basis of fragment  1:  19
+                                              2:  19
+Final number of orbitals in MO basis    :   38
+Sum of the number of AO basis functions :   96
+Frozen orbitals in MOTRA    :    0
+Deleted orbitals in MOTRA   :   58

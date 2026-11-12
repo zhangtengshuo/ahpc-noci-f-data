@@ -1,0 +1,6 @@
+&CASPT2
+  Multistate = 1 {{RLXROOT}}
+  maxiter = {{MAX_ITERATIONS}}
+  Imaginary = {{IMAGINARY_SHIFT}}
+  IPEA = {{IPEA_SHIFT}}
+End of input

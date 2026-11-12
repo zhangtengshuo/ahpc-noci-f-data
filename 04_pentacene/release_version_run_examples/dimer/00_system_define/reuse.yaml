@@ -1,0 +1,88 @@
+source_noci_yaml: /scratch/alpha/benchmark/NOCI_neodev_runs/20260917_gobig46f61d4_trip_cholow_tau1e-5/TriPAB/TriPAB_GS1S0_CB1e-5_CHO_Low_tau1e-5.yaml
+source_root: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66
+monomer_root: /scratch/alpha/benchmark/TriP12_GS1S0_CAS66/03_sym_ss_cas_desym
+bindings:
+  f_A/S0:
+    label: TriPA_S0@GS1
+    fragment: A
+    state: S0
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_S0@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_S0@GS1.vec
+  f_A/S1:
+    label: TriPA_S1@GS1
+    fragment: A
+    state: S1
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_S1@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_S1@GS1.vec
+  f_A/D+:
+    label: TriPA_D+@GS1
+    fragment: A
+    state: D+
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_D+@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_D+@GS1.vec
+  f_A/D-:
+    label: TriPA_D-@GS1
+    fragment: A
+    state: D-
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_D-@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_D-@GS1.vec
+  f_A/T1:
+    label: TriPA_T1@GS1
+    fragment: A
+    state: T1
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_T1@GS1.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPA_T1@GS1.vec
+  f_B/S0:
+    label: TriPB_S0@GS0
+    fragment: B
+    state: S0
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_S0@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_S0@GS0.vec
+  f_B/S1:
+    label: TriPB_S1@GS0
+    fragment: B
+    state: S1
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_S1@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_S1@GS0.vec
+  f_B/D-:
+    label: TriPB_D-@GS0
+    fragment: B
+    state: D-
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_D-@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_D-@GS0.vec
+  f_B/D+:
+    label: TriPB_D+@GS0
+    fragment: B
+    state: D+
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_D+@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_D+@GS0.vec
+  f_B/T1:
+    label: TriPB_T1@GS0
+    fragment: B
+    state: T1
+    determinants: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_T1@GS0.det
+    orbitals: /scratch/alpha/AHPC/04_pentacene/dimer/03_common_orbitals/B2_TriPB_T1@GS0.vec
+mebf_labels:
+- S0S0
+- S1S0
+- S0S1
+- D+D-
+- D-D+
+- T1T1
+coupling_multiplicities:
+- null
+- null
+- null
+- null
+- null
+- null
+integrals_packed: null
+integrals_factor:
+  backend: cholesky
+  source: factor_bundle
+  one_electron: /scratch/alpha/AHPC/04_pentacene/dimer/04_integrals/TriPAB.one
+  factor_bundle: /scratch/alpha/AHPC/04_pentacene/dimer/04_integrals/TriPAB_cho_factor_bundle.jld2
+imported_integral_threshold: 0.0001
+imported_commonorb_threshold: 1.0e-05
+tau_singularity: 1.0e-12
+conversion: true

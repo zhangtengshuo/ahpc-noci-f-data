@@ -1,0 +1,14 @@
+Project
+TriP
+
+Fragments
+3
+5 4 2
+
+Threshold
+1.0E-5
+
+Labels
+A S0 S1 D+ D- T1
+B S0 D- D+ T1
+C S0 T1

@@ -1,0 +1,453 @@
+#==============================================================================#
+#      ___           ___           ___                                         #
+#     /\__\         /\  \         /\  \          ___                           #
+#    /::|  |       /::\  \       /::\  \        /\  \                          #
+#   /:|:|  |      /:/\:\  \     /:/\:\  \       \:\  \         ___        ___  #
+#  /:/|:|  |__   /:/  \:\  \   /:/  \:\  \      /::\__\       /\  \      /\__\ #
+# /:/ |:| /\__\ /:/__/ \:\__\ /:/__/ \:\__\  __/:/\/__/       \:\  \    /:/  / #
+# \/__|:|/:/  / \:\  \ /:/  / \:\  \  \/__/ /\/:/  /      ___ /::\__\  /:/  /  #
+#     |:/:/  /   \:\  /:/  /   \:\  \       \::/__/      /\  /:/\/__/ /:/__/   #
+#     |::/  /     \:\/:/  /     \:\  \       \:\__\      \:\/:/  /    \:\  \   #
+#     /:/  /       \::/  /       \:\__\       \/__/       \::/  /      \:\  \  #
+#     \/__/         \/__/         \/__/               ██   \/__/        \/__/  #
+#                                                                              #
+#==============================================================================#
+#==============================================================================#
+#                                                                              #
+# NOCI.jl - Nonorthogonal Configuration Interaction in Julia                   #
+#                                                                              #
+# Version 26.10.0                                                     #
+# Copyright:       (C) 2026 Teng-Shuo Zhang                                    #
+# SPDX-License-Identifier: Apache-2.0                                          #
+# Original author: Teng-Shuo Zhang                                             #
+#                                                                              #
+#==============================================================================#
+
+----------------------------------------------------------------------------------------------------------------
+RUN AND REPRODUCIBILITY
+----------------------------------------------------------------------------------------------------------------
+started_at_utc = 2026-11-12T02:58:59Z
+user = alpha
+host = GV800
+working_directory = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor
+julia_version = 1.12.6
+julia_threads = 1
+logical_cpu_threads = 64
+label = benzene_cpu1_factor
+algorithm = ahpc-noci
+backend = factorized-eri
+output_directory = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results
+checkpoint_directory = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results/result.checkpoint
+scientific_signature_sha256 = a9de348bc4bb6f6e2eac05f7b1efb55cf72f656961ea0643fc1789c94c3abbf7
+execution_signature_sha256 = 5fd957a2ed92f282656f92dcb033ea5c2dece627ba6fe7142d22d7992d46e35d
+gpu_enabled = false
+gpu_devices = none
+threads_per_gpu = 0
+
+----------------------------------------------------------------------------------------------------------------
+CALCULATION DEFINITION
+----------------------------------------------------------------------------------------------------------------
+system_label = benzene_cpu1_factor
+spin_multiplicity = 1
+algorithm = ahpc-noci
+backend = factorized-eri
+fragment_states = 9
+electronic_configurations = 5
+resolved_spin_basis_functions = 5
+
+Screening thresholds (dimensionless)
+  tau_ci             = 1.000000e-04
+  tau_ci_offdiagonal = 1.000000e-04
+  tau_singularity    = 1.000000e-12
+
+Integral source summary
+  one_electron = /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB.one
+  title_1 = Integrals in Common molecular orbital basis with tau_MO = 1.000E-04
+  title_2 = from openMolcas to GronOr by rdtraint
+  basis_functions = 84
+  packed_one_electron_integrals = 3570
+  nuclear_repulsion / Eh = 661.914852826060
+  two_electron_buffer_length = 9600
+  two_electron_label_mode = 1
+  eri_factor_bundle = /scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB_GS0S0_cho_v2.jld2
+
+Fragment electronic states
+   # Label                    Fragment   State      Mult Electrons    DetRec Inactive   Active   Frozen    Basis         E(CASSCF)/Eh         E(CASPT2)/Eh            E_corr/Eh       tau_MO
+   1 BzA_S0                   A          S0            1        42        96       18        6        0       42    -230.696521860000    -231.129798875900      -0.433277015900   1.0000e-04
+   2 BzB_S0                   B          S0            1        42        96       18        6        0       42    -230.696521860000    -231.129798875900      -0.433277015900   1.0000e-04
+   3 BzA_S1                   A          S1            1        42        88       18        6        0       42    -230.512084300000    -230.946813723400      -0.434729423400   1.0000e-04
+   4 BzA_T1                   A          T1            3        42        56       18        6        0       42    -230.508308440000    -230.949721697300      -0.441413257300   1.0000e-04
+   5 BzB_T1                   B          T1            3        42        56       18        6        0       42    -230.508308440000    -230.949721697300      -0.441413257300   1.0000e-04
+   6 BzA_D+                   A          D+            2        41        76       18        6        0       42    -230.381107710000    -230.802092771700      -0.420985061700   1.0000e-04
+   7 BzB_D-                   B          D-            2        43        74       18        6        0       42    -230.564935190000    -231.027047973800      -0.462112783800   1.0000e-04
+   8 BzA_D-                   A          D-            2        43        74       18        6        0       42    -230.564935190000    -231.027047973800      -0.462112783800   1.0000e-04
+   9 BzB_D+                   B          D+            2        41        76       18        6        0       42    -230.381107710000    -230.802092771700      -0.420985061700   1.0000e-04
+
+Electronic configurations and resolved spin manifolds (ordered)
+   # Configuration        Fragment-state product                                                 Local mult.        Spin basis       Manifold   Included      Manual shift/Eh
+   1 S0S0                 BzA_S0 * BzB_S0                                                        1,1                complete                1          1   0.000000000000e+00
+      -> S0S0  coupling_multiplicities=[1]
+   2 S1S0                 BzA_S1 * BzB_S0                                                        1,1                complete                1          1   0.000000000000e+00
+      -> S1S0  coupling_multiplicities=[1]
+   3 T1T1                 BzA_T1 * BzB_T1                                                        3,3                complete                1          1   0.000000000000e+00
+      -> T1T1  coupling_multiplicities=[1]
+   4 D+D-                 BzA_D+ * BzB_D-                                                        2,2                complete                1          1   0.000000000000e+00
+      -> D+D-  coupling_multiplicities=[1]
+   5 D-D+                 BzA_D- * BzB_D+                                                        2,2                complete                1          1   0.000000000000e+00
+      -> D-D+  coupling_multiplicities=[1]
+
+----------------------------------------------------------------------------------------------------------------
+MOLECULAR GEOMETRY
+----------------------------------------------------------------------------------------------------------------
+source = /scratch/alpha/AHPC/01_benzene_dimer/00_system_define/geometry/aggregate.xyz
+sha256 = 817700f659319c6a03bdfacba14905567fe36039ee8ba31d5764e6b6b4ac5c3d
+format = XYZ
+units = Angstrom
+atoms = 24
+comment = BzAB geometry=GS0S0; generated by rotating A=02CAS_Bz_S0_opt.Opt.xyz and B=02CAS_Bz_S0_opt.Opt.xyz onto ../00_system_define/BD_dimer.xyz with AutoRotate.jl
+
+ Index  Element                     X                    Y                    Z
+     1  C               -0.7004387850         1.2131955632         0.0000000000
+     2  C                0.7004387850        -1.2131955632         0.0000000000
+     3  C               -1.4008769534         0.0000000384         0.0000000000
+     4  C               -0.7004384434        -1.2131950484         0.0000000000
+     5  C                0.7004384434         1.2131950484         0.0000000000
+     6  C                1.4008769534        -0.0000000384         0.0000000000
+     7  H               -2.4752757191        -0.0000000918         0.0000000000
+     8  H               -1.2376379391        -2.1436516082         0.0000000000
+     9  H                1.2376379391         2.1436516082         0.0000000000
+    10  H                2.4752757191         0.0000000918         0.0000000000
+    11  H                1.2376384050        -2.1436525989         0.0000000000
+    12  H               -1.2376384050         2.1436525989         0.0000000000
+    13  C               -0.7004387850         1.2131955632         3.0000000000
+    14  C                0.7004387850        -1.2131955632         3.0000000000
+    15  C               -1.4008769534         0.0000000384         3.0000000000
+    16  C               -0.7004384434        -1.2131950484         3.0000000000
+    17  C                0.7004384434         1.2131950484         3.0000000000
+    18  C                1.4008769534        -0.0000000384         3.0000000000
+    19  H               -2.4752757191        -0.0000000918         3.0000000000
+    20  H               -1.2376379391        -2.1436516082         3.0000000000
+    21  H                1.2376379391         2.1436516082         3.0000000000
+    22  H                2.4752757191         0.0000000918         3.0000000000
+    23  H                1.2376384050        -2.1436525989         3.0000000000
+    24  H               -1.2376384050         2.1436525989         3.0000000000
+
+----------------------------------------------------------------------------------------------------------------
+INPUT FILE PROVENANCE
+----------------------------------------------------------------------------------------------------------------
+identity = filesystem-stat-v1 (calculation sources; nanosecond modification times stay in the machine-readable manifest records)
+index=1 size_mb=0.002780 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.det
+index=2 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S0.vec
+index=3 size_mb=0.002780 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.det
+index=4 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_S0.vec
+index=5 size_mb=0.002556 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.det
+index=6 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_S1.vec
+index=7 size_mb=0.001660 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.det
+index=8 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_T1.vec
+index=9 size_mb=0.001660 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.det
+index=10 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_T1.vec
+index=11 size_mb=0.002220 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.det
+index=12 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D+.vec
+index=13 size_mb=0.002164 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.det
+index=14 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D-.vec
+index=15 size_mb=0.002164 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.det
+index=16 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzA_D-.vec
+index=17 size_mb=0.002220 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.det
+index=18 size_mb=0.032219 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/03_common_orbitals/BzB_D+.vec
+index=19 size_mb=0.343120 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB.one
+index=20 size_mb=52.052348 identity_kind=filesystem-stat-v1 path=/scratch/alpha/AHPC/01_benzene_dimer/04_integrals/BzAB_GS0S0_cho_v2.jld2
+report_geometry size_mb=0.001599 sha256=817700f659319c6a03bdfacba14905567fe36039ee8ba31d5764e6b6b4ac5c3d path=/scratch/alpha/AHPC/01_benzene_dimer/00_system_define/geometry/aggregate.xyz
+
+----------------------------------------------------------------------------------------------------------------
+PRIMARY NOCI RESULTS
+----------------------------------------------------------------------------------------------------------------
+Baseline CASPT2 correlation shifts by MEBF (Hartree)
+   # MEBF                    Diagonal shift / Eh
+   1 S0S0                    -8.665540318000e-01
+   2 S1S0                    -8.680064393000e-01
+   3 T1T1                    -8.828265146000e-01
+   4 D+D-                    -8.830978455000e-01
+   5 D-D+                    -8.830978455000e-01
+
+Unshifted NOCI energies
+  State            Energy / Eh          Relative / eV          Residual / Eh
+      1      -461.354188352106           0.0000000000           1.140508e-13
+      2      -461.190062864788           4.4660820282           3.325035e-13
+      3      -461.049250481848           8.2977821686           2.231311e-13
+      4      -461.042155712257           8.4908406843           2.393385e-13
+      5      -461.006111713652           9.4716478522           1.058878e-13
+
+Baseline CASPT2-shifted NOCI energies
+  State            Energy / Eh          Relative / eV          Residual / Eh
+      1      -462.220742419435           0.0000000000           2.331485e-14
+      2      -462.059066106015           4.3994366113           4.235811e-13
+      3      -461.931351535804           7.8747271106           5.048521e-13
+      4      -461.925253547374           8.0406618291           5.111828e-13
+      5      -461.888938192722           9.0288529711           4.098556e-13
+
+----------------------------------------------------------------------------------------------------------------
+NOCI WAVE FUNCTIONS
+----------------------------------------------------------------------------------------------------------------
+
+Unshifted overlap-normalized eigenvectors
+row\column               State 1             State 2             State 3             State 4             State 5
+S0S0         -9.999992398244e-01  3.715790734950e-09 -3.891738244627e-10  1.197053285004e-09 -2.570287893414e-03
+S1S0          3.444482291516e-09  9.601974390123e-01  3.075720456054e-01 -1.768044704655e-03  6.221781713440e-10
+T1T1         -3.150661514893e-04  6.311372981538e-10 -4.015821458647e-09 -4.549517547421e-09  1.000002493378e+00
+D+D-          1.598499225302e-09  1.271846690542e-01 -6.924473623898e-01  7.162987959842e-01  3.983003905840e-10
+D-D+          8.918310875266e-11 -1.282857775656e-01  6.961667519378e-01  7.121809428920e-01  6.116739697876e-09
+vector_normalization = C' * S * C = I
+
+Baseline CASPT2-shifted overlap-normalized eigenvectors
+row\column               State 1             State 2             State 3             State 4             State 5
+S0S0         -9.999990554680e-01  3.791563440960e-09 -3.506170844789e-10  1.263698609752e-09 -2.641039999721e-03
+S1S0          3.485161941708e-09  9.512253903296e-01  3.342888541679e-01 -2.007455409746e-03  6.550819804886e-10
+T1T1         -3.858184936374e-04  7.111106961132e-10 -4.006204563143e-09 -4.515290538303e-09  1.000002468584e+00
+D+D-          1.701567220461e-09  1.465460511278e-01 -6.882707463791e-01  7.166246503080e-01  3.748599550339e-10
+D-D+          8.083852825985e-11 -1.476372537387e-01  6.926581731259e-01  7.118532005675e-01  6.094156719838e-09
+vector_normalization = C' * S * C = I
+
+----------------------------------------------------------------------------------------------------------------
+NORMALIZED SCIENTIFIC MATRICES
+----------------------------------------------------------------------------------------------------------------
+
+Normalized overlap matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          1.000000000000e+00  1.594272014949e-15  2.255216920031e-03  8.378406830103e-17 -8.696014358794e-16
+S1S0          1.594272014949e-15  1.000000000000e+00 -1.176725084480e-16  9.237247605954e-02 -9.002103448957e-02
+T1T1          2.255216920031e-03 -1.176725084480e-16  1.000000000000e+00 -1.282220483279e-16  1.645436139331e-16
+D+D-          8.378406830103e-17  9.237247605954e-02 -1.282220483279e-16  1.000000000000e+00 -1.987860618439e-02
+D-D+         -8.696014358794e-16 -9.002103448957e-02  1.645436139331e-16 -1.987860618439e-02  1.000000000000e+00
+
+Normalized electronic one-body matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -1.937329633454e+03 -3.032870897938e-12 -4.366063105503e+00 -1.578584299967e-13  1.689618957040e-12
+S1S0         -3.032870897938e-12 -1.937072940308e+03  2.285699889568e-13 -1.788600237481e+02  1.743379113223e+02
+T1T1         -4.366063105503e+00  2.285699889568e-13 -1.936744261261e+03  2.397939633194e-13 -3.146356068191e-13
+D+D-         -1.578584299967e-13 -1.788600237481e+02  2.397939633194e-13 -1.936608606439e+03  3.848478001982e+01
+D-D+          1.689618957040e-12  1.743379113223e+02 -3.146356068191e-13  3.848478001982e+01 -1.936613066426e+03
+
+Normalized nuclear-repulsion matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          6.619148528261e+02  1.055272326140e-12  1.492761575713e+00  5.545791923864e-14 -5.756021064474e-13
+S1S0          1.055272326140e-12  6.619148528261e+02 -7.788918111100e-14  6.114271389613e+01 -5.958625979541e+01
+T1T1          1.492761575713e+00 -7.788918111100e-14  6.619148528261e+02 -8.487207824803e-14  1.089138620000e-13
+D+D-          5.545791923864e-14  6.114271389613e+01 -8.487207824803e-14  6.619148528261e+02 -1.315794468693e+01
+D-D+         -5.756021064474e-13 -5.958625979541e+01  1.089138620000e-13 -1.315794468693e+01  6.619148528261e+02
+
+Normalized one-body-plus-nuclear matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -1.275414780628e+03 -1.977598571798e-12 -2.873301529791e+00 -1.024005107580e-13  1.114016850593e-12
+S1S0         -1.977598571798e-12 -1.275158087482e+03  1.506808078458e-13 -1.177173098520e+02  1.147516515269e+02
+T1T1         -2.873301529791e+00  1.506808078458e-13 -1.274829408435e+03  1.549218850713e-13 -2.057217448191e-13
+D+D-         -1.024005107580e-13 -1.177173098520e+02  1.549218850713e-13 -1.274693753613e+03  2.532683533289e+01
+D-D+          1.114016850593e-12  1.147516515269e+02 -2.057217448191e-13  2.532683533289e+01 -1.274698213600e+03
+
+Normalized two-body matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          8.140605923109e+02  5.793838350753e-10  1.832738091566e+00  4.755627631596e-10  4.175090271888e-11
+S1S0          5.793838350753e-10  8.139726346914e+02 -8.115988000498e-11  7.509880037228e+01 -7.321743279595e+01
+T1T1          1.832738091566e+00 -8.115988000498e-11  8.138232944223e+02 -2.657785406987e-11  2.580844596415e-10
+D+D-          4.755627631596e-10  7.509880037228e+01 -2.657785406987e-11  8.136412808143e+02 -1.615165986638e+01
+D-D+          4.175090271888e-11 -7.321743279595e+01  2.580844596415e-10 -1.615165986638e+01  8.136457745959e+02
+
+Normalized unshifted Hamiltonian
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -4.613541883176e+02  5.774062365035e-10 -1.040563438224e+00  4.754603626489e-10  4.286491956947e-11
+S1S0          5.774062365035e-10 -4.611854527909e+02 -8.100919919713e-11 -4.261850947970e+01  4.153421873094e+01
+T1T1         -1.040563438224e+00 -8.100919919713e-11 -4.610061140132e+02 -2.642293218479e-11  2.578787378966e-10
+D+D-          4.754603626489e-10 -4.261850947970e+01 -2.642293218479e-11 -4.610524727988e+02  9.175175466519e+00
+D-D+          4.286491956947e-11  4.153421873094e+01  2.578787378966e-10  9.175175466519e+00 -4.610524390040e+02
+
+Baseline shifted Hamiltonian
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -4.622207423700e+02  5.774048526149e-10 -1.042536054528e+00  4.754602951096e-10  4.286568006425e-11
+S1S0          5.774048526149e-10 -4.620535216366e+02 -8.100916475649e-11 -4.269938975457e+01  4.161304028535e+01
+T1T1         -1.042536054528e+00 -8.100916475649e-11 -4.618889405071e+02 -2.642252187771e-11  2.578785848970e-10
+D+D-          4.754602951096e-10 -4.269938975457e+01 -2.642252187771e-11 -4.619355386286e+02  9.192699028177e+00
+D-D+          4.286568006425e-11  4.161304028535e+01  2.578785848970e-10  9.192699028177e+00 -4.619355064588e+02
+
+----------------------------------------------------------------------------------------------------------------
+RAW ACCUMULATION DIAGNOSTICS
+----------------------------------------------------------------------------------------------------------------
+
+Raw overlap matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          8.307432577540e-01  1.332572475109e-15  1.879731321220e-03  7.001602526302e-17 -7.266987121841e-16
+S1S0          1.332572475109e-15  8.409884012427e-01 -9.868338967780e-17  7.766765336481e-02 -7.569021383836e-02
+T1T1          1.879731321220e-03 -9.868338967780e-17  8.362730248006e-01 -1.075076453522e-16  1.379608322215e-16
+D+D-          7.001602526302e-17  7.766765336481e-02 -1.075076453522e-16  8.406305925559e-01 -1.671049270712e-02
+D-D+         -7.266987121841e-16 -7.569021383836e-02  1.379608322215e-16 -1.671049270712e-02  8.406233698465e-01
+
+Raw electronic one-body matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -1.609423531039e+03 -2.535025542226e-12 -3.639129121879e+00 -1.319179176513e-13  1.411961698202e-12
+S1S0         -2.535025542226e-12 -1.629055875160e+03  1.916850552978e-13 -1.503872031787e+02  1.465843384598e+02
+T1T1         -3.639129121879e+00  1.916850552978e-13 -1.619646981630e+03  2.010550034281e-13 -2.638047696031e-13
+D+D-         -1.319179176513e-13 -1.503872031787e+02  2.010550034281e-13 -1.627972440380e+03  3.235134444996e+01
+D-D+          1.411961698202e-12  1.465843384598e+02 -2.638047696031e-13  3.235134444996e+01 -1.627962201988e+03
+
+Raw nuclear-repulsion matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          5.498813011925e+02  8.820495137418e-13  1.244222080838e+00  4.634464705743e-14 -4.810126711242e-13
+S1S0          8.820495137418e-13  5.566627138370e+02 -6.532000135496e-14  5.140937334631e+01 -5.010047675319e+01
+T1T1          1.244222080838e+00 -6.532000135496e-14  5.535415361333e+02 -7.116090725097e-14  9.131832395566e-14
+D+D-          4.634464705743e-14  5.140937334631e+01 -7.116090725097e-14  5.564258749527e+02 -1.106092332088e+01
+D-D+         -4.810126711242e-13 -5.010047675319e+01  9.131832395566e-14 -1.106092332088e+01  5.564210941341e+02
+
+Raw one-body-plus-nuclear matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -1.059542229847e+03 -1.652976028484e-12 -2.394907041041e+00 -8.557327059387e-14  9.309490270777e-13
+S1S0         -1.652976028484e-12 -1.072393161323e+03  1.263650539428e-13 -9.897782983243e+01  9.648386170659e+01
+T1T1         -2.394907041041e+00  1.263650539428e-13 -1.066105445497e+03  1.298940961772e-13 -1.724864456475e-13
+D+D-         -8.557327059387e-14 -9.897782983243e+01  1.298940961772e-13 -1.071546565427e+03  2.129042112907e+01
+D-D+          9.309490270777e-13  9.648386170659e+01 -1.724864456475e-13  2.129042112907e+01 -1.071541107854e+03
+
+Raw two-body matrix
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          6.762753484655e+02  4.842780553789e-10  1.527593715581e+00  3.974146292336e-10  3.488992311478e-11
+S1S0          4.842780553789e-10  6.845415447044e+02 -6.806289906089e-11  6.314378312938e+01 -6.156164696889e+01
+T1T1          1.527593715581e+00 -6.806289906089e-11  6.805784680797e+02 -2.228417457704e-11  2.163897217552e-10
+D+D-          3.974146292336e-10  6.314378312938e+01 -2.228417457704e-11  6.839717520188e+02 -1.357752107473e+01
+D-D+          3.488992311478e-11 -6.156164696889e+01  2.163897217552e-10 -1.357752107473e+01  6.839696529021e+02
+
+Raw unshifted Hamiltonian
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0         -3.832668813814e+02  4.826250793504e-10 -8.673133254606e-01  3.973290559630e-10  3.582087214186e-11
+S1S0          4.826250793504e-10 -3.878516166190e+02 -6.793653400694e-11 -3.583404670305e+01  3.492221473769e+01
+T1T1         -8.673133254606e-01 -6.793653400694e-11 -3.855269774174e+02 -2.215428048086e-11  2.162172353095e-10
+D+D-          3.973290559630e-10 -3.583404670305e+01 -2.215428048086e-11 -3.875748134082e+02  7.712900054340e+00
+D-D+          3.582087214186e-11  3.492221473769e+01  2.162172353095e-10  7.712900054340e+00 -3.875714549515e+02
+
+Determinant-pair counts
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0                       38017              132344              266504               90878               90878
+S1S0                      132344              114002              471760              152944              152944
+T1T1                      266504              471760              472963              302796              302796
+D+D-                       90878              152944              302796               55762              111416
+D-D+                       90878              152944              302796              111416               55762
+
+----------------------------------------------------------------------------------------------------------------
+PERFORMANCE AND RESOURCE SUMMARY
+----------------------------------------------------------------------------------------------------------------
+detailed_runtime_events = .sec file
+Phase                                      Calls   Wall total/s     Wall max/s        Host peak/B      Device peak/B    Allocated total/B
+load_problem_definition                        1       0.489634       0.489634             270624                  0        not-collected
+plan_multifragment_mebf_assembly               1       0.124201       0.124201            2368624                  0        not-collected
+build_molecular_basis_functions                1       0.061988       0.061988            2368624                  0        not-collected
+load_one_electron                              1       0.694222       0.694222            1411872                  0        not-collected
+load_eri                                       1       0.386473       0.386473           52050600                  0        not-collected
+build_state_pair_determinant_pairs            15       0.089462       0.087774              47840                  0        not-collected
+prepare_ahpc_state_pair                       15       0.004859       0.000460             356544                  0        not-collected
+precontract_active_hamiltonian                15       3.919968       0.729319            4758128                  0        not-collected
+build_spin_pair_incidence                     15       0.723742       0.326883           14298336                  0        not-collected
+build_spin_pair_intermediates                 15       3.166320       0.946959           19465528                  0        not-collected
+contract_sparse_spin_pair_weights             15       3.023036       0.953999          206458208                  0        not-collected
+normalize_noci_matrices                        1       0.000001       0.000001               1240                  0        not-collected
+solve_generalized_noci                         2       0.000169       0.000134                920                  0        not-collected
+apply_baseline_caspt2_shifts                   1       0.000165       0.000165                  0                  0        not-collected
+
+Telemetry counters
+n_ahpc_spin_string_determinant_pairs = 2811766
+n_alpha_spin_pair_support = 331909
+n_beta_spin_pair_support = 331871
+n_complementary_cofactor_transitions = 0
+n_determinant_pairs = 2811766
+n_full_determinant_pairs = 478255128
+n_global_pair_domains_built = 0
+n_hessian_pair_id_entries_per_union = 30
+n_hessian_pair_response_entries_per_union = 0
+n_implicit_alpha_union_maps = 15
+n_implicit_spin_feature_entries = 11951028
+n_inactive_lu_factorizations = 15
+n_inverse_calls = 0
+n_lu_certificate_evaluations = 0
+n_lu_certificate_fallbacks = 0
+n_lu_certified_cofactor_kernel_evaluations = 0
+n_mebf_fill_chunk_traversals = 9
+n_mebf_fill_path_traversals = 9
+n_mebf_fill_traversals = 5
+n_mebf_plan_count_traversals = 5
+n_mebf_plan_path_count_traversals = 9
+n_noci_states = 5
+n_packed_spin_intermediate_builds = 15
+n_polynomial_cofactor_kernel_evaluations = 331973
+n_rank_classifier_calls = 0
+n_raw_spin_pair_edges = 2811766
+n_reduced_spin_pair_edges = 0
+n_redundant_mebf_recounts = 0
+n_redundant_union_support_lookups_built = 0
+n_retained_support_lookup_entries = 0
+n_reusable_precontraction_calls = 0
+n_screened_pair_incidence_passes = 30
+n_shared_spin_pair_support = 331807
+n_sparse_spin_pair_edges = 2811766
+n_sparse_spin_pair_weight_evaluations = 2811766
+n_spin_pair_contraction_blocks = 15
+n_spin_pair_contraction_workers = 1
+n_spin_pair_feature_entries = 11951028
+n_spin_pair_kernel_evaluations = 331973
+n_state_pair_hessian_response_entries = 4356
+n_state_pair_pair_blocks_built = 15
+n_state_pairs_precontracted = 15
+n_state_pairs_prepared = 15
+n_structural_response_iterations = 0
+n_svd_calls = 0
+n_union_kernel_workers = 1
+n_union_spin_pair_intermediates = 331973
+n_union_spin_pair_support = 331973
+n_unique_orbital_basis_keys = 5
+n_unique_oriented_basis_pair_keys = 15
+spin_pair_response_id_payload_bytes = 0
+spin_pair_response_id_storage_bytes = 0
+
+----------------------------------------------------------------------------------------------------------------
+OUTPUT ARTIFACTS
+----------------------------------------------------------------------------------------------------------------
+sec = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results/result.sec
+out = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results/result.out
+json = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results/result.json
+matrix_snapshot = /scratch/alpha/AHPC/01_benzene_dimer/05_noci/cpu1_factor/results/result.matrix_snapshot.jld2
+final_rss_bytes = 1357307904
+process_hwm_bytes = 1506435072
+numerical_status = complete
+
+----------------------------------------------------------------------------------------------------------------
+SCALAR ELECTRONIC COUPLINGS
+----------------------------------------------------------------------------------------------------------------
+units = meV
+diagonal = zero by definition
+pairwise_lowdin = [H_ij - 0.5*(H_ii + H_jj)*S_ij] / [1 - S_ij^2] after diagonal-overlap normalization
+full_multistate_lowdin = off-diagonal elements of S^(-1/2) * H * S^(-1/2) in the complete supplied MEBF space
+
+Unshifted pairwise Löwdin couplings / meV
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          0.000000000000e+00  1.573203509187e-05 -1.366448843908e+01  1.293898706124e-05  1.155500400870e-06
+S1S0          1.573203509187e-05  0.000000000000e+00 -2.205849052321e-06 -6.534551069680e+02  6.533116521128e+02
+T1T1         -1.366448843908e+01 -2.205849052321e-06  0.000000000000e+00 -7.206131905931e-07  7.019302181601e-06
+D+D-          1.293898706124e-05 -6.534551069680e+02 -7.206131905931e-07  0.000000000000e+00  2.748147590605e+02
+D-D+          1.155500400870e-06  6.533116521128e+02  7.019302181601e-06  2.748147590605e+02  0.000000000000e+00
+
+Unshifted full-multistate Löwdin couplings / meV
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          0.000000000000e+00  1.528892919376e-05 -1.366448844325e+01  1.226431339595e-05  1.945057801011e-06
+S1S0          1.528892919376e-05  0.000000000000e+00 -1.888672245225e-06 -6.408051613984e+02  6.404569561343e+02
+T1T1         -1.366448844325e+01 -1.888672245225e-06  0.000000000000e+00 -5.906501014745e-07  6.936470392261e-06
+D+D-          1.226431339595e-05 -6.408051613984e+02 -5.906501014745e-07  0.000000000000e+00  2.104050597798e+02
+D-D+          1.945057801011e-06  6.404569561343e+02  6.936470392261e-06  2.104050597798e+02  0.000000000000e+00
+
+Baseline CASPT2-shifted pairwise Löwdin couplings / meV
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          0.000000000000e+00  1.573203506035e-05 -1.366448843909e+01  1.293898721787e-05  1.155500394288e-06
+S1S0          1.573203506035e-05  0.000000000000e+00 -2.205850918355e-06 -6.535086785732e+02  6.533666227958e+02
+T1T1         -1.366448843909e+01 -2.205850918355e-06  0.000000000000e+00 -7.206051062558e-07  7.019301971627e-06
+D+D-          1.293898721787e-05 -6.535086785732e+02 -7.206051062558e-07  0.000000000000e+00  2.739825139361e+02
+D-D+          1.155500394288e-06  6.533666227958e+02  7.019301971627e-06  2.739825139361e+02  0.000000000000e+00
+
+Baseline CASPT2-shifted full-multistate Löwdin couplings / meV
+row\column                  S0S0                S1S0                T1T1                D+D-                D-D+
+S0S0          0.000000000000e+00  1.528892998013e-05 -1.366448844327e+01  1.226430939921e-05  1.945057800114e-06
+S1S0          1.528892998013e-05  0.000000000000e+00 -1.888673415169e-06 -6.408051613982e+02  6.404569561347e+02
+T1T1         -1.366448844327e+01 -1.888673415169e-06  0.000000000000e+00 -5.906488899417e-07  6.936472467979e-06
+D+D-          1.226430939921e-05 -6.408051613982e+02 -5.906488899417e-07  0.000000000000e+00  2.104050597798e+02
+D-D+          1.945057800114e-06  6.404569561347e+02  6.936472467979e-06  2.104050597798e+02  0.000000000000e+00
